@@ -1,0 +1,13 @@
+2021-04-18 23:39:09,845-[PID:28604]-[TID:23068]-game.py[line:286]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-18 23:39:32,041-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行6列
+2021-04-18 23:39:54,847-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行5列
+2021-04-18 23:41:17,002-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行6列
+2021-04-18 23:41:25,700-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行6列
+2021-04-18 23:41:38,017-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家1 放置在8行9列
+2021-04-18 23:41:43,535-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行6列
+2021-04-18 23:41:53,327-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行9列
+2021-04-18 23:41:59,795-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行6列
+2021-04-18 23:42:06,066-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行0列
+2021-04-18 23:42:10,516-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行6列
+2021-04-18 23:42:15,239-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行0列
+2021-04-18 23:42:19,812-[PID:28604]-[TID:23068]-game.py[line:312]-game-start_play-DEBUG: 本次落子由玩家2 放置在0行6列

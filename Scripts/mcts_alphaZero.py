@@ -1,6 +1,7 @@
 class MCTSPlayer:
     """
     疑问4：这个类干嘛的
+    答：电脑玩家类
     """
 
     def __init__(self, fn=None, c_puct=0, n_playout=0, is_selfplay=1):
@@ -14,6 +15,6 @@ class MCTSPlayer:
     def reset_player(self):
         pass
 
-    def set_player_index(self, idx):
-        self.player = idx
+    def set_player(self, player):
+        self.player = player
         pass
