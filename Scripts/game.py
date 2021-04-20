@@ -6,6 +6,7 @@ import log
 
 logger = log.Logger(filename=log.path, logger_name=__name__).get_logger()
 
+
 class Board:
     """
     棋盘类，提供棋盘的管理
@@ -22,17 +23,20 @@ class Board:
         self.width = width
         self.height = height
         self.n_in_row = n_in_row
-        self.players = [1, 2]   # 1：先手黑棋，2：后手白棋
+        self.players = [1, 2]  # 1：先手黑棋，2：后手白棋
         self.states = {}  # {走子: 对应玩家(1, 2)}
         self.current_player = 1  # 当前玩家，即当前局面下该走子的玩家，1或2
         self.available = list(range(self.width * self.height))
         self.last_move = -1
+        self.winner = -1
+        self.end = -1
 
     def init_board(self, start_player=1):
         """
         重置棋盘，设定先手，清空落子位置，清空对局记录，清空最后一步
         :param start_player: 设定先手，1为黑棋先手，2为白棋先手
         """
+        self.start_player = start_player
         # 当前玩家设置为初始玩家
         self.current_player = start_player
         # 可落子位置设置为全部位置
@@ -53,7 +57,7 @@ class Board:
         if len(location) != 2:
             return -1
         h, w = location
-        if w + h * self.width not in range(self.width*self.height):
+        if w + h * self.width not in range(self.width * self.height):
             return -1
         return w + h * self.width
 
@@ -123,7 +127,6 @@ class Board:
         # 疑问2
         if len(moved) < self.n_in_row + 2:
             return False, -1
-        print(moved)
 
         # 遍历已落子位置
         for move in moved:
@@ -164,11 +167,20 @@ class Board:
             # 没有赢家，还有落子位置，接着下，没结束
             return False, -1
 
+    def pack_board(self):
+        pack = {"length": self.width, "n": self.n_in_row}
+        pack["states"] = self.states
+        pack["pos"] = [self.move_to_location(move) for move in self.states.keys()]
+        pack["start"] = self.start_player
+        return pack
+
 
 class Game(object):
     """
     一场对局，从初始化一个棋盘开始
     """
+    PREVIOUS = 1
+    LAST = 2
 
     def __init__(self, board: Board):
         """
@@ -242,7 +254,6 @@ class Game(object):
         print("落子-1 -1，退出游戏")
         print()
 
-
         for i in range(height - 1, -1, -1):
             print("{0:4d}".format(i), end='')
             for j in range(width):
@@ -260,7 +271,6 @@ class Game(object):
         for x in range(width):
             print("{0:8}".format(x), end='')
         print("\r\n")
-
 
     def start_play(self, entity1, entity2, start_player=1, is_shown=1):
         """
@@ -283,7 +293,7 @@ class Game(object):
 
         if is_shown:
             self.graphic(self.board, entity1.player, entity2.player, start_player)
-            logger.debug("先手（执黑棋）玩家："+str(start_player))
+            logger.debug("先手（执黑棋）玩家：" + str(start_player))
 
         end: bool = False
         winner = -1
@@ -298,7 +308,7 @@ class Game(object):
                 end = True
                 winner = -1
                 logger.warning("游戏意外结束，平局")
-                return  winner
+                return winner
 
             # 棋盘执行落子
             self.board.do_move(move)
@@ -315,7 +325,7 @@ class Game(object):
             if end:
                 if is_shown:
                     if winner != -1:
-                        print("游戏结束，胜者为： ", entities[winner])
+                        print("游戏结束，胜者为：玩家", winner)
                     else:
                         print("平局")
                 return winner
