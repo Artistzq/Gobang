@@ -168,10 +168,8 @@ class Board:
             return False, -1
 
     def pack_board(self):
-        pack = {"length": self.width, "n": self.n_in_row}
-        pack["states"] = self.states
-        pack["pos"] = [self.move_to_location(move) for move in self.states.keys()]
-        pack["start"] = self.start_player
+        pack = {"length": self.width, "n": self.n_in_row, "states": self.states,
+                "pos": [self.move_to_location(move) for move in self.states.keys()], "start": self.start_player}
         return pack
 
 
@@ -323,11 +321,14 @@ class Game(object):
 
             end, winner = self.board.game_end()
             if end:
+                entity1.set_end()
+                entity2.set_end()
                 if is_shown:
                     if winner != -1:
                         print("游戏结束，胜者为：玩家", winner)
                     else:
                         print("平局")
+                    print(self.board.current_state())
                 return winner
 
 
