@@ -1,7 +1,7 @@
 import sys
-sys.path.append("../Scripts/")
+sys.path.append("/")
 
-from ui_mainwindow import *
+from utils.ui_mainwindow import *
 
 import socket
 import json
@@ -9,7 +9,9 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import *  # QApplication, QWidget, QPushButton
 from PyQt5.QtGui import *  # QPainter, QPixmap, QBrush
 from PyQt5.QtCore import *  # Qt, QPoint, QRect
-from config import VACANT, BLACK, WHITE
+VACANT=0
+BLACK=1
+WHITE=2
 import threading
 from game import Game, Board
 from player import PlayerBase, ConsolePlayer, SocketPlayer

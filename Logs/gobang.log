@@ -255,3 +255,378 @@
 2021-04-22 18:20:41,453-[PID:24328]-[TID:24212]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行4列
 2021-04-22 18:20:42,251-[PID:24328]-[TID:24212]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行4列
 2021-04-22 18:20:43,014-[PID:24328]-[TID:24212]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行5列
+2021-04-22 19:56:26,268-[PID:22176]-[TID:20604]-game.py[line:294]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-22 19:56:26,270-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:27,135-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：9行0列
+2021-04-22 19:56:27,527-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行0列
+2021-04-22 19:56:27,527-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:28,110-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：8行1列
+2021-04-22 19:56:28,134-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在8行1列
+2021-04-22 19:56:28,135-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:29,118-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：7行1列
+2021-04-22 19:56:29,139-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行1列
+2021-04-22 19:56:29,140-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:30,336-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：8行2列
+2021-04-22 19:56:30,359-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在8行2列
+2021-04-22 19:56:30,360-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:31,548-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：7行2列
+2021-04-22 19:56:31,573-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行2列
+2021-04-22 19:56:31,574-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:33,372-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：7行3列
+2021-04-22 19:56:33,395-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行3列
+2021-04-22 19:56:33,397-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:35,119-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：6行2列
+2021-04-22 19:56:35,142-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行2列
+2021-04-22 19:56:35,144-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:37,117-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：6行3列
+2021-04-22 19:56:37,143-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行3列
+2021-04-22 19:56:37,143-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:38,698-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：5行2列
+2021-04-22 19:56:38,722-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行2列
+2021-04-22 19:56:38,723-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:40,282-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：5行3列
+2021-04-22 19:56:40,307-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行3列
+2021-04-22 19:56:40,307-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:41,990-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：6行4列
+2021-04-22 19:56:42,016-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行4列
+2021-04-22 19:56:42,018-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:43,517-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：5行4列
+2021-04-22 19:56:43,543-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行4列
+2021-04-22 19:56:43,544-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:45,459-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：4行5列
+2021-04-22 19:56:45,487-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行5列
+2021-04-22 19:56:45,488-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:46,052-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：4行4列
+2021-04-22 19:56:46,078-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行4列
+2021-04-22 19:56:46,079-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:46,752-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：4行3列
+2021-04-22 19:56:46,778-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行3列
+2021-04-22 19:56:46,778-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:47,434-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：3行5列
+2021-04-22 19:56:47,462-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行5列
+2021-04-22 19:56:47,464-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:48,180-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：3行4列
+2021-04-22 19:56:48,206-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在3行4列
+2021-04-22 19:56:48,208-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:50,263-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：6行1列
+2021-04-22 19:56:50,291-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行1列
+2021-04-22 19:56:50,293-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:51,950-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：4行2列
+2021-04-22 19:56:51,978-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行2列
+2021-04-22 19:56:51,979-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:52,659-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：3行2列
+2021-04-22 19:56:52,688-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行2列
+2021-04-22 19:56:52,688-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:55,786-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：2行5列
+2021-04-22 19:56:55,818-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行5列
+2021-04-22 19:56:55,820-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:56,367-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：1行6列
+2021-04-22 19:56:56,396-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行6列
+2021-04-22 19:56:56,396-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:56:58,742-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：3行6列
+2021-04-22 19:56:58,773-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在3行6列
+2021-04-22 19:56:58,775-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:03,309-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：2行4列
+2021-04-22 19:57:03,340-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行4列
+2021-04-22 19:57:03,341-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:04,553-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：4行6列
+2021-04-22 19:57:04,586-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行6列
+2021-04-22 19:57:04,588-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:06,102-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：5行6列
+2021-04-22 19:57:06,135-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行6列
+2021-04-22 19:57:06,135-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:09,997-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：4行7列
+2021-04-22 19:57:10,030-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行7列
+2021-04-22 19:57:10,030-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:13,850-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：5行5列
+2021-04-22 19:57:13,878-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行5列
+2021-04-22 19:57:13,879-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:14,359-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：5行7列
+2021-04-22 19:57:14,391-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行7列
+2021-04-22 19:57:14,392-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:16,382-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：6行7列
+2021-04-22 19:57:16,410-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行7列
+2021-04-22 19:57:16,412-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:21,128-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：4行8列
+2021-04-22 19:57:21,162-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行8列
+2021-04-22 19:57:21,165-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:21,750-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：4行9列
+2021-04-22 19:57:21,782-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行9列
+2021-04-22 19:57:21,785-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:23,703-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：5行8列
+2021-04-22 19:57:23,737-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行8列
+2021-04-22 19:57:23,738-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:24,756-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：1行4列
+2021-04-22 19:57:24,785-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行4列
+2021-04-22 19:57:24,788-[PID:22176]-[TID:20604]-player.py[line:96]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 19:57:25,570-[PID:22176]-[TID:20604]-player.py[line:116]-player-get_action-DEBUG: 已收到输入：6行9列
+2021-04-22 19:57:25,598-[PID:22176]-[TID:20604]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行9列
+2021-04-22 23:03:24,147-[PID:4388]-[TID:9676]-backend_game_manager.py[line:16]-backend_game_manager-<module>-DEBUG: 开始一场对局
+2021-04-22 23:03:26,216-[PID:4388]-[TID:9676]-game.py[line:294]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-22 23:03:26,248-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行7列
+2021-04-22 23:03:26,276-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行3列
+2021-04-22 23:03:26,304-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在1行5列
+2021-04-22 23:03:26,328-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行2列
+2021-04-22 23:03:26,352-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行4列
+2021-04-22 23:03:26,372-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行9列
+2021-04-22 23:03:26,402-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行4列
+2021-04-22 23:03:26,422-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行3列
+2021-04-22 23:03:26,450-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在1行6列
+2021-04-22 23:03:26,478-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行7列
+2021-04-22 23:03:26,502-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在1行0列
+2021-04-22 23:03:26,526-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行8列
+2021-04-22 23:03:26,550-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行1列
+2021-04-22 23:03:26,574-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行2列
+2021-04-22 23:03:26,590-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行0列
+2021-04-22 23:03:26,606-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行2列
+2021-04-22 23:03:26,626-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行0列
+2021-04-22 23:03:26,642-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行3列
+2021-04-22 23:03:26,662-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行9列
+2021-04-22 23:03:26,682-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在9行7列
+2021-04-22 23:03:26,702-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行5列
+2021-04-22 23:03:26,730-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行3列
+2021-04-22 23:03:26,762-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行7列
+2021-04-22 23:03:26,786-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行5列
+2021-04-22 23:03:26,806-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行7列
+2021-04-22 23:03:26,834-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行9列
+2021-04-22 23:03:26,858-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行2列
+2021-04-22 23:03:26,882-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行6列
+2021-04-22 23:03:26,910-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行2列
+2021-04-22 23:03:26,934-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在8行3列
+2021-04-22 23:03:26,958-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行2列
+2021-04-22 23:03:26,978-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行4列
+2021-04-22 23:03:26,998-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行1列
+2021-04-22 23:03:27,014-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行5列
+2021-04-22 23:03:27,030-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行4列
+2021-04-22 23:03:27,054-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行5列
+2021-04-22 23:03:27,076-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行0列
+2021-04-22 23:03:27,096-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行9列
+2021-04-22 23:03:27,120-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行9列
+2021-04-22 23:03:27,144-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在9行6列
+2021-04-22 23:03:27,172-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行8列
+2021-04-22 23:03:27,200-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在0行0列
+2021-04-22 23:03:27,224-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行8列
+2021-04-22 23:03:27,252-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行6列
+2021-04-22 23:03:27,273-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行1列
+2021-04-22 23:03:27,297-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在8行8列
+2021-04-22 23:03:27,317-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行0列
+2021-04-22 23:03:27,337-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在9行1列
+2021-04-22 23:03:27,357-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行5列
+2021-04-22 23:03:27,381-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行0列
+2021-04-22 23:03:27,401-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在3行4列
+2021-04-22 23:03:27,425-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行5列
+2021-04-22 23:03:27,445-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行7列
+2021-04-22 23:03:27,473-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行8列
+2021-04-22 23:03:27,493-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在1行8列
+2021-04-22 23:03:27,517-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在0行6列
+2021-04-22 23:03:27,537-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行1列
+2021-04-22 23:03:27,553-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行0列
+2021-04-22 23:03:27,578-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行6列
+2021-04-22 23:03:27,602-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在0行3列
+2021-04-22 23:03:27,622-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行0列
+2021-04-22 23:03:27,646-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行1列
+2021-04-22 23:03:27,670-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行5列
+2021-04-22 23:03:27,694-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行4列
+2021-04-22 23:03:27,718-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行5列
+2021-04-22 23:03:27,742-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行9列
+2021-04-22 23:03:27,762-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行8列
+2021-04-22 23:03:27,782-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在8行7列
+2021-04-22 23:03:27,810-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在1行1列
+2021-04-22 23:03:27,834-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行1列
+2021-04-22 23:03:27,854-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行9列
+2021-04-22 23:03:27,878-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行4列
+2021-04-22 23:03:27,899-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在8行6列
+2021-04-22 23:03:27,927-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行9列
+2021-04-22 23:03:27,951-[PID:4388]-[TID:9676]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在8行0列
+2021-04-22 23:03:47,486-[PID:23804]-[TID:21304]-backend_game_manager.py[line:16]-backend_game_manager-<module>-DEBUG: 开始一场对局
+2021-04-22 23:03:49,311-[PID:23804]-[TID:21304]-game.py[line:294]-game-start_play-DEBUG: 先手（执黑棋）玩家：2
+2021-04-22 23:03:49,355-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行12列
+2021-04-22 23:03:49,399-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在8行4列
+2021-04-22 23:03:49,439-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行5列
+2021-04-22 23:03:49,479-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在8行12列
+2021-04-22 23:03:49,519-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行2列
+2021-04-22 23:03:49,559-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在18行1列
+2021-04-22 23:03:49,599-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在10行5列
+2021-04-22 23:03:49,647-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在18行3列
+2021-04-22 23:03:49,687-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行17列
+2021-04-22 23:03:49,731-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行15列
+2021-04-22 23:03:49,771-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行18列
+2021-04-22 23:03:49,811-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行10列
+2021-04-22 23:03:49,851-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在0行16列
+2021-04-22 23:03:49,892-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在10行18列
+2021-04-22 23:03:49,940-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行13列
+2021-04-22 23:03:49,980-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行15列
+2021-04-22 23:03:50,028-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在10行13列
+2021-04-22 23:03:50,076-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行8列
+2021-04-22 23:03:50,128-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行6列
+2021-04-22 23:03:50,180-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行9列
+2021-04-22 23:03:50,240-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行14列
+2021-04-22 23:03:50,296-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在10行12列
+2021-04-22 23:03:50,345-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在16行12列
+2021-04-22 23:03:50,389-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行10列
+2021-04-22 23:03:50,430-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行10列
+2021-04-22 23:03:50,470-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在11行9列
+2021-04-22 23:03:50,514-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行18列
+2021-04-22 23:03:50,554-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行7列
+2021-04-22 23:03:50,594-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行14列
+2021-04-22 23:03:50,638-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在16行3列
+2021-04-22 23:03:50,679-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行6列
+2021-04-22 23:03:50,723-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在17行3列
+2021-04-22 23:03:50,767-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行10列
+2021-04-22 23:03:50,803-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在12行3列
+2021-04-22 23:03:50,839-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在15行11列
+2021-04-22 23:03:50,879-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在1行11列
+2021-04-22 23:03:50,919-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在0行3列
+2021-04-22 23:03:50,959-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在3行8列
+2021-04-22 23:03:51,007-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在17行18列
+2021-04-22 23:03:51,047-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在11行7列
+2021-04-22 23:03:51,087-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在12行13列
+2021-04-22 23:03:51,127-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在10行3列
+2021-04-22 23:03:51,167-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在17行2列
+2021-04-22 23:03:51,199-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行3列
+2021-04-22 23:03:51,239-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行9列
+2021-04-22 23:03:51,279-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行9列
+2021-04-22 23:03:51,323-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行14列
+2021-04-22 23:03:51,363-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行15列
+2021-04-22 23:03:51,399-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行17列
+2021-04-22 23:03:51,443-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行12列
+2021-04-22 23:03:51,487-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行6列
+2021-04-22 23:03:51,527-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在11行0列
+2021-04-22 23:03:51,568-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行12列
+2021-04-22 23:03:51,609-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行4列
+2021-04-22 23:03:51,649-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在17行16列
+2021-04-22 23:03:51,689-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行10列
+2021-04-22 23:03:51,729-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行8列
+2021-04-22 23:03:51,765-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在10行10列
+2021-04-22 23:03:51,801-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行5列
+2021-04-22 23:03:51,839-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在18行4列
+2021-04-22 23:03:51,871-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在8行15列
+2021-04-22 23:03:51,907-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在1行8列
+2021-04-22 23:03:51,947-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在10行16列
+2021-04-22 23:03:51,979-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行14列
+2021-04-22 23:03:52,015-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行7列
+2021-04-22 23:03:52,059-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行17列
+2021-04-22 23:03:52,099-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行13列
+2021-04-22 23:03:52,139-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在17行7列
+2021-04-22 23:03:52,171-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行12列
+2021-04-22 23:03:52,215-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行9列
+2021-04-22 23:03:52,255-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在8行13列
+2021-04-22 23:03:52,291-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行0列
+2021-04-22 23:03:52,335-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在10行6列
+2021-04-22 23:03:52,371-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在16行11列
+2021-04-22 23:03:52,412-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在17行4列
+2021-04-22 23:03:52,452-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行18列
+2021-04-22 23:03:52,488-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行12列
+2021-04-22 23:03:52,520-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行6列
+2021-04-22 23:03:52,556-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行13列
+2021-04-22 23:03:52,596-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行18列
+2021-04-22 23:03:52,636-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在15行7列
+2021-04-22 23:03:52,680-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行12列
+2021-04-22 23:03:52,720-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行15列
+2021-04-22 23:03:52,760-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行15列
+2021-04-22 23:03:52,796-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行6列
+2021-04-22 23:03:52,832-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在0行4列
+2021-04-22 23:03:52,872-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在0行17列
+2021-04-22 23:03:52,916-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行12列
+2021-04-22 23:03:52,959-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在10行11列
+2021-04-22 23:03:52,999-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行1列
+2021-04-22 23:03:53,039-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行11列
+2021-04-22 23:03:53,083-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在14行18列
+2021-04-22 23:03:53,119-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在0行0列
+2021-04-22 23:03:53,158-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在16行5列
+2021-04-22 23:03:53,195-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行18列
+2021-04-22 23:03:53,231-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在11行3列
+2021-04-22 23:03:53,263-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行17列
+2021-04-22 23:03:53,299-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在14行15列
+2021-04-22 23:03:53,339-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在1行16列
+2021-04-22 23:03:53,375-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行8列
+2021-04-22 23:03:53,411-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行2列
+2021-04-22 23:03:53,455-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在18行17列
+2021-04-22 23:03:53,487-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行14列
+2021-04-22 23:03:53,523-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在13行11列
+2021-04-22 23:03:53,559-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行4列
+2021-04-22 23:03:53,599-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行11列
+2021-04-22 23:03:53,635-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行8列
+2021-04-22 23:03:53,675-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行5列
+2021-04-22 23:03:53,715-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行18列
+2021-04-22 23:03:53,755-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在18行14列
+2021-04-22 23:03:53,795-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在15行10列
+2021-04-22 23:03:53,835-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在18行12列
+2021-04-22 23:03:53,871-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行4列
+2021-04-22 23:03:53,911-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在17行6列
+2021-04-22 23:03:53,951-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在12行0列
+2021-04-22 23:03:53,991-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行14列
+2021-04-22 23:03:54,031-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行14列
+2021-04-22 23:03:54,071-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行18列
+2021-04-22 23:03:54,115-[PID:23804]-[TID:21304]-game.py[line:320]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行9列
+2021-04-22 23:13:53,719-[PID:23416]-[TID:19764]-backend_game_manager.py[line:16]-backend_game_manager-<module>-DEBUG: 开始一场对局
+2021-04-22 23:13:55,471-[PID:23416]-[TID:19764]-game.py[line:296]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-22 23:13:58,111-[PID:23416]-[TID:19764]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行5列
+2021-04-22 23:14:00,128-[PID:23416]-[TID:19764]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行9列
+2021-04-22 23:15:14,896-[PID:23640]-[TID:11192]-game.py[line:296]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-22 23:15:14,896-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:15,973-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：8行2列
+2021-04-22 23:15:16,487-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在8行2列
+2021-04-22 23:15:16,487-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:17,572-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：7行3列
+2021-04-22 23:15:17,588-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在7行3列
+2021-04-22 23:15:17,588-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:27,478-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：7行4列
+2021-04-22 23:15:27,494-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行4列
+2021-04-22 23:15:27,494-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:28,453-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：6行3列
+2021-04-22 23:15:28,469-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在6行3列
+2021-04-22 23:15:28,469-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:29,924-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：6行4列
+2021-04-22 23:15:29,940-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在6行4列
+2021-04-22 23:15:29,940-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:30,716-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：5行4列
+2021-04-22 23:15:30,724-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在5行4列
+2021-04-22 23:15:30,728-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:31,953-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：5行3列
+2021-04-22 23:15:31,965-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在5行3列
+2021-04-22 23:15:31,969-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:32,536-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：4行4列
+2021-04-22 23:15:32,552-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在4行4列
+2021-04-22 23:15:32,552-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:33,085-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：4行3列
+2021-04-22 23:15:33,101-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在4行3列
+2021-04-22 23:15:33,101-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:33,413-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：3行4列
+2021-04-22 23:15:33,433-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行4列
+2021-04-22 23:15:33,437-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:33,758-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：3行3列
+2021-04-22 23:15:33,770-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在3行3列
+2021-04-22 23:15:33,774-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:34,335-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：2行4列
+2021-04-22 23:15:34,355-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行4列
+2021-04-22 23:15:34,355-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:35,698-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：2行3列
+2021-04-22 23:15:35,710-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在2行3列
+2021-04-22 23:15:35,714-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:36,756-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：3行2列
+2021-04-22 23:15:36,768-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在3行2列
+2021-04-22 23:15:36,768-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:37,334-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：1行4列
+2021-04-22 23:15:37,350-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在1行4列
+2021-04-22 23:15:37,354-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:37,973-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：2行5列
+2021-04-22 23:15:37,985-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行5列
+2021-04-22 23:15:37,989-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:39,072-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：3行5列
+2021-04-22 23:15:39,084-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在3行5列
+2021-04-22 23:15:39,088-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:40,145-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：2行6列
+2021-04-22 23:15:40,161-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行6列
+2021-04-22 23:15:40,165-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:40,835-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：3行6列
+2021-04-22 23:15:40,851-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在3行6列
+2021-04-22 23:15:40,851-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:41,371-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：2行7列
+2021-04-22 23:15:41,387-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行7列
+2021-04-22 23:15:41,387-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:41,696-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：3行7列
+2021-04-22 23:15:41,712-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家1 放置在3行7列
+2021-04-22 23:15:41,712-[PID:23640]-[TID:11192]-player.py[line:93]-player-get_action-DEBUG: 监听输入中：
+2021-04-22 23:15:42,156-[PID:23640]-[TID:11192]-player.py[line:113]-player-get_action-DEBUG: 已收到输入：2行8列
+2021-04-22 23:15:42,167-[PID:23640]-[TID:11192]-game.py[line:322]-game-start_play-DEBUG: 本次落子由玩家2 放置在2行8列

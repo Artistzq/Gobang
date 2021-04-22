@@ -1,8 +1,10 @@
 import os
 
 import numpy as np
+
 from mcts_alphaZero import MCTSPlayer
-import log
+from player import PlayerBase
+from utils import log
 
 logger = log.Logger(filename=log.path, logger_name=__name__).get_logger()
 
@@ -107,7 +109,7 @@ class Board:
             # 答：把每个棋局上下翻转了一下，不知道为什么，翻转之后左下角就是0，0了
             return square_state[:, ::-1, :]
 
-    def judge_immediately(self, location):
+    def judge_with_last_move(self):
         pass
 
     def has_a_winner(self):
@@ -270,7 +272,7 @@ class Game(object):
             print("{0:8}".format(x), end='')
         print("\r\n")
 
-    def start_play(self, entity1, entity2, start_player=1, is_shown=1):
+    def start_play(self, entity1: PlayerBase, entity2: PlayerBase, start_player=1, is_shown=1):
         """
         实体1和实体2之间进行一场对局
         :param entity1:  第一个下棋实体
@@ -331,7 +333,3 @@ class Game(object):
                     print(self.board.current_state())
                 return winner
 
-
-if __name__ == '__main__':
-    board = Board()
-    game = Game(board)

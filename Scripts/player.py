@@ -1,13 +1,10 @@
 import random
 import re
-import time
 
-import requests
 import json
-import threading
 import socket
-import log
-from game import Board
+from utils import log
+# from game import Board
 
 logger = log.Logger(log.path, logger_name=__name__).get_logger()
 
@@ -52,7 +49,7 @@ class ConsolePlayer(PlayerBase):
     def set_player(self, player):
         self.player = player
 
-    def get_action(self, board: Board):
+    def get_action(self, board):
         if self.random_move:
             # time.sleep(0.2)
             return random.choice(board.available)
