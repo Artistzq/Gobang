@@ -1,11 +1,10 @@
+import json
 import random
 import re
-
-import json
 import socket
-from gobang.utils import log
 
-# from game import Board
+from gobang.backend.board import Board
+from gobang.utils import log
 
 logger = log.Logger(log.path, logger_name=__name__).get_logger()
 
@@ -25,7 +24,7 @@ class PlayerBase:
         """
         self.player = player
 
-    def get_action(self, board):
+    def get_action(self, board: Board):
         """
         返回落子位置
         :param board:
@@ -82,7 +81,7 @@ class ConsolePlayer(PlayerBase):
 
 class SocketPlayer(PlayerBase):
 
-    def __init__(self, player=1, host="127.0.0.1", port=30606):
+    def __init__(self, host, port, player=1):
         super(SocketPlayer, self).__init__(player)
         self.ip = host
         self.port = port
@@ -91,37 +90,48 @@ class SocketPlayer(PlayerBase):
         self.sk.listen(1)
 
     def get_action(self, board):
-        logger.debug("监听输入中：")
-        client_sock, addr = self.sk.accept()
+        logger.debug("等待落子：")
         inp = ""
 
-        # print("已建立链接")
+        # 遗留问题，无法重复落子
+        # 落子重复该在哪一级检测？
 
-        while True:
-            rec = client_sock.recv(1024)
-            # rec 长度不会为0
-            msg = rec.decode("utf-8")
-            inp += msg
-            print(inp)
-            if inp[-1] == '#':
-                inp = inp[:-1]  # 接收全部输入
-                # print("数据接收完了")
-                break
-        try:
-            j_inp = json.loads(inp)
-            i = j_inp["row"]
-            j = j_inp["col"]
-            logger.debug("已收到输入：{}行{}列".format(i, j))
+        move = -1
+        while move not in board.available:
+            client_sock, _ = self.sk.accept()
+            # 从UI获取输入
+            while True:
+                rec = client_sock.recv(1024)
+                # rec 长度不会为0
+                msg = rec.decode("utf-8")
+                inp += msg
+                if inp == "":
+                    break
+                if inp[-1] == '#':
+                    inp = inp[:-1]  # 接收全部输入
+                    # print("数据接收完了")
+                    break
+            # print(inp)
+            js_inp = json.loads(inp)
+            i = js_inp["row"]
+            j = js_inp["col"]
+            logger.debug("已收到输入{}行{}列".format(i, j))
             move = board.location_to_move((i, j))
-        except:
-            move = -1
+            if move not in board.available:
+                move = -1
+            client_sock.close()
 
-        client_sock.close()
-        # print(move)
+        # 把棋盘状态通过同一个socket返回给UI
+        # pack = board.pack_board()
+        # j_pack = json.dumps(pack) + "@"
+        # client_sock.sendall(j_pack.encode("utf-8"))
+
+        # 关闭这个socket对象
         return move
 
     def set_end(self):
         self.end = True
+        # 关闭整个socket连接
         self.sk.close()
 
 
