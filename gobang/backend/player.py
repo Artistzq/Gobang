@@ -3,7 +3,8 @@ import re
 
 import json
 import socket
-from utils import log
+from gobang.utils import log
+
 # from game import Board
 
 logger = log.Logger(log.path, logger_name=__name__).get_logger()

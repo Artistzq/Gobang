@@ -1,8 +1,8 @@
 import sys
 
 from game import Board, Game
-from player import ConsolePlayer, SocketPlayer
-from utils import log
+from player import ConsolePlayer
+from gobang.utils import log
 
 logger = log.Logger(log.path, logger_name=__name__).get_logger()
 

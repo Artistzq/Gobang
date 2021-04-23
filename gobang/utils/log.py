@@ -7,7 +7,7 @@ import logging
 from logging import handlers
 import time
 
-path = "../Logs/gobang.log"
+path = "../../logs/gobang.log"
 
 
 class Logger(object):
@@ -27,7 +27,7 @@ class Logger(object):
         """
         if filename == "":
             localtime = time.asctime(time.localtime(time.time()))
-            filename = ("../Logs/" + "-".join(localtime.split()) + ".log").replace(":", "_")
+            filename = ("../logs/" + "-".join(localtime.split()) + ".log").replace(":", "_")
         self.logger = logging.getLogger(logger_name)  # 根据文件名创建一个日志
         self.logger.setLevel(level)  # 设置默认日志级别
         self.format_str = logging.Formatter(fmt)  # 设置日志格式
@@ -59,5 +59,5 @@ class Logger(object):
 
 
 if __name__ == '__main__':
-    logger = Logger("../Logs/gobang.log").get_logger()
+    logger = Logger("../../logs/gobang.log").get_logger()
     logger.debug("test")

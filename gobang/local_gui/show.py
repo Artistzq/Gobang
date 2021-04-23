@@ -1,8 +1,6 @@
 import sys
 sys.path.append("/")
 
-from utils.ui_mainwindow import *
-
 import socket
 import json
 from PyQt5.QtCore import Qt
@@ -14,7 +12,7 @@ BLACK=1
 WHITE=2
 import threading
 from game import Game, Board
-from player import PlayerBase, ConsolePlayer, SocketPlayer
+from player import PlayerBase, SocketPlayer
 
 BOARD_COLOR = QColor(249, 214, 91)  # 棋盘颜色
 

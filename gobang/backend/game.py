@@ -4,7 +4,7 @@ import numpy as np
 
 from mcts_alphaZero import MCTSPlayer
 from player import PlayerBase
-from utils import log
+from gobang.utils import log
 
 logger = log.Logger(filename=log.path, logger_name=__name__).get_logger()
 
