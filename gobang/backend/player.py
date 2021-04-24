@@ -91,13 +91,12 @@ class SocketPlayer(PlayerBase):
 
     def get_action(self, board):
         logger.debug("等待落子：")
-        inp = ""
 
         # 遗留问题，无法重复落子
         # 落子重复该在哪一级检测？
-
         move = -1
-        while move not in board.available:
+        while True:
+            inp = ""
             client_sock, _ = self.sk.accept()
             # 从UI获取输入
             while True:
@@ -117,9 +116,10 @@ class SocketPlayer(PlayerBase):
             j = js_inp["col"]
             logger.debug("已收到输入{}行{}列".format(i, j))
             move = board.location_to_move((i, j))
-            if move not in board.available:
-                move = -1
             client_sock.close()
+            if move in board.available:
+                break
+
 
         # 把棋盘状态通过同一个socket返回给UI
         # pack = board.pack_board()

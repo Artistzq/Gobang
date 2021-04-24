@@ -557,3 +557,160 @@
 2021-04-23 15:24:12,520-[PID:15956]-[TID:24528]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
 2021-04-23 15:24:13,054-[PID:15956]-[TID:24528]-player.py[line:118]-player-get_action-DEBUG: 已收到输入7行13列
 2021-04-23 15:24:13,071-[PID:15956]-[TID:24528]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在7行13列
+2021-04-24 12:14:40,880-[PID:16768]-[TID:10800]-game.py[line:135]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-24 12:14:40,882-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:41,764-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入15行8列
+2021-04-24 12:14:42,280-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行8列
+2021-04-24 12:14:42,280-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:43,160-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入15行9列
+2021-04-24 12:14:43,175-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在15行9列
+2021-04-24 12:14:43,175-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:43,857-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行9列
+2021-04-24 12:14:43,871-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在14行9列
+2021-04-24 12:14:43,872-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:44,456-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行10列
+2021-04-24 12:14:44,472-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行10列
+2021-04-24 12:14:44,472-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:44,958-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入15行10列
+2021-04-24 12:14:44,975-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行10列
+2021-04-24 12:14:44,975-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:45,429-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入15行11列
+2021-04-24 12:14:45,449-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在15行11列
+2021-04-24 12:14:45,449-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:45,930-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行11列
+2021-04-24 12:14:45,944-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在14行11列
+2021-04-24 12:14:45,945-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:46,413-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行12列
+2021-04-24 12:14:46,426-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行12列
+2021-04-24 12:14:46,428-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:46,895-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入13行12列
+2021-04-24 12:14:46,911-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在13行12列
+2021-04-24 12:14:46,912-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:47,347-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入13行13列
+2021-04-24 12:14:47,364-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行13列
+2021-04-24 12:14:47,364-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:47,794-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行13列
+2021-04-24 12:14:47,810-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在14行13列
+2021-04-24 12:14:47,811-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:48,341-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行14列
+2021-04-24 12:14:48,356-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行14列
+2021-04-24 12:14:48,356-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:48,739-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入13行14列
+2021-04-24 12:14:48,754-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在13行14列
+2021-04-24 12:14:48,756-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:49,179-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入13行15列
+2021-04-24 12:14:49,192-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在13行15列
+2021-04-24 12:14:49,194-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:49,610-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行15列
+2021-04-24 12:14:49,627-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在14行15列
+2021-04-24 12:14:49,628-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:50,065-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行16列
+2021-04-24 12:14:50,081-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行16列
+2021-04-24 12:14:50,083-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:50,459-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入13行16列
+2021-04-24 12:14:50,474-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在13行16列
+2021-04-24 12:14:50,476-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:50,862-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入14行17列
+2021-04-24 12:14:50,876-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在14行17列
+2021-04-24 12:14:50,876-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:51,257-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入15行14列
+2021-04-24 12:14:51,269-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行14列
+2021-04-24 12:14:51,270-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:51,702-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入15行12列
+2021-04-24 12:14:51,716-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在15行12列
+2021-04-24 12:14:51,718-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:52,178-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入15行13列
+2021-04-24 12:14:52,193-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行13列
+2021-04-24 12:14:52,194-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:52,611-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入16行13列
+2021-04-24 12:14:52,626-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在16行13列
+2021-04-24 12:14:52,626-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:53,070-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入16行11列
+2021-04-24 12:14:53,086-[PID:16768]-[TID:10800]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在16行11列
+2021-04-24 12:14:53,087-[PID:16768]-[TID:10800]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:14:53,539-[PID:16768]-[TID:10800]-player.py[line:118]-player-get_action-DEBUG: 已收到输入16行11列
+2021-04-24 12:30:23,692-[PID:5228]-[TID:23212]-game.py[line:135]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-24 12:30:23,693-[PID:5228]-[TID:23212]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:30:24,452-[PID:5228]-[TID:23212]-player.py[line:118]-player-get_action-DEBUG: 已收到输入10行8列
+2021-04-24 12:30:24,794-[PID:5228]-[TID:23212]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在10行8列
+2021-04-24 12:30:24,794-[PID:5228]-[TID:23212]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:30:25,220-[PID:5228]-[TID:23212]-player.py[line:118]-player-get_action-DEBUG: 已收到输入10行9列
+2021-04-24 12:30:25,236-[PID:5228]-[TID:23212]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在10行9列
+2021-04-24 12:30:25,236-[PID:5228]-[TID:23212]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:30:25,880-[PID:5228]-[TID:23212]-player.py[line:118]-player-get_action-DEBUG: 已收到输入10行9列
+2021-04-24 12:35:20,315-[PID:24140]-[TID:24696]-game.py[line:135]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-24 12:35:20,316-[PID:24140]-[TID:24696]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:35:22,351-[PID:24140]-[TID:24696]-player.py[line:119]-player-get_action-DEBUG: 已收到输入15行8列
+2021-04-24 12:35:22,696-[PID:24140]-[TID:24696]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行8列
+2021-04-24 12:35:22,697-[PID:24140]-[TID:24696]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:35:23,560-[PID:24140]-[TID:24696]-player.py[line:119]-player-get_action-DEBUG: 已收到输入15行9列
+2021-04-24 12:35:23,573-[PID:24140]-[TID:24696]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在15行9列
+2021-04-24 12:35:23,573-[PID:24140]-[TID:24696]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:35:24,801-[PID:24140]-[TID:24696]-player.py[line:119]-player-get_action-DEBUG: 已收到输入15行10列
+2021-04-24 12:35:24,815-[PID:24140]-[TID:24696]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在15行10列
+2021-04-24 12:35:24,816-[PID:24140]-[TID:24696]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:35:25,627-[PID:24140]-[TID:24696]-player.py[line:119]-player-get_action-DEBUG: 已收到输入15行9列
+2021-04-24 12:36:26,686-[PID:27316]-[TID:15180]-game.py[line:135]-game-start_play-DEBUG: 先手（执黑棋）玩家：1
+2021-04-24 12:36:26,687-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:27,746-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行3列
+2021-04-24 12:36:28,095-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在10行3列
+2021-04-24 12:36:28,095-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:28,505-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:28,519-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在10行4列
+2021-04-24 12:36:28,519-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:29,009-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行5列
+2021-04-24 12:36:29,024-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在10行5列
+2021-04-24 12:36:29,025-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:29,612-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:30,205-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:30,772-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:31,294-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:31,522-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:31,708-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:31,867-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:32,025-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:32,175-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:32,329-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:32,473-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入10行4列
+2021-04-24 12:36:32,820-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行4列
+2021-04-24 12:36:32,833-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在9行4列
+2021-04-24 12:36:32,834-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:33,664-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行4列
+2021-04-24 12:36:33,830-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行4列
+2021-04-24 12:36:34,002-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行4列
+2021-04-24 12:36:34,169-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行4列
+2021-04-24 12:36:34,330-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行4列
+2021-04-24 12:36:34,654-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行5列
+2021-04-24 12:36:34,670-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行5列
+2021-04-24 12:36:34,670-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:35,666-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行5列
+2021-04-24 12:36:35,835-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行5列
+2021-04-24 12:36:36,006-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行5列
+2021-04-24 12:36:36,174-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行5列
+2021-04-24 12:36:36,347-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行5列
+2021-04-24 12:36:37,651-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行5列
+2021-04-24 12:36:38,599-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行6列
+2021-04-24 12:36:38,613-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在9行6列
+2021-04-24 12:36:38,615-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:39,164-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行6列
+2021-04-24 12:36:39,348-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行6列
+2021-04-24 12:36:40,896-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行7列
+2021-04-24 12:36:40,911-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行7列
+2021-04-24 12:36:40,911-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:41,747-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行7列
+2021-04-24 12:36:42,264-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:42,277-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家2 放置在9行8列
+2021-04-24 12:36:42,277-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
+2021-04-24 12:36:43,063-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:43,377-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:43,531-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:43,680-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:43,833-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:43,991-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:44,134-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:44,285-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:44,445-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:44,604-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行8列
+2021-04-24 12:36:45,960-[PID:27316]-[TID:15180]-player.py[line:117]-player-get_action-DEBUG: 已收到输入9行9列
+2021-04-24 12:36:45,977-[PID:27316]-[TID:15180]-game.py[line:161]-game-start_play-DEBUG: 本次落子由玩家1 放置在9行9列
+2021-04-24 12:36:45,977-[PID:27316]-[TID:15180]-player.py[line:93]-player-get_action-DEBUG: 等待落子：
