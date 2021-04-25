@@ -13,10 +13,10 @@ path = "../../logs/gobang.log"
 class Logger(object):
 
     def __init__(self, filename="", level='DEBUG', when='D', back_count=3,
-                 fmt='%(asctime)s-[PID:%(process)d]-[TID:%(thread)d]'
+                 fmt='%(levelname)s: %(message)s '
+                     '-%(asctime)s-[PID:%(process)d]-[TID:%(thread)d]'
                      '-%(filename)s[line:%(lineno)d]'
-                     '-%(module)s-%(funcName)s'
-                     '-%(levelname)s: %(message)s', logger_name=None):
+                     '-%(module)s-%(funcName)s', logger_name=None):
         """
         :param filename: 日志文件位置
         :param level: DEBUG, INFO, WARNING, ERROR, CRITIC 五个最低等级

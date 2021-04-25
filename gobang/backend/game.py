@@ -51,7 +51,7 @@ class Game(object):
 
             # 绘制当前局面
             if is_shown:
-                self.graphic(self.board, p1, p2)
+                self.console_show(self.board, p1, p2)
 
             # 判断结束否
             is_end, winner = self.board.game_end()
@@ -76,7 +76,7 @@ class Game(object):
                 # 疑问3：这个返回值用处是什么
                 return winner, zip(states, mcts_probs, winners_z)
 
-    def graphic(self, board: Board, player1, player2, start_player=1):
+    def console_show(self, board: Board, player1, player2, start_player=1):
         """
         绘制
         :param board:
@@ -111,7 +111,7 @@ class Game(object):
             print("{0:8}".format(x), end='')
         print("\r\n")
 
-    def start_play(self, entity1: PlayerBase, entity2: PlayerBase, start_player=1, is_shown=1):
+    def start_play(self, entity1: PlayerBase, entity2: PlayerBase, start_player=1, is_shown=0):
         """
         实体1和实体2之间进行一场对局
         :param entity1:  第一个下棋实体
@@ -131,7 +131,7 @@ class Game(object):
         # entity1 和 entity2 是两个类，或者是蒙特卡洛树玩家，或者是人类玩家
 
         if is_shown:
-            self.graphic(self.board, entity1.player, entity2.player, start_player)
+            self.console_show(self.board, entity1.player, entity2.player, start_player)
             logger.debug("先手（执黑棋）玩家：" + str(start_player))
 
         end: bool = False
@@ -142,6 +142,7 @@ class Game(object):
             entity_in_turn = entities[current_player]
             # 获取下棋位置
             move = entity_in_turn.get_action(self.board)
+            entity_in_turn.send_pack()
 
             if move == -2:
                 end = True
@@ -153,12 +154,12 @@ class Game(object):
             self.board.do_move(move)
 
             if is_shown:
-                self.graphic(self.board, entity1.player, entity2.player, start_player)
+                self.console_show(self.board, entity1.player, entity2.player, start_player)
 
             if self.board.states:
                 loc = self.board.move_to_location(move)
                 player = self.board.states.get(move)
-                logger.debug("本次落子由玩家" + str(player) + " 放置在" + str(loc[0]) + "行" + str(loc[1]) + "列")
+                # logger.debug("本次落子由玩家" + str(player) + " 放置在" + str(loc[0]) + "行" + str(loc[1]) + "列")
 
             end, winner = self.board.game_end()
             if end:
@@ -171,3 +172,12 @@ class Game(object):
                         print("平局")
                     print(self.board.current_state())
                 return winner
+
+
+class SocketGame(Game):
+    def __init__(self, board):
+        super(SocketGame, self).__init__(board)
+        # 准备连接，提供一开始的棋盘等信息
+
+    def play(self):
+        pass

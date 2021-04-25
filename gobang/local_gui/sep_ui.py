@@ -8,9 +8,6 @@ from PyQt5.QtGui import *  # QPainter, QPixmap, QBrush
 from PyQt5.QtCore import *  # Qt, QPoint, QRect
 
 import threading
-from gobang.backend.game import Game
-from gobang.backend.board import Board
-from gobang.backend.player import SocketPlayer, ConsolePlayer
 from ui_mainwindow import Ui_MainWindow
 
 BOARD_COLOR = QColor(249, 214, 91)  # 棋盘颜色
@@ -22,35 +19,35 @@ class MyWindow(QMainWindow, Ui_MainWindow):
         super(MyWindow, self).__init__(parent)
         self.setupUi(self)
         self.n = length
+
+        self.host = "127.0.0.1"
+        self.port = 20223
+        self.n, self.pack = self.init_from_para(self.host, self.port)
+        print("已初始化参数")
+
+        self.ui_host = ("127.0.0.1", 20226)
+
         self.width = 800
         self.margin = 80
         self.size = self.width // self.n
         self.dia = self.size * 9 // 10
 
-        self.start = False
         self.count = 0
         self.finish = False
-        self.pack = None
-
 
         self.show_step = True
 
-        self.setWindowTitle("五子棋")
         self.setFixedSize(self.size * self.n, self.size * self.n + self.margin)
         self.pix = QPixmap(self.size * self.n, self.size * self.n + self.margin)
-        self.point = None
 
-        self.game = Game(Board(length, length))
-        self.entity1, self.entity2 = SocketPlayer("127.0.0.1", 30606), SocketPlayer("127.0.0.1", port=30607)
-
-        self.entity3 = ConsolePlayer(random_move=True, sleep=0.2)
-        self.entity4 = ConsolePlayer(random_move=True, sleep=0.2)
-        # 人人对战，始终黑棋先下
-        thread = threading.Thread(target=self.new_thread_start, args=(self.entity1, self.entity2, 1))
-        thread.start()
-
-    def new_thread_start(self, entity1, entity2, start_player):
-        self.game.start_play(entity1, entity2, start_player=start_player)
+    def init_from_para(self, host, port):
+        main_socket = socket.socket()
+        main_socket.connect((host, port))
+        msg = main_socket.recv(2048).decode("utf-8")
+        print(msg)
+        width, pack = json.loads(msg)
+        main_socket.close()
+        return width, pack
 
     def paintEvent(self, event):
         painter = QPainter(self)
@@ -68,28 +65,28 @@ class MyWindow(QMainWindow, Ui_MainWindow):
             p.drawLine(self.size // 2, self.size * i + self.size // 2,
                        self.size * self.n - self.size // 2, self.size * i + self.size // 2)
 
-        pack = self.game.board.pack_board()
-        for i, j, player in pack["pos_player"]:
-            i = self.n - i - 1
-            color = Qt.black if player == pack["start_player"] else Qt.white
-            p.setPen(color)
-            p.setBrush(QBrush(color))
-            self.count += 1
-            # 画椭圆
-            p.drawEllipse(j * self.size + (self.size - self.dia) // 2, i * self.size + (self.size - self.dia) // 2,
-                          self.dia, self.dia)
-
-            # 在圆上写字
-            if self.show_step:
+        if self.pack:
+            pack = self.pack
+            for i, j, player in pack["pos_player"]:
+                i = self.n - i - 1
                 color = Qt.black if player == pack["start_player"] else Qt.white
                 p.setPen(color)
-                p.setFont(QFont("Bold", 16))
-                p.drawText(j * self.size + (self.size - self.dia) // 2, i * self.size + (self.size - self.dia) // 2,
-                           self.dia, self.dia, Qt.AlignCenter, str(self.count))
+                p.setBrush(QBrush(color))
+                self.count += 1
+                # 画椭圆
+                p.drawEllipse(j * self.size + (self.size - self.dia) // 2, i * self.size + (self.size - self.dia) // 2,
+                              self.dia, self.dia)
+
+                # 在圆上写字
+                if self.show_step:
+                    color = Qt.black if player == pack["start_player"] else Qt.white
+                    p.setPen(color)
+                    p.setFont(QFont("Bold", 16))
+                    p.drawText(j * self.size + (self.size - self.dia) // 2, i * self.size + (self.size - self.dia) // 2,
+                               self.dia, self.dia, Qt.AlignCenter, str(self.count))
 
         painter.drawPixmap(0, 0, self.pix)
         self.update()
-        # QApplication.processEvents()
 
     def mouseReleaseEvent(self, event):
         """
@@ -103,39 +100,39 @@ class MyWindow(QMainWindow, Ui_MainWindow):
                 j, i = x // self.size, y // self.size
                 row, col = self.n - i - 1, j  # 棋盘参考系
 
+                # 发送
                 s = socket.socket()
-                if self.game.board.current_player == 1:
-                    s.connect(("127.0.0.1", 30606))
+                host, port = "127.0.0.1", 0
+                if self.pack["current_player"] == 1:
+                    host, port = ("127.0.0.1", 20224)
                 else:
-                    s.connect(("127.0.0.1", 30607))
-
+                    host, port = ("127.0.0.1", 20225)
+                s.connect((host, port))
                 data = {"row": row, "col": col}
                 j_str = json.dumps(data)
                 s.sendall((j_str + "#").encode("utf-8"))
+                s.close()
+                # print("发送", data)
 
-
-
-                # # pack_str=""
+                # 接收
+                # print("接收")
+                # s = socket.socket()
+                # s.connect()
+                # # pack_str = ""
                 # # while True:
-                # #     pack_str += s.recv(1024).decode("utf-8")
+                # #     pack_str += pack_skt.recv(1024).decode("utf-8")
                 # #     if pack_str[-1] == "@":
                 # #         pack_str = pack_str[:-1]
                 # #         break
-                # # pack = json.loads(pack_str)
-                # #
+                # # print(pack_str)
+                # pack_str = pack_skt.recv(1024).decode("utf-8")
+                # self.pack = json.loads(pack_str)
+                # pack_skt.close()
+                # s.close()
+                # print("接受完")
 
-                s.close()
-                # 问题：还没发到就打包，会出现错误
-                # print("已落子{}{}".format(i, j))
-                # print("开始收集")
 
-
-                # print(self.pack)
-                # print("收集结束")
-                # self.sequence.append((i, j))
             self.update()
-            # self.update()
-            # QApplication.processEvents()
 
 
 if __name__ == '__main__':

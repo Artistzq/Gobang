@@ -6,7 +6,7 @@ class Board:
     棋盘类，提供棋盘的管理
     """
 
-    def __init__(self, width=12, height=12, n_in_row=5):
+    def __init__(self, width=12, height=12, n_in_row=5, start_player=1):
         """
         初始化棋盘，设定参数
         :param width: 宽
@@ -24,6 +24,7 @@ class Board:
         self.last_move = -1
         self.winner = -1
         self.end = -1
+        self.init_board(start_player)
 
     def init_board(self, start_player=1):
         """
@@ -175,6 +176,7 @@ class Board:
         """
         :return: 棋局的全部状态{"width", "n", "start_player", "pos_player"}
         """
-        pos_player = dict([(self.move_to_location(move), player) for (move, player) in self.states.items()])
-        pack = {"width": self.width, "n": self.n_in_row, "start_player": self.start_player, "pos_player": pos_player}
+        # pos_player = dict([(self.move_to_location(move), player) for (move, player) in self.states.items()])
+        pos_player = [self.move_to_location(move) + (player, ) for (move, player) in self.states.items()]
+        pack = {"width": self.width, "n": self.n_in_row, "start_player": self.start_player, "pos_player": pos_player, "current_player": self.current_player}
         return pack
