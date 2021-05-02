@@ -1,5 +1,8 @@
 import numpy as np
 
+from gobang.backend.player import PlayerBase
+
+
 class TreeNode:
     """
     蒙特卡洛搜索树节点
@@ -30,12 +33,13 @@ class TreeNode:
         return self._Q + self._U
 
 
-class MCTSPlayer:
+class MCTSPlayer(PlayerBase):
     """
     实现蒙特卡洛树搜索
     """
 
     def __init__(self, fn=None, c_puct=0, n_playout=0, is_selfplay=1):
+        super(MCTSPlayer, self).__init__(1)
         self.player = 1
 
     def get_action(self, board, temperature=1e-3, return_prob: bool=True):

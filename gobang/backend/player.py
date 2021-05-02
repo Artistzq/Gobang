@@ -3,6 +3,7 @@ import random
 import re
 import socket
 import time
+
 from gobang.backend.board import Board
 from gobang.utils import log
 

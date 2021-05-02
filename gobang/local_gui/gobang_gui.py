@@ -1,15 +1,15 @@
-import sys
-
-import socket
 import json
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import *  # QApplication, QWidget, QPushButton
-from PyQt5.QtGui import *  # QPainter, QPixmap, QBrush
-from PyQt5.QtCore import *  # Qt, QPoint, QRect
-
+import socket
+import sys
 import threading
-from gobang.backend.game import Game
+
+from PyQt5.QtCore import *  # Qt, QPoint, QRect
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import *  # QPainter, QPixmap, QBrush
+from PyQt5.QtWidgets import *  # QApplication, QWidget, QPushButton
+
 from gobang.backend.board import Board
+from gobang.backend.game import Game
 from gobang.backend.player import SocketPlayer, ConsolePlayer
 from ui_mainwindow import Ui_MainWindow
 

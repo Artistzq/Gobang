@@ -1,13 +1,12 @@
+import json
+import socket
 import sys
 
-import socket
-import json
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import *  # QApplication, QWidget, QPushButton
-from PyQt5.QtGui import *  # QPainter, QPixmap, QBrush
 from PyQt5.QtCore import *  # Qt, QPoint, QRect
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import *  # QPainter, QPixmap, QBrush
+from PyQt5.QtWidgets import *  # QApplication, QWidget, QPushButton
 
-import threading
 from ui_mainwindow import Ui_MainWindow
 
 BOARD_COLOR = QColor(249, 214, 91)  # 棋盘颜色

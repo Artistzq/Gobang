@@ -1,11 +1,14 @@
+import json
 import os
+import socket
+import threading
 
 import numpy as np
 
 from gobang.backend.board import Board
-from gobang.utils import log
 from gobang.backend.mcts_alphaZero import MCTSPlayer
 from gobang.backend.player import PlayerBase
+from gobang.utils import log
 
 logger = log.Logger(filename=log.path, logger_name=__name__).get_logger()
 
@@ -174,10 +177,109 @@ class Game(object):
                 return winner
 
 
-class SocketGame(Game):
-    def __init__(self, board):
-        super(SocketGame, self).__init__(board)
-        # 准备连接，提供一开始的棋盘等信息
+class OnlineGame(Game):
+    """
+    在线游戏
+    每走一步，发送一次局面信息给UI，而界面那边一直监听是否传来局面；
+    一直监听UI传来的命令，提供一些命令
+    设计：
+    字段：
+    0：数据；1：程序命令；2：UI总命令
+    【0】：棋盘大小；局面信息；当前玩家；初始玩家
+    【1】：点击落子【落子位置】；点击悔棋；点击重开【棋盘大小】
+    【2】：AI对弈；人类对弈；观察一场博弈
+    """
 
-    def play(self):
+    def __init__(self, board, host_port, ui_address):
+        super(OnlineGame, self).__init__(board)
+        # 准备连接，提供一开始的棋盘等信息
+        self.host_port = host_port
+        self.skt = socket.socket()
+        self.skt.bind(host_port)
+        self.ui_address = ui_address
+
+        get_order_thr = threading.Thread(target=self.get_order)
+        get_order_thr.start()
+
+    def start_play(self, entity1: PlayerBase, entity2: PlayerBase, start_player=1, is_shown=2):
+        """
+        实体1和实体2之间进行一场对局
+        :param entity1:  第一个下棋实体
+        :param entity2:  第二个下棋实体
+        :param start_player: 指名谁是先手，谁是后手，先手执黑棋
+        :param is_shown:
+        :return: 赢家
+        """
+        # assert start_player in (0, 1), "player index overflow"
+        # 初试化棋盘，即清空，且设置先手
+        self.board.init_board(start_player)
+        entity1.set_player(1)
+        entity2.set_player(2)
+        entities = {1: entity1, 2: entity2}
+
+        logger.debug("先手（执黑棋）玩家：" + str(start_player))
+
+        while True:
+            # 循环直到对局结束
+            current_player = self.board.get_current_player()
+            entity_in_turn = entities[current_player]
+            # 获取下棋位置
+            move = entity_in_turn.get_action(self.board)
+
+            # 棋盘执行落子
+            self.board.do_move(move)
+
+            self.send_data()
+
+            end, winner = self.board.game_end()
+            if end:
+                entity1.set_end()
+                entity2.set_end()
+                if winner != -1:
+                    print("游戏结束，胜者为：玩家", winner)
+                else:
+                    print("平局")
+
+                return winner
+
+    def send_data(self):
+        ui_host = self.ui_address
+        data_skt = socket.socket()
+        data_skt.connect(ui_host)
+        pack = json.dumps(self.board.pack_board())
+        data_skt.send(pack.encode("utf-8"))
+        data_skt.close()
+
+    def get_order(self):
+        while True:
+            self.skt.listen(5)
+            order_skt, addr = self.skt.accept()
+            order = order_skt.recv(1024).decode("utf-8")
+            order = json.loads(order)
+            order_skt.close()
+            self.operate(order)
+
+    def operate(self, order):
+        print(order)
+        if order["click_watch"]:
+            pass
+        elif order["click_regret"]:
+            pass
+        elif order["click_start_play_with_ai"]:
+            pass
+        elif order["restart"]:
+            self.restart(order["width"])
+        else:
+            pass
+        self.send_data()
+
+    def restart(self, width):
+        self.board = Board(width, width)
+
+    def click_start_play_with_ai(self, start_player):
+        # entity1, entity2 = SocketPlayer(self.host_port[0], self.host_port[1]+10), MCTSPlayer()
+        # thr = threading.Thread(target=self.start_play, args=(entity1, entity2, start_player, 0))
+        # thr.start()
+
         pass
+

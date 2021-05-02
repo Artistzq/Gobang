@@ -4,8 +4,8 @@
 """
 
 import logging
-from logging import handlers
 import time
+from logging import handlers
 
 path = "../../logs/gobang.log"
 
