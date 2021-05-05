@@ -1,6 +1,9 @@
+import random
 import sys
 import threading
+import time
 
+from PyQt5 import QtGui
 from PyQt5.QtCore import *  # Qt, QPoint, QRect
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import *  # QPainter, QPixmap, QBrush
@@ -13,6 +16,95 @@ from gobang.backend.player import PlayerBase
 from ui_mainwindow import Ui_MainWindow
 
 BOARD_COLOR = QColor(249, 214, 91)
+
+
+class QtPlayer(PlayerBase):
+
+    def get_action(self, board: Board):
+        # 通过信号和槽获取落子位置
+        # 阻塞，直到获取落子位置
+        # 返回落子位置
+        time.sleep(1)
+        return random.choice(board.available)
+
+
+class QtGame(Game, QWidget):
+    def __init__(self, board: Board, parent=None):
+        Game.__init__(self, board)
+        QWidget.__init__(self, parent)
+        self.n = board.width
+        self.width = self.frameGeometry().width()
+        self.width = 1000
+        self.margin = 0
+        self.size = self.width // self.n
+        self.dia = self.size * 9 // 10
+
+        self.start = False
+        self.count = 0
+        self.finish = False
+        self.pack = None
+
+        self.show_step = True
+
+        # self.setWindowTitle("五子棋")
+        self.setFixedSize(self.size * self.n, self.size * self.n + self.margin)
+        self.pix = QPixmap(self.size * self.n, self.size * self.n + self.margin)
+        self.point = None
+
+    def new_thread_player(self, entity1, entity2, sp):
+        thread = threading.Thread(target=self.start_play, args=(entity1, entity2, sp, True))
+        thread.start()
+
+    def gui(self):
+        self.update()
+
+    def paintEvent(self, a0: QtGui.QPaintEvent) -> None:
+        print("draw the board again")
+        painter = QPainter(self)
+        p = QPainter(self.pix)
+
+        # 画棋盘
+        p.setPen(BOARD_COLOR)
+        p.setBrush(QBrush(BOARD_COLOR))
+        p.drawRect(0, 0, self.size * self.n, self.size * self.n + self.margin)
+        # 画网格线
+        p.setPen(Qt.black)
+        for i in range(self.n):
+            p.drawLine(self.size * i + self.size // 2, self.size // 2,
+                       self.size * i + self.size // 2, self.size * self.n - self.size // 2)
+            p.drawLine(self.size // 2, self.size * i + self.size // 2,
+                       self.size * self.n - self.size // 2, self.size * i + self.size // 2)
+
+        pack = {"pos_player": []}
+        pack = self.board.pack_board()
+        for i, j, player in pack["pos_player"]:
+            i = self.n - i - 1
+            color = Qt.black if player == pack["start_player"] else Qt.white
+            p.setPen(color)
+            p.setBrush(QBrush(color))
+            self.count += 1
+            # 画椭圆
+            p.drawEllipse(j * self.size + (self.size - self.dia) // 2, i * self.size + (self.size - self.dia) // 2,
+                          self.dia, self.dia)
+
+            # 在圆上写字
+            if self.show_step:
+                color = Qt.black if player == pack["start_player"] else Qt.white
+                p.setPen(color)
+                p.setFont(QFont("Bold", 16))
+                p.drawText(j * self.size + (self.size - self.dia) // 2, i * self.size + (self.size - self.dia) // 2,
+                           self.dia, self.dia, Qt.AlignCenter, str(self.count))
+
+        painter.drawPixmap(0, 0, self.pix)
+
+    def mouseReleaseEvent(self, event: QtGui.QMouseEvent) -> None:
+        if event.button() == Qt.LeftButton:
+            if not self.finish:
+                x, y = event.pos().x(), event.pos().y()
+                j, i = x // self.size, y // self.size
+                row, col = self.n - i - 1, j  # 棋盘参考系
+                print(row, col)
+                # 应将这个传给后台
 
 
 class PaintArea(QWidget):
@@ -37,7 +129,15 @@ class PaintArea(QWidget):
         self.setFixedSize(self.size * self.n, self.size * self.n + self.margin)
         self.pix = QPixmap(self.size * self.n, self.size * self.n + self.margin)
         self.point = None
-        self.game: Game = None
+        self.game = Game(Board(length))
+
+    def start_new_game(self, entity1, entity2, sp):
+        thread = threading.Thread(target=self.__new_thread_game, args=(entity1, entity2, sp))
+        thread.start()
+        print("新线程开启中")
+
+    def __new_thread_game(self, entity1, entity2, sp):
+        self.game.start_play(entity1, entity2, sp)
 
     def paintEvent(self, QPaintEvent):
         print("draw the board again")
@@ -91,50 +191,8 @@ class PaintArea(QWidget):
                 j, i = x // self.size, y // self.size
                 row, col = self.n - i - 1, j  # 棋盘参考系
                 print(row, col)
+                # 应将这个传给后台
             self.update()
-        # p = QPainter(self)
-        # p.setPen(self.pen)
-        # p.setBrush(self.brush)
-        #
-        # rect = QRect(50, 100, 300, 200)
-        # points = [QPoint(150, 100), QPoint(300, 150), QPoint(350, 250), QPoint(100, 300)]
-        # startAngle = 30 * 16
-        # spanAngle = 120 * 16
-        #
-        # path = QPainterPath()
-        # path.addRect(150, 150, 100, 100)
-        # path.moveTo(100, 100)
-        # path.cubicTo(300, 100, 200, 200, 300, 300)
-        # path.cubicTo(100, 300, 200, 200, 100, 100)
-        #
-        # print(self.shape)
-        #
-        # if self.shape == "Line":
-        #     p.drawLine(rect.topLeft(), rect.bottomRight())
-        # elif self.shape == "Rectangle":
-        #     p.drawRect(rect)
-        # elif self.shape == 'Rounded Rectangle':
-        #     p.drawRoundedRect(rect, 25, 25, Qt.RelativeSize)
-        # elif self.shape == "Ellipse":
-        #     p.drawEllipse(rect)
-        # elif self.shape == "Polygon":
-        #     p.drawPolygon(QPolygon(points), Qt.WindingFill)
-        # elif self.shape == "Polyline":
-        #     p.drawPolyline(QPolygon(points))
-        # elif self.shape == "Points":
-        #     p.drawPoints(QPolygon(points))
-        # elif self.shape == "Pie":
-        #     p.drawPie(rect, startAngle, spanAngle)
-        # elif self.shape == "Arc":
-        #     p.drawArc(rect, startAngle, spanAngle)
-        # elif self.shape == "Chord":
-        #     p.drawChord(rect, startAngle, spanAngle)
-        # elif self.shape == "Path":
-        #     p.drawPath(path)
-        # elif self.shape == "Text":
-        #     p.drawText(rect, Qt.AlignCenter, "Hello Qt!")
-        # elif self.shape == "Pixmap":
-        #     p.drawPixmap(150, 150, QPixmap("images/qt-logo.png"))
 
     def bind_game(self, game: Game):
         self.game = game
@@ -145,9 +203,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         QMainWindow.__init__(self)
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
-        self.game = Game(Board(19))
-        self.area = PaintArea(19)
-        self.area.bind_game(self.game)
+        self.game = QtGame(Board(19), parent=self.widget_game)
         self.init_components()
 
     def init_components(self):
@@ -175,7 +231,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.widget_board = None
 
         # area = PaintArea(parent=self.widget_game)
-        self.horizontalLayout.addWidget(self.area)
+        self.horizontalLayout.addWidget(self.game)
 
         self.horizontalLayout.setStretch(0, 2)
         self.horizontalLayout.setStretch(1, 8)
@@ -206,6 +262,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         level_black = self.get_from_cmb(self.cb_watch_level_b)
         level_white = self.get_from_cmb(self.cb_watch_level_w)
         # do something to backend
+        entity1 = QtPlayer(1)
+        entity2 = QtPlayer(2)
+        self.game.new_thread_player(entity1, entity2, 1)
+        # 在这里应该被阻塞，直到棋下完
 
     def start_new_pvp(self):
         if self.widget_pvp_para.isVisible():

@@ -54,7 +54,7 @@ class Game(object):
 
             # 绘制当前局面
             if is_shown:
-                self.console_show(self.board, p1, p2)
+                self.gui()
 
             # 判断结束否
             is_end, winner = self.board.game_end()
@@ -79,7 +79,7 @@ class Game(object):
                 # 疑问3：这个返回值用处是什么
                 return winner, zip(states, mcts_probs, winners_z)
 
-    def console_show(self, board: Board, player1, player2, start_player=1):
+    def gui(self):
         """
         绘制
         :param board:
@@ -88,9 +88,10 @@ class Game(object):
         :param start_player:
         :return:
         """
+        board = self.board
+        start_player = board.start_player
         width, height = board.width, board.height
         os.system('cls')
-
         print("Player", start_player, "with 黑".rjust(3))
         print("Player", 2 if start_player == 1 else 1, "with 白".rjust(3))
         print("落子-1 -1，退出游戏")
@@ -134,8 +135,9 @@ class Game(object):
         # entity1 和 entity2 是两个类，或者是蒙特卡洛树玩家，或者是人类玩家
 
         if is_shown:
-            self.console_show(self.board, entity1.player, entity2.player, start_player)
-            logger.debug("先手（执黑棋）玩家：" + str(start_player))
+            self.gui()
+            print(start_player)
+            # logger.debug("先手（执黑棋）玩家：" + str(start_player))
 
         end: bool = False
         winner = -1
@@ -157,7 +159,7 @@ class Game(object):
             self.board.do_move(move)
 
             if is_shown:
-                self.console_show(self.board, entity1.player, entity2.player, start_player)
+                self.gui()
 
             if self.board.states:
                 loc = self.board.move_to_location(move)
