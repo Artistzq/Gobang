@@ -151,10 +151,11 @@ class SocketPlayer(PlayerBase):
         self.sk.close()
 
 
-class HttpPlayer(PlayerBase):
-    def __init__(self, player=1, url=None):
-        super(HttpPlayer, self).__init__(player)
-        self.url = url
+class RandomTestPlayer(PlayerBase):
+    def __init__(self, t=0.5, player=1):
+        super(RandomTestPlayer, self).__init__(player)
+        self.t = t
 
-    def get_action(self, board):
-        pass
+    def get_action(self, board: Board):
+        time.sleep(self.t)
+        return random.choice(board.available)

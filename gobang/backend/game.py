@@ -164,7 +164,7 @@ class Game(object):
             if self.board.states:
                 loc = self.board.move_to_location(move)
                 player = self.board.states.get(move)
-                # logger.debug("本次落子由玩家" + str(player) + " 放置在" + str(loc[0]) + "行" + str(loc[1]) + "列")
+                logger.debug("本次落子由玩家" + str(player) + " 放置在" + str(loc[0]) + "行" + str(loc[1]) + "列")
 
             end, winner = self.board.game_end()
             if end:

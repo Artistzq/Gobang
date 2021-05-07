@@ -178,5 +178,7 @@ class Board:
         """
         # pos_player = dict([(self.move_to_location(move), player) for (move, player) in self.states.items()])
         pos_player = [self.move_to_location(move) + (player, ) for (move, player) in self.states.items()]
-        pack = {"width": self.width, "n": self.n_in_row, "start_player": self.start_player, "pos_player": pos_player, "current_player": self.current_player}
+        pack = {"width": self.width, "n": self.n_in_row, "start_player": self.start_player, "pos_player": pos_player,
+                "current_player": self.current_player, "finished": (self.has_a_winner())[0],
+                "winner": (self.has_a_winner())[1]}
         return pack

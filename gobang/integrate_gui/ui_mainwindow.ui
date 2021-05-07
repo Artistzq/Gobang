@@ -181,9 +181,12 @@
              </item>
              <item row="2" column="1">
               <widget class="QComboBox" name="cb_watch_size">
+               <property name="currentText">
+                <string>15x15</string>
+               </property>
                <item>
                 <property name="text">
-                 <string>13x13</string>
+                 <string>15x15</string>
                 </property>
                </item>
               </widget>
