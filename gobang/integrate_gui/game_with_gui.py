@@ -12,6 +12,8 @@ from gobang.backend.board import Board
 from gobang.backend.game import Game
 from gobang.backend.player import PlayerBase, RandomTestPlayer
 from gobang.utils.stoppable_thread import StoppableThread
+from gobang.backend.mcts_alphaZero import MCTSPlayer
+from gobang.backend.policy_value_net_pytorch import PolicyValueNet
 from ui_mainwindow import Ui_MainWindow
 
 human_player_event = threading.Event()
@@ -59,6 +61,7 @@ class QtGame(Game, QWidget):
         self.update()
 
     def init_canvas(self):
+        self.click_pos = (0, 0)
         self.n = self.board.width
         self.width = self.frameGeometry().width()
         self.width = 1000
@@ -107,7 +110,7 @@ class QtGame(Game, QWidget):
             # 棋盘执行落子
             self.board.do_move(move)
             # GUI显示
-            end, winner = self.board.game_end()
+            end, winner = self.board.game_end(fast_judge=True)
             self.gui()
             if end:
                 entity1.set_end()
@@ -268,7 +271,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         level = self.get_from_cmb(self.cb_pve_level)
         # func
         self.game.set_board(Board(size, size))
-        entity1 = RandomTestPlayer(0.001)
+        game_policy = PolicyValueNet(size, size, model_file="../resources/current_policy{}x{}.model".format(size, size))
+        entity1 = MCTSPlayer(game_policy.policy_value_fn, c_puct=5, n_playout=300)
+
+        # entity1 = RandomTestPlayer(0.001)
         entity2 = QtPlayer(self.game)
         self.game.new_thread_player(entity1, entity2, 1)
 
@@ -286,8 +292,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         level_white = self.get_from_cmb(self.cb_watch_level_w)
         # do something to backend
         self.game.set_board(Board(size, size))
+        print(size)
         entity1 = RandomTestPlayer(0.001)
         entity2 = RandomTestPlayer(0.001)
+        game_policy1 = PolicyValueNet(size, size, model_file="../resources/current_policy{}x{}.model".format(size, size))
+        entity1 = MCTSPlayer(game_policy1.policy_value_fn, c_puct=5, n_playout=100)
+        # game_policy2 = PolicyValueNet(size, size, model_file="../resources/current_policy.model")
+        entity2 = MCTSPlayer(game_policy1.policy_value_fn, c_puct=5, n_playout=100)
         self.game.new_thread_player(entity1, entity2, 1)
 
     def start_new_pvp(self):

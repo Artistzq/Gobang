@@ -6,11 +6,48 @@
 import logging
 import time
 from logging import handlers
+# import os
+# import sys
 
-path = "../../logs/gobang.log"
+# abspath = os.path.abspath(__file__)
+# pj_dir = os.path.split(os.path.split(os.path.split(abspath)[0])[0])[0]
+# path = os.path.join(pj_dir, "logs\gobang.log")
+path = "/content/drive/My Drive/Code/Gobang/logs/no.log"
+
+class Fake:
+    def debug(self, a):
+        pass
 
 
-class Logger(object):
+    def info(self, a):
+        pass
+
+    def warning(self, a):
+        pass
+
+
+class Logger:
+    def __init__(self, filename="", level='DEBUG', when='D', back_count=3,
+                 fmt='%(levelname)s: %(message)s '
+                     '-%(asctime)s-[PID:%(process)d]-[TID:%(thread)d]'
+                     '-%(filename)s[line:%(lineno)d]'
+                     '-%(module)s-%(funcName)s', logger_name=None):
+        self.logger = Fake()
+
+    def get_logger(self):
+        """
+        返回此logger
+        :return:
+        """
+        return self.logger
+
+
+class Logger_(object):
+    path=""
+
+    @classmethod
+    def set_path(cls, p):
+        cls.path = p
 
     def __init__(self, filename="", level='DEBUG', when='D', back_count=3,
                  fmt='%(levelname)s: %(message)s '
@@ -28,6 +65,7 @@ class Logger(object):
         if filename == "":
             localtime = time.asctime(time.localtime(time.time()))
             filename = ("../logs/" + "-".join(localtime.split()) + ".log").replace(":", "_")
+            filename = ("/content/drive/My Drive/Code/Gobang/utils/"+ "-".join(localtime.split()) + ".log").replace(":", "_")
         self.logger = logging.getLogger(logger_name)  # 根据文件名创建一个日志
         self.logger.setLevel(level)  # 设置默认日志级别
         self.format_str = logging.Formatter(fmt)  # 设置日志格式
@@ -56,8 +94,3 @@ class Logger(object):
         :return:
         """
         return self.logger
-
-
-if __name__ == '__main__':
-    logger = Logger("../../logs/gobang.log").get_logger()
-    logger.debug("test")

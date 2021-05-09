@@ -1,0 +1,1929 @@
+8x8: 58plays + 385 + 376 + 193
+
+C:\Users\yzq\anaconda3\python.exe D:/File/Projects/GitHub/Gobang/gobang/backend/main.py
+True
+batch i:1, episode_len:18
+time cost: 23.021277s
+batch i:2, episode_len:23
+time cost: 28.2925859s
+batch_size: 512, batch i:3, episode_len: 31, loss:3.7187, entropy:2.7563
+time cost: 37.669953s
+batch_size: 512, batch i:4, episode_len: 29, loss:4.0698, entropy:2.7171
+time cost: 39.4741772s
+batch_size: 512, batch i:5, episode_len: 32, loss:4.0032, entropy:2.6840
+time cost: 43.925337799999994s
+batch_size: 512, batch i:6, episode_len: 22, loss:3.9207, entropy:2.8369
+time cost: 24.5158093s
+batch_size: 512, batch i:7, episode_len: 20, loss:3.9393, entropy:2.9582
+time cost: 24.756002499999994s
+batch_size: 512, batch i:8, episode_len: 29, loss:3.9571, entropy:3.0426
+time cost: 35.93134280000001s
+batch_size: 512, batch i:9, episode_len: 31, loss:4.0044, entropy:3.1109
+time cost: 34.745696699999996s
+batch_size: 512, batch i:10, episode_len: 49, loss:4.1550, entropy:3.1756
+time cost: 50.66587099999998s
+batch_size: 512, batch i:11, episode_len: 14, loss:4.0855, entropy:3.1017
+time cost: 16.579283299999986s
+batch_size: 512, batch i:12, episode_len: 27, loss:4.0816, entropy:3.0973
+time cost: 31.409174300000018s
+batch_size: 512, batch i:13, episode_len: 30, loss:4.0293, entropy:3.0612
+time cost: 36.8282658s
+batch_size: 512, batch i:14, episode_len: 21, loss:4.0257, entropy:3.0425
+time cost: 25.96200970000001s
+batch_size: 512, batch i:15, episode_len: 39, loss:4.0487, entropy:3.0302
+time cost: 43.50087080000003s
+batch_size: 512, batch i:16, episode_len: 26, loss:4.1057, entropy:3.0634
+time cost: 27.280643699999985s
+batch_size: 512, batch i:17, episode_len: 20, loss:4.0236, entropy:3.0692
+time cost: 24.00036130000001s
+batch_size: 512, batch i:18, episode_len: 25, loss:4.0532, entropy:3.0749
+time cost: 32.09606789999998s
+batch_size: 512, batch i:19, episode_len: 25, loss:4.0630, entropy:3.1103
+time cost: 29.666322899999955s
+batch_size: 512, batch i:20, episode_len: 30, loss:4.0539, entropy:3.1140
+time cost: 34.56347460000006s
+batch_size: 512, batch i:21, episode_len: 18, loss:4.0483, entropy:3.1136
+time cost: 22.94340539999996s
+batch_size: 512, batch i:22, episode_len: 24, loss:4.0140, entropy:3.0666
+time cost: 27.798865999999975s
+batch_size: 512, batch i:23, episode_len: 24, loss:3.9845, entropy:3.0465
+time cost: 29.633925400000066s
+batch_size: 512, batch i:24, episode_len: 24, loss:3.9732, entropy:2.9979
+time cost: 33.14262329999997s
+batch_size: 512, batch i:25, episode_len: 27, loss:3.9965, entropy:2.9852
+time cost: 36.0685651s
+batch_size: 512, batch i:26, episode_len: 17, loss:3.9627, entropy:2.9391
+time cost: 23.806476799999928s
+batch_size: 512, batch i:27, episode_len: 33, loss:3.9922, entropy:2.9569
+time cost: 42.98469380000006s
+batch_size: 512, batch i:28, episode_len: 39, loss:3.9776, entropy:2.9733
+time cost: 48.349003299999936s
+batch_size: 512, batch i:29, episode_len: 28, loss:4.0394, entropy:2.9928
+time cost: 36.399390299999936s
+batch_size: 512, batch i:30, episode_len: 22, loss:3.9990, entropy:2.9941
+time cost: 26.801903100000004s
+batch_size: 512, batch i:31, episode_len: 32, loss:3.9746, entropy:3.0000
+time cost: 39.538584300000025s
+batch_size: 512, batch i:32, episode_len: 35, loss:4.0179, entropy:3.0227
+time cost: 42.18762990000005s
+batch_size: 512, batch i:33, episode_len: 24, loss:4.0131, entropy:3.0043
+time cost: 31.13713319999988s
+batch_size: 512, batch i:34, episode_len: 36, loss:3.9894, entropy:3.0068
+time cost: 46.03143209999985s
+batch_size: 512, batch i:35, episode_len: 19, loss:3.9788, entropy:3.0027
+time cost: 25.24935449999998s
+batch_size: 512, batch i:36, episode_len: 31, loss:3.9214, entropy:2.9555
+time cost: 39.84574640000005s
+batch_size: 512, batch i:37, episode_len: 18, loss:3.9950, entropy:2.9879
+time cost: 24.846061499999905s
+batch_size: 512, batch i:38, episode_len: 29, loss:3.9936, entropy:2.9615
+time cost: 38.42938979999985s
+batch_size: 512, batch i:39, episode_len: 33, loss:3.9986, entropy:2.9876
+time cost: 42.74107509999999s
+batch_size: 512, batch i:40, episode_len: 21, loss:4.0076, entropy:3.0048
+time cost: 26.580669499999885s
+batch_size: 512, batch i:41, episode_len: 29, loss:3.9906, entropy:3.0262
+time cost: 34.00055180000004s
+batch_size: 512, batch i:42, episode_len: 31, loss:3.9981, entropy:3.0271
+time cost: 38.71465349999994s
+batch_size: 512, batch i:43, episode_len: 31, loss:3.9637, entropy:3.0399
+time cost: 37.81570469999997s
+batch_size: 512, batch i:44, episode_len: 24, loss:3.9738, entropy:2.9976
+time cost: 31.68921790000013s
+batch_size: 512, batch i:45, episode_len: 14, loss:3.9546, entropy:2.9663
+time cost: 18.840891099999908s
+batch_size: 512, batch i:46, episode_len: 20, loss:3.9549, entropy:2.9623
+time cost: 26.34589129999995s
+batch_size: 512, batch i:47, episode_len: 20, loss:3.9089, entropy:2.9036
+time cost: 27.87095330000011s
+batch_size: 512, batch i:48, episode_len: 17, loss:3.9557, entropy:2.9290
+time cost: 23.40537470000004s
+batch_size: 512, batch i:49, episode_len: 18, loss:3.9797, entropy:2.9217
+time cost: 24.46592970000006s
+batch_size: 512, batch i:50, episode_len: 17, loss:3.9909, entropy:2.9144
+time cost: 20.216172700000016s
+batch_size: 512, batch i:51, episode_len: 27, loss:4.0175, entropy:2.9744
+time cost: 33.035107299999936s
+batch_size: 512, batch i:52, episode_len: 18, loss:3.9516, entropy:3.0080
+time cost: 21.548697700000048s
+batch_size: 512, batch i:53, episode_len: 27, loss:4.0171, entropy:3.0355
+time cost: 33.4635366s
+batch_size: 512, batch i:54, episode_len: 32, loss:4.0050, entropy:3.0661
+time cost: 37.935070400000086s
+batch_size: 512, batch i:55, episode_len: 37, loss:3.9286, entropy:3.0235
+time cost: 39.40237019999995s
+batch_size: 512, batch i:56, episode_len: 23, loss:3.9906, entropy:2.9718
+time cost: 28.397495100000015s
+batch_size: 512, batch i:57, episode_len: 14, loss:3.9341, entropy:2.9019
+time cost: 16.94424939999999s
+batch_size: 512, batch i:58, episode_len: 19, loss:3.9650, entropy:2.8675
+time cost: 22.42364610000004s
+batch_size: 512, batch i:59, episode_len: 20, loss:3.9729, entropy:2.9691
+time cost: 27.095275799999854s
+batch_size: 512, batch i:60, episode_len: 24, loss:3.9621, entropy:2.9524
+time cost: 26.72204399999987s
+batch_size: 512, batch i:61, episode_len: 36, loss:3.9577, entropy:2.9972
+time cost: 41.29636760000017s
+batch_size: 512, batch i:62, episode_len: 37, loss:3.9088, entropy:2.9776
+time cost: 38.96111040000005s
+batch_size: 512, batch i:63, episode_len: 27, loss:3.9643, entropy:3.0320
+time cost: 30.763676799999985s
+batch_size: 512, batch i:64, episode_len: 27, loss:3.9330, entropy:2.9682
+time cost: 30.863780700000007s
+batch_size: 512, batch i:65, episode_len: 18, loss:3.9189, entropy:2.9135
+time cost: 21.131672699999854s
+batch_size: 512, batch i:66, episode_len: 25, loss:3.9477, entropy:2.9559
+time cost: 28.269356700000117s
+batch_size: 512, batch i:67, episode_len: 23, loss:3.9841, entropy:2.9531
+time cost: 27.371256599999924s
+batch_size: 512, batch i:68, episode_len: 30, loss:3.9275, entropy:2.9473
+time cost: 33.50867909999988s
+batch_size: 512, batch i:69, episode_len: 31, loss:3.8872, entropy:2.9275
+time cost: 38.81996100000015s
+batch_size: 512, batch i:70, episode_len: 16, loss:3.9465, entropy:2.9450
+time cost: 21.550261899999896s
+batch_size: 512, batch i:71, episode_len: 27, loss:3.9205, entropy:2.9960
+time cost: 32.59933080000019s
+batch_size: 512, batch i:72, episode_len: 25, loss:3.9049, entropy:3.0097
+time cost: 29.166023499999937s
+batch_size: 512, batch i:73, episode_len: 39, loss:3.8704, entropy:2.9870
+time cost: 40.91001910000023s
+batch_size: 512, batch i:74, episode_len: 26, loss:3.9290, entropy:2.9683
+time cost: 28.858991099999912s
+batch_size: 512, batch i:75, episode_len: 20, loss:3.9360, entropy:2.9318
+time cost: 21.710041100000126s
+batch_size: 512, batch i:76, episode_len: 30, loss:3.9420, entropy:2.9076
+time cost: 33.08697230000007s
+batch_size: 512, batch i:77, episode_len: 21, loss:3.8972, entropy:2.9292
+time cost: 23.723027300000012s
+batch_size: 512, batch i:78, episode_len: 26, loss:3.8940, entropy:2.9597
+time cost: 30.330461999999898s
+batch_size: 512, batch i:79, episode_len: 35, loss:3.8783, entropy:2.9627
+time cost: 39.13431149999997s
+batch_size: 512, batch i:80, episode_len: 23, loss:3.8435, entropy:2.9827
+time cost: 25.832722900000135s
+batch_size: 512, batch i:81, episode_len: 29, loss:3.9146, entropy:2.9869
+time cost: 30.870116499999767s
+batch_size: 512, batch i:82, episode_len: 29, loss:3.8419, entropy:2.9354
+time cost: 31.04792720000023s
+batch_size: 512, batch i:83, episode_len: 30, loss:3.8447, entropy:2.9181
+time cost: 31.087677299999996s
+batch_size: 512, batch i:84, episode_len: 17, loss:3.8814, entropy:2.8972
+time cost: 18.687573299999713s
+batch_size: 512, batch i:85, episode_len: 28, loss:3.8162, entropy:2.9233
+time cost: 30.478283000000374s
+batch_size: 512, batch i:86, episode_len: 18, loss:3.7840, entropy:2.9013
+time cost: 20.48269540000001s
+batch_size: 512, batch i:87, episode_len: 13, loss:3.8282, entropy:2.9059
+time cost: 14.996020499999759s
+batch_size: 512, batch i:88, episode_len: 22, loss:3.8754, entropy:2.9182
+time cost: 24.53437870000016s
+batch_size: 512, batch i:89, episode_len: 28, loss:3.8200, entropy:2.9324
+time cost: 39.60901309999963s
+batch_size: 512, batch i:90, episode_len: 29, loss:3.8727, entropy:2.9497
+time cost: 40.09788320000007s
+batch_size: 512, batch i:91, episode_len: 21, loss:3.7916, entropy:2.9229
+time cost: 24.920335899999827s
+batch_size: 512, batch i:92, episode_len: 21, loss:3.8643, entropy:2.8591
+time cost: 26.194265799999812s
+batch_size: 512, batch i:93, episode_len: 22, loss:3.8482, entropy:2.8396
+time cost: 29.25234010000031s
+batch_size: 512, batch i:94, episode_len: 26, loss:3.8492, entropy:2.8425
+time cost: 31.853310700000293s
+batch_size: 512, batch i:95, episode_len: 29, loss:3.8371, entropy:2.9222
+time cost: 37.42406219999975s
+batch_size: 512, batch i:96, episode_len: 20, loss:3.8420, entropy:2.9704
+time cost: 22.165240299999823s
+batch_size: 512, batch i:97, episode_len: 19, loss:3.8886, entropy:2.9865
+time cost: 21.988749200000257s
+batch_size: 512, batch i:98, episode_len: 20, loss:3.8793, entropy:2.9550
+time cost: 23.149795799999993s
+batch_size: 512, batch i:99, episode_len: 27, loss:3.8499, entropy:2.9081
+time cost: 30.31604249999964s
+batch_size: 512, batch i:100, episode_len: 41, loss:3.8345, entropy:2.9077
+time cost: 44.416569799999706s
+batch_size: 512, batch i:101, episode_len: 25, loss:3.9820, entropy:2.9363
+time cost: 27.295956299999943s
+batch_size: 512, batch i:102, episode_len: 29, loss:3.8359, entropy:2.9235
+time cost: 30.578242300000056s
+batch_size: 512, batch i:103, episode_len: 26, loss:3.9207, entropy:2.9365
+time cost: 27.18562559999964s
+batch_size: 512, batch i:104, episode_len: 30, loss:3.8450, entropy:2.9276
+time cost: 32.82959870000013s
+batch_size: 512, batch i:105, episode_len: 34, loss:3.9247, entropy:2.9624
+time cost: 37.173132800000076s
+batch_size: 512, batch i:106, episode_len: 32, loss:3.9291, entropy:2.9847
+time cost: 33.95123449999983s
+batch_size: 512, batch i:107, episode_len: 34, loss:3.9133, entropy:2.9887
+time cost: 35.796609100000296s
+batch_size: 512, batch i:108, episode_len: 18, loss:3.9321, entropy:2.9481
+time cost: 20.020552299999963s
+batch_size: 512, batch i:109, episode_len: 16, loss:3.9793, entropy:2.9219
+time cost: 16.985389999999825s
+batch_size: 512, batch i:110, episode_len: 14, loss:3.8655, entropy:2.9170
+time cost: 16.06797850000021s
+batch_size: 512, batch i:111, episode_len: 22, loss:3.9383, entropy:2.9405
+time cost: 24.350394900000083s
+batch_size: 512, batch i:112, episode_len: 20, loss:3.9334, entropy:2.9438
+time cost: 22.77978639999992s
+batch_size: 512, batch i:113, episode_len: 15, loss:3.9235, entropy:2.9423
+time cost: 16.23911930000031s
+batch_size: 512, batch i:114, episode_len: 26, loss:3.9271, entropy:2.9327
+time cost: 29.06729899999982s
+batch_size: 512, batch i:115, episode_len: 10, loss:3.9214, entropy:2.9097
+time cost: 11.376719200000025s
+batch_size: 512, batch i:116, episode_len: 19, loss:3.8858, entropy:2.9110
+time cost: 20.26729830000022s
+batch_size: 512, batch i:117, episode_len: 24, loss:3.9006, entropy:2.9236
+time cost: 26.509980199999973s
+batch_size: 512, batch i:118, episode_len: 27, loss:3.9008, entropy:2.9225
+time cost: 29.724549699999898s
+batch_size: 512, batch i:119, episode_len: 38, loss:3.9569, entropy:2.9107
+time cost: 39.1919041000001s
+batch_size: 512, batch i:120, episode_len: 20, loss:3.9479, entropy:2.9385
+time cost: 22.075715099999798s
+batch_size: 512, batch i:121, episode_len: 18, loss:3.9211, entropy:2.8998
+time cost: 20.082139299999653s
+batch_size: 512, batch i:122, episode_len: 16, loss:3.9652, entropy:2.9442
+time cost: 17.997712400000182s
+batch_size: 512, batch i:123, episode_len: 25, loss:3.9327, entropy:2.9992
+time cost: 27.40764739999986s
+batch_size: 512, batch i:124, episode_len: 32, loss:3.9324, entropy:3.0322
+time cost: 34.44351349999988s
+batch_size: 512, batch i:125, episode_len: 14, loss:3.9209, entropy:2.9690
+time cost: 16.207533799999965s
+batch_size: 512, batch i:126, episode_len: 31, loss:3.9314, entropy:2.8789
+time cost: 33.527970300000106s
+batch_size: 512, batch i:127, episode_len: 11, loss:3.9069, entropy:2.8502
+time cost: 11.991838299999927s
+batch_size: 512, batch i:128, episode_len: 41, loss:3.8961, entropy:2.8693
+time cost: 44.4768368s
+batch_size: 512, batch i:129, episode_len: 16, loss:3.8717, entropy:2.9554
+time cost: 19.175686999999925s
+batch_size: 512, batch i:130, episode_len: 32, loss:3.9131, entropy:2.9763
+time cost: 34.07683189999989s
+batch_size: 512, batch i:131, episode_len: 18, loss:3.8501, entropy:2.9602
+time cost: 20.431575899999643s
+batch_size: 512, batch i:132, episode_len: 21, loss:3.8885, entropy:2.9364
+time cost: 23.040965499999857s
+batch_size: 512, batch i:133, episode_len: 35, loss:3.8464, entropy:2.8879
+time cost: 37.64089000000013s
+batch_size: 512, batch i:134, episode_len: 21, loss:3.9148, entropy:2.9363
+time cost: 23.36027490000015s
+batch_size: 512, batch i:135, episode_len: 14, loss:3.8841, entropy:2.9401
+time cost: 15.96515619999991s
+batch_size: 512, batch i:136, episode_len: 33, loss:3.8488, entropy:2.9136
+time cost: 34.93412279999984s
+batch_size: 512, batch i:137, episode_len: 43, loss:3.9451, entropy:2.9382
+time cost: 44.31653019999976s
+batch_size: 512, batch i:138, episode_len: 20, loss:3.9054, entropy:2.8644
+time cost: 22.217952200000127s
+batch_size: 512, batch i:139, episode_len: 31, loss:3.8852, entropy:2.9228
+time cost: 33.77772329999971s
+batch_size: 512, batch i:140, episode_len: 15, loss:3.9077, entropy:2.9455
+time cost: 16.406417600000168s
+batch_size: 512, batch i:141, episode_len: 21, loss:3.8618, entropy:2.9487
+time cost: 23.124854000000596s
+batch_size: 512, batch i:142, episode_len: 14, loss:3.8940, entropy:2.9589
+time cost: 15.962019999999939s
+batch_size: 512, batch i:143, episode_len: 10, loss:3.9080, entropy:2.9408
+time cost: 11.56121929999972s
+batch_size: 512, batch i:144, episode_len: 26, loss:3.9695, entropy:2.9276
+time cost: 28.854980699999942s
+batch_size: 512, batch i:145, episode_len: 17, loss:3.9192, entropy:2.8543
+time cost: 20.01219039999978s
+batch_size: 512, batch i:146, episode_len: 20, loss:3.8717, entropy:2.8685
+time cost: 22.752208200000496s
+batch_size: 512, batch i:147, episode_len: 24, loss:3.8275, entropy:2.8813
+time cost: 28.076435899999524s
+batch_size: 512, batch i:148, episode_len: 24, loss:3.8324, entropy:2.9359
+time cost: 28.92885320000005s
+batch_size: 512, batch i:149, episode_len: 34, loss:3.8268, entropy:2.9286
+time cost: 36.94855280000047s
+batch_size: 512, batch i:150, episode_len: 29, loss:3.8234, entropy:2.9373
+time cost: 32.347403400000076s
+batch_size: 512, batch i:151, episode_len: 20, loss:3.9373, entropy:2.9414
+time cost: 22.18038499999966s
+batch_size: 512, batch i:152, episode_len: 17, loss:3.8397, entropy:2.9029
+time cost: 20.276007600000412s
+batch_size: 512, batch i:153, episode_len: 17, loss:3.9012, entropy:2.9463
+time cost: 21.04582759999994s
+batch_size: 512, batch i:154, episode_len: 20, loss:3.8440, entropy:2.9139
+time cost: 23.313208000000486s
+batch_size: 512, batch i:155, episode_len: 22, loss:3.9346, entropy:2.9440
+time cost: 25.922240599999895s
+batch_size: 512, batch i:156, episode_len: 27, loss:3.8971, entropy:2.9163
+time cost: 33.32312980000006s
+batch_size: 512, batch i:157, episode_len: 32, loss:3.8523, entropy:2.8931
+time cost: 36.18840649999947s
+batch_size: 512, batch i:158, episode_len: 23, loss:3.8417, entropy:2.8990
+time cost: 25.082693700000164s
+batch_size: 512, batch i:159, episode_len: 27, loss:3.8154, entropy:2.9324
+time cost: 30.219193400000222s
+batch_size: 512, batch i:160, episode_len: 24, loss:3.9025, entropy:2.9458
+time cost: 26.84041569999954s
+batch_size: 512, batch i:161, episode_len: 16, loss:3.8094, entropy:2.8765
+time cost: 18.13345769999978s
+batch_size: 512, batch i:162, episode_len: 28, loss:3.8555, entropy:2.8929
+time cost: 35.85676390000026s
+batch_size: 512, batch i:163, episode_len: 19, loss:3.8828, entropy:2.8797
+time cost: 24.440315399999236s
+batch_size: 512, batch i:164, episode_len: 39, loss:3.8164, entropy:2.8931
+time cost: 41.33397850000074s
+batch_size: 512, batch i:165, episode_len: 23, loss:3.8801, entropy:2.9216
+time cost: 25.65859029999956s
+batch_size: 512, batch i:166, episode_len: 33, loss:3.9315, entropy:2.9163
+time cost: 36.664001799999824s
+batch_size: 512, batch i:167, episode_len: 26, loss:3.8774, entropy:2.9169
+time cost: 29.957817099999374s
+batch_size: 512, batch i:168, episode_len: 17, loss:3.9016, entropy:2.8824
+time cost: 19.96741219999967s
+batch_size: 512, batch i:169, episode_len: 31, loss:3.8810, entropy:2.8959
+time cost: 34.24882499999967s
+batch_size: 512, batch i:170, episode_len: 26, loss:3.9299, entropy:2.9155
+time cost: 30.72630140000001s
+batch_size: 512, batch i:171, episode_len: 25, loss:3.8725, entropy:2.8745
+time cost: 28.228797000000668s
+batch_size: 512, batch i:172, episode_len: 14, loss:3.8244, entropy:2.8520
+time cost: 16.970048500000303s
+batch_size: 512, batch i:173, episode_len: 22, loss:3.9257, entropy:2.8835
+time cost: 27.323688800000127s
+batch_size: 512, batch i:174, episode_len: 12, loss:3.8536, entropy:2.8938
+time cost: 14.788105600000563s
+batch_size: 512, batch i:175, episode_len: 23, loss:3.8761, entropy:2.8954
+time cost: 27.663374900000235s
+batch_size: 512, batch i:176, episode_len: 34, loss:3.8740, entropy:2.8772
+time cost: 37.67793309999979s
+batch_size: 512, batch i:177, episode_len: 24, loss:3.8814, entropy:2.9123
+time cost: 26.537797599999976s
+batch_size: 512, batch i:178, episode_len: 23, loss:3.8643, entropy:2.9278
+time cost: 26.301474800000506s
+batch_size: 512, batch i:179, episode_len: 26, loss:3.8515, entropy:2.9453
+time cost: 27.390037400000438s
+batch_size: 512, batch i:180, episode_len: 18, loss:3.8371, entropy:2.8754
+time cost: 21.324333700000352s
+batch_size: 512, batch i:181, episode_len: 23, loss:3.8375, entropy:2.8562
+time cost: 26.94124060000013s
+batch_size: 512, batch i:182, episode_len: 22, loss:3.8432, entropy:2.7787
+time cost: 26.052666300000055s
+batch_size: 512, batch i:183, episode_len: 24, loss:3.7397, entropy:2.7731
+time cost: 27.22529889999987s
+batch_size: 512, batch i:184, episode_len: 13, loss:3.8055, entropy:2.8072
+time cost: 15.403196899999784s
+batch_size: 512, batch i:185, episode_len: 26, loss:3.8188, entropy:2.8596
+time cost: 30.064758499999698s
+batch_size: 512, batch i:186, episode_len: 15, loss:3.8540, entropy:2.9077
+time cost: 17.29226370000015s
+batch_size: 512, batch i:187, episode_len: 19, loss:3.7642, entropy:2.8569
+time cost: 21.635392799999863s
+batch_size: 512, batch i:188, episode_len: 17, loss:3.7735, entropy:2.8809
+time cost: 19.50792509999974s
+batch_size: 512, batch i:189, episode_len: 14, loss:3.7929, entropy:2.8418
+time cost: 16.106182399999852s
+batch_size: 512, batch i:190, episode_len: 14, loss:3.8369, entropy:2.8386
+time cost: 15.95313140000053s
+batch_size: 512, batch i:191, episode_len: 31, loss:3.8792, entropy:2.8571
+time cost: 33.19296790000044s
+batch_size: 512, batch i:192, episode_len: 10, loss:3.7675, entropy:2.8431
+time cost: 11.51350999999977s
+batch_size: 512, batch i:193, episode_len: 27, loss:3.7597, entropy:2.8349
+time cost: 31.67788240000027s
+batch_size: 512, batch i:194, episode_len: 12, loss:3.7417, entropy:2.8153
+time cost: 16.482276699999602s
+batch_size: 512, batch i:195, episode_len: 17, loss:3.7690, entropy:2.8499
+time cost: 23.143945499999973s
+batch_size: 512, batch i:196, episode_len: 22, loss:3.7471, entropy:2.8761
+time cost: 30.232689299999947s
+batch_size: 512, batch i:197, episode_len: 18, loss:3.7649, entropy:2.8419
+time cost: 25.55375340000046s
+batch_size: 512, batch i:198, episode_len: 31, loss:3.7361, entropy:2.8272
+time cost: 42.56024979999984s
+batch_size: 512, batch i:199, episode_len: 16, loss:3.7914, entropy:2.8173
+time cost: 22.47501800000009s
+batch_size: 512, batch i:200, episode_len: 30, loss:3.7589, entropy:2.8189
+time cost: 42.158732200000486s
+batch_size: 512, batch i:201, episode_len: 23, loss:3.7330, entropy:2.8112
+time cost: 29.00982280000062s
+batch_size: 512, batch i:202, episode_len: 16, loss:3.7550, entropy:2.8491
+time cost: 18.743332699999883s
+batch_size: 512, batch i:203, episode_len: 28, loss:3.7903, entropy:2.8504
+time cost: 32.142528699999275s
+batch_size: 512, batch i:204, episode_len: 13, loss:3.7752, entropy:2.8415
+time cost: 15.883879200000592s
+batch_size: 512, batch i:205, episode_len: 23, loss:3.8164, entropy:2.8683
+time cost: 26.662379499999588s
+batch_size: 512, batch i:206, episode_len: 16, loss:3.7913, entropy:2.8977
+time cost: 19.218369899999743s
+batch_size: 512, batch i:207, episode_len: 15, loss:3.7222, entropy:2.8703
+time cost: 17.833584700000756s
+batch_size: 512, batch i:208, episode_len: 20, loss:3.7103, entropy:2.8578
+time cost: 23.428046400000312s
+batch_size: 512, batch i:209, episode_len: 12, loss:3.6389, entropy:2.7938
+time cost: 13.710406400000466s
+batch_size: 512, batch i:210, episode_len: 17, loss:3.7565, entropy:2.7868
+time cost: 19.630070199999864s
+batch_size: 512, batch i:211, episode_len: 14, loss:3.6664, entropy:2.8259
+time cost: 16.38493070000004s
+batch_size: 512, batch i:212, episode_len: 22, loss:3.7497, entropy:2.8471
+time cost: 26.392767999999705s
+batch_size: 512, batch i:213, episode_len: 16, loss:3.7064, entropy:2.8415
+time cost: 17.723208600000362s
+batch_size: 512, batch i:214, episode_len: 35, loss:3.7369, entropy:2.8587
+time cost: 38.05567760000031s
+batch_size: 512, batch i:215, episode_len: 18, loss:3.7762, entropy:2.8254
+time cost: 21.79067320000013s
+batch_size: 512, batch i:216, episode_len: 27, loss:3.6881, entropy:2.8621
+time cost: 28.14754389999962s
+batch_size: 512, batch i:217, episode_len: 22, loss:3.6991, entropy:2.8324
+time cost: 25.695070400000077s
+batch_size: 512, batch i:218, episode_len: 33, loss:3.7149, entropy:2.8682
+time cost: 35.194433200000276s
+batch_size: 512, batch i:219, episode_len: 28, loss:3.7519, entropy:2.8272
+time cost: 31.620965699999942s
+batch_size: 512, batch i:220, episode_len: 23, loss:3.7141, entropy:2.7980
+time cost: 25.70587720000003s
+batch_size: 512, batch i:221, episode_len: 23, loss:3.7187, entropy:2.7840
+time cost: 26.941834999999628s
+batch_size: 512, batch i:222, episode_len: 25, loss:3.6934, entropy:2.7932
+time cost: 28.574884499999825s
+batch_size: 512, batch i:223, episode_len: 45, loss:3.8663, entropy:2.8451
+time cost: 44.88970640000025s
+batch_size: 512, batch i:224, episode_len: 18, loss:3.7507, entropy:2.8562
+time cost: 20.143780100000185s
+batch_size: 512, batch i:225, episode_len: 20, loss:3.7065, entropy:2.8475
+time cost: 21.93805979999979s
+batch_size: 512, batch i:226, episode_len: 11, loss:3.6490, entropy:2.8391
+time cost: 13.115967799999453s
+batch_size: 512, batch i:227, episode_len: 24, loss:3.7518, entropy:2.7837
+time cost: 24.843538699999954s
+batch_size: 512, batch i:228, episode_len: 33, loss:3.6386, entropy:2.8417
+time cost: 35.91663989999961s
+batch_size: 512, batch i:229, episode_len: 21, loss:3.7464, entropy:2.8754
+time cost: 22.220282000000225s
+batch_size: 512, batch i:230, episode_len: 23, loss:3.7390, entropy:2.8940
+time cost: 25.509771899999578s
+batch_size: 512, batch i:231, episode_len: 16, loss:3.6805, entropy:2.8299
+time cost: 18.24836779999987s
+batch_size: 512, batch i:232, episode_len: 24, loss:3.6272, entropy:2.7958
+time cost: 25.476557500000126s
+batch_size: 512, batch i:233, episode_len: 17, loss:3.6506, entropy:2.7494
+time cost: 19.088452799999686s
+batch_size: 512, batch i:234, episode_len: 17, loss:3.6846, entropy:2.7574
+time cost: 19.806022600000688s
+batch_size: 512, batch i:235, episode_len: 21, loss:3.6261, entropy:2.8371
+time cost: 24.367672600000333s
+batch_size: 512, batch i:236, episode_len: 14, loss:3.7011, entropy:2.7955
+time cost: 15.823856200000591s
+batch_size: 512, batch i:237, episode_len: 11, loss:3.6369, entropy:2.7873
+time cost: 12.15669170000001s
+batch_size: 512, batch i:238, episode_len: 16, loss:3.6093, entropy:2.7485
+time cost: 18.557713999999578s
+batch_size: 512, batch i:239, episode_len: 10, loss:3.6053, entropy:2.7657
+time cost: 12.199740199999724s
+batch_size: 512, batch i:240, episode_len: 18, loss:3.6614, entropy:2.7408
+time cost: 21.7089747s
+batch_size: 512, batch i:241, episode_len: 21, loss:3.6203, entropy:2.7451
+time cost: 27.880554000000302s
+batch_size: 512, batch i:242, episode_len: 29, loss:3.6625, entropy:2.7642
+time cost: 31.197270700000445s
+batch_size: 512, batch i:243, episode_len: 21, loss:3.6650, entropy:2.8439
+time cost: 23.866378100000475s
+batch_size: 512, batch i:244, episode_len: 16, loss:3.6411, entropy:2.8531
+time cost: 18.89361310000004s
+batch_size: 512, batch i:245, episode_len: 22, loss:3.6829, entropy:2.8002
+time cost: 26.843423299999813s
+batch_size: 512, batch i:246, episode_len: 13, loss:3.6011, entropy:2.7397
+time cost: 16.245085600000493s
+batch_size: 512, batch i:247, episode_len: 20, loss:3.6013, entropy:2.7351
+time cost: 24.258999600000607s
+batch_size: 512, batch i:248, episode_len: 11, loss:3.7477, entropy:2.7495
+time cost: 13.588586300000316s
+batch_size: 512, batch i:249, episode_len: 22, loss:3.5920, entropy:2.7977
+time cost: 26.226914300000317s
+batch_size: 512, batch i:250, episode_len: 23, loss:3.7219, entropy:2.8241
+time cost: 26.69376900000043s
+batch_size: 512, batch i:251, episode_len: 19, loss:3.6250, entropy:2.8027
+time cost: 22.87956630000008s
+batch_size: 512, batch i:252, episode_len: 28, loss:3.6807, entropy:2.7339
+time cost: 32.44524220000039s
+batch_size: 512, batch i:253, episode_len: 19, loss:3.6577, entropy:2.7031
+time cost: 23.706707299999835s
+batch_size: 512, batch i:254, episode_len: 12, loss:3.5881, entropy:2.7485
+time cost: 13.969627600000422s
+batch_size: 512, batch i:255, episode_len: 11, loss:3.6301, entropy:2.7673
+time cost: 12.81524140000056s
+batch_size: 512, batch i:256, episode_len: 23, loss:3.6593, entropy:2.8117
+time cost: 29.286243300000024s
+batch_size: 512, batch i:257, episode_len: 18, loss:3.6300, entropy:2.8240
+time cost: 21.605861099999856s
+batch_size: 512, batch i:258, episode_len: 14, loss:3.6012, entropy:2.8035
+time cost: 17.214907699999458s
+batch_size: 512, batch i:259, episode_len: 11, loss:3.5985, entropy:2.7523
+time cost: 13.11544479999975s
+batch_size: 512, batch i:260, episode_len: 9, loss:3.6306, entropy:2.7013
+time cost: 11.150941200000489s
+batch_size: 512, batch i:261, episode_len: 29, loss:3.6530, entropy:2.6876
+time cost: 36.51318699999956s
+batch_size: 512, batch i:262, episode_len: 15, loss:3.6208, entropy:2.7725
+time cost: 18.846280100000513s
+batch_size: 512, batch i:263, episode_len: 13, loss:3.6471, entropy:2.7881
+time cost: 16.238313000000744s
+batch_size: 512, batch i:264, episode_len: 17, loss:3.6081, entropy:2.7991
+time cost: 24.595439599999736s
+batch_size: 512, batch i:265, episode_len: 23, loss:3.6385, entropy:2.7851
+time cost: 30.67163739999978s
+batch_size: 512, batch i:266, episode_len: 20, loss:3.5584, entropy:2.7259
+time cost: 27.82921239999996s
+batch_size: 512, batch i:267, episode_len: 22, loss:3.5373, entropy:2.6956
+time cost: 29.67034010000043s
+batch_size: 512, batch i:268, episode_len: 23, loss:3.5534, entropy:2.7138
+time cost: 29.499987000000147s
+batch_size: 512, batch i:269, episode_len: 32, loss:3.6501, entropy:2.7582
+time cost: 41.474240100000316s
+batch_size: 512, batch i:270, episode_len: 15, loss:3.6066, entropy:2.7415
+time cost: 18.75765390000015s
+batch_size: 512, batch i:271, episode_len: 19, loss:3.6556, entropy:2.7624
+time cost: 21.574426199999834s
+batch_size: 512, batch i:272, episode_len: 11, loss:3.6650, entropy:2.7686
+time cost: 12.919364500000484s
+batch_size: 512, batch i:273, episode_len: 17, loss:3.6142, entropy:2.7418
+time cost: 20.273027700000057s
+batch_size: 512, batch i:274, episode_len: 15, loss:3.5894, entropy:2.7517
+time cost: 18.83416750000015s
+batch_size: 512, batch i:275, episode_len: 21, loss:3.4968, entropy:2.6698
+time cost: 26.152725800000553s
+batch_size: 512, batch i:276, episode_len: 23, loss:3.6120, entropy:2.7284
+time cost: 30.65073889999985s
+batch_size: 512, batch i:277, episode_len: 12, loss:3.5087, entropy:2.7143
+time cost: 15.206981299999825s
+batch_size: 512, batch i:278, episode_len: 27, loss:3.5263, entropy:2.7064
+time cost: 37.0332699999999s
+batch_size: 512, batch i:279, episode_len: 9, loss:3.4510, entropy:2.6778
+time cost: 12.10419980000006s
+batch_size: 512, batch i:280, episode_len: 43, loss:3.4965, entropy:2.6780
+time cost: 51.76273789999959s
+batch_size: 512, batch i:281, episode_len: 11, loss:3.5381, entropy:2.6445
+time cost: 15.08531159999984s
+batch_size: 512, batch i:282, episode_len: 15, loss:3.4013, entropy:2.6975
+time cost: 20.651464900000065s
+batch_size: 512, batch i:283, episode_len: 9, loss:3.4495, entropy:2.7150
+time cost: 11.915719399999944s
+batch_size: 512, batch i:284, episode_len: 21, loss:3.4556, entropy:2.7011
+time cost: 23.65927720000036s
+batch_size: 512, batch i:285, episode_len: 15, loss:3.4027, entropy:2.6432
+time cost: 20.080135899999732s
+batch_size: 512, batch i:286, episode_len: 29, loss:3.4055, entropy:2.6802
+time cost: 34.5313028999999s
+batch_size: 512, batch i:287, episode_len: 11, loss:3.3589, entropy:2.6967
+time cost: 13.17885760000081s
+batch_size: 512, batch i:288, episode_len: 13, loss:3.4792, entropy:2.6938
+time cost: 17.13024729999961s
+batch_size: 512, batch i:289, episode_len: 11, loss:3.3725, entropy:2.6651
+time cost: 14.562840999999935s
+batch_size: 512, batch i:290, episode_len: 11, loss:3.4117, entropy:2.6645
+time cost: 15.367035600000236s
+batch_size: 512, batch i:291, episode_len: 11, loss:3.4129, entropy:2.6690
+time cost: 15.017682900000182s
+batch_size: 512, batch i:292, episode_len: 13, loss:3.3717, entropy:2.6897
+time cost: 17.945274900000186s
+batch_size: 512, batch i:293, episode_len: 11, loss:3.3221, entropy:2.6322
+time cost: 13.577678700000433s
+batch_size: 512, batch i:294, episode_len: 18, loss:3.3994, entropy:2.6573
+time cost: 23.337738599999284s
+batch_size: 512, batch i:295, episode_len: 13, loss:3.3815, entropy:2.6900
+time cost: 14.671082900000329s
+batch_size: 512, batch i:296, episode_len: 15, loss:3.3582, entropy:2.6704
+time cost: 19.022068799999943s
+batch_size: 512, batch i:297, episode_len: 11, loss:3.3293, entropy:2.6023
+time cost: 16.0357398999995s
+batch_size: 512, batch i:298, episode_len: 19, loss:3.3098, entropy:2.5837
+time cost: 26.928458800000044s
+batch_size: 512, batch i:299, episode_len: 18, loss:3.3653, entropy:2.6181
+time cost: 25.9349086000002s
+batch_size: 512, batch i:300, episode_len: 13, loss:3.3314, entropy:2.6695
+time cost: 18.163419200000135s
+batch_size: 512, batch i:301, episode_len: 11, loss:3.2577, entropy:2.5769
+time cost: 16.581468699999277s
+batch_size: 512, batch i:302, episode_len: 19, loss:3.2986, entropy:2.5259
+time cost: 25.33430380000027s
+batch_size: 512, batch i:303, episode_len: 23, loss:3.2239, entropy:2.5656
+time cost: 25.888053599999694s
+batch_size: 512, batch i:304, episode_len: 23, loss:3.3709, entropy:2.6279
+time cost: 27.988276799999767s
+batch_size: 512, batch i:305, episode_len: 27, loss:3.1940, entropy:2.5752
+time cost: 31.228364900000088s
+batch_size: 512, batch i:306, episode_len: 15, loss:3.2760, entropy:2.5479
+time cost: 19.164738000000398s
+batch_size: 512, batch i:307, episode_len: 15, loss:3.2176, entropy:2.5125
+time cost: 19.639988500000072s
+batch_size: 512, batch i:308, episode_len: 11, loss:3.2550, entropy:2.5443
+time cost: 14.279384299999947s
+batch_size: 512, batch i:309, episode_len: 20, loss:3.1928, entropy:2.5878
+time cost: 23.927095999999437s
+batch_size: 512, batch i:310, episode_len: 15, loss:3.2439, entropy:2.6301
+time cost: 19.33742169999914s
+batch_size: 512, batch i:311, episode_len: 21, loss:3.1158, entropy:2.5511
+time cost: 29.01149389999955s
+batch_size: 512, batch i:312, episode_len: 19, loss:3.1457, entropy:2.5384
+time cost: 26.64747139999963s
+batch_size: 512, batch i:313, episode_len: 15, loss:3.1768, entropy:2.5823
+time cost: 21.211115099999006s
+batch_size: 512, batch i:314, episode_len: 9, loss:3.2076, entropy:2.6058
+time cost: 12.892612200001167s
+batch_size: 512, batch i:315, episode_len: 11, loss:3.1496, entropy:2.5571
+time cost: 14.839163800001188s
+batch_size: 512, batch i:316, episode_len: 11, loss:3.1764, entropy:2.5128
+time cost: 15.790369599999394s
+batch_size: 512, batch i:317, episode_len: 17, loss:3.1063, entropy:2.5254
+time cost: 23.81714490000013s
+batch_size: 512, batch i:318, episode_len: 18, loss:3.2005, entropy:2.5336
+time cost: 23.94222020000052s
+batch_size: 512, batch i:319, episode_len: 15, loss:3.1200, entropy:2.5587
+time cost: 21.9071025000012s
+batch_size: 512, batch i:320, episode_len: 15, loss:3.0336, entropy:2.4352
+time cost: 21.193202500000552s
+batch_size: 512, batch i:321, episode_len: 19, loss:3.0620, entropy:2.4586
+time cost: 26.741031100000328s
+batch_size: 512, batch i:322, episode_len: 25, loss:3.0263, entropy:2.4647
+time cost: 33.70698630000152s
+batch_size: 512, batch i:323, episode_len: 19, loss:3.0773, entropy:2.4859
+time cost: 27.968341099998725s
+batch_size: 512, batch i:324, episode_len: 17, loss:3.1038, entropy:2.5318
+time cost: 24.46284099999866s
+batch_size: 512, batch i:325, episode_len: 14, loss:2.9895, entropy:2.4730
+time cost: 18.05541429999903s
+batch_size: 512, batch i:326, episode_len: 9, loss:3.0734, entropy:2.4679
+time cost: 12.799376499999198s
+batch_size: 512, batch i:327, episode_len: 41, loss:2.9120, entropy:2.4630
+time cost: 50.95344870000008s
+batch_size: 512, batch i:328, episode_len: 11, loss:2.9129, entropy:2.5208
+time cost: 14.016055600000982s
+batch_size: 512, batch i:329, episode_len: 15, loss:2.8960, entropy:2.4497
+time cost: 19.713401299999532s
+batch_size: 512, batch i:330, episode_len: 11, loss:2.9237, entropy:2.3834
+time cost: 14.265304900000046s
+batch_size: 512, batch i:331, episode_len: 15, loss:2.8749, entropy:2.4634
+time cost: 16.592222700001003s
+batch_size: 512, batch i:332, episode_len: 11, loss:2.8743, entropy:2.4802
+time cost: 14.995775499999581s
+batch_size: 512, batch i:333, episode_len: 33, loss:2.8149, entropy:2.4635
+time cost: 36.7444274999998s
+batch_size: 512, batch i:334, episode_len: 11, loss:2.8521, entropy:2.4032
+time cost: 15.021017400000346s
+batch_size: 512, batch i:335, episode_len: 14, loss:2.8228, entropy:2.3790
+time cost: 20.450374599999122s
+batch_size: 512, batch i:336, episode_len: 13, loss:2.8746, entropy:2.4305
+time cost: 18.776567900000373s
+batch_size: 512, batch i:337, episode_len: 20, loss:2.7552, entropy:2.3987
+time cost: 28.310568000000785s
+batch_size: 512, batch i:338, episode_len: 13, loss:2.8946, entropy:2.3744
+time cost: 19.082886599999256s
+batch_size: 512, batch i:339, episode_len: 12, loss:2.9276, entropy:2.4167
+time cost: 17.845358799999303s
+batch_size: 512, batch i:340, episode_len: 18, loss:2.8644, entropy:2.4423
+time cost: 23.1396807000001s
+batch_size: 512, batch i:341, episode_len: 16, loss:2.8771, entropy:2.4087
+time cost: 23.14820569999938s
+batch_size: 512, batch i:342, episode_len: 12, loss:3.0329, entropy:2.4326
+time cost: 18.37346610000168s
+batch_size: 512, batch i:343, episode_len: 13, loss:2.9315, entropy:2.3679
+time cost: 18.242992699999377s
+batch_size: 512, batch i:344, episode_len: 13, loss:2.9094, entropy:2.3677
+time cost: 19.06749099999979s
+batch_size: 512, batch i:345, episode_len: 24, loss:2.8882, entropy:2.3893
+time cost: 35.03732919999857s
+batch_size: 512, batch i:346, episode_len: 9, loss:2.8891, entropy:2.4047
+time cost: 13.926167999999961s
+batch_size: 512, batch i:347, episode_len: 11, loss:2.9702, entropy:2.3448
+time cost: 16.3778945999984s
+batch_size: 512, batch i:348, episode_len: 13, loss:2.9435, entropy:2.3858
+time cost: 18.243164600000455s
+batch_size: 512, batch i:349, episode_len: 15, loss:2.8135, entropy:2.3116
+time cost: 19.662916199999017s
+batch_size: 512, batch i:350, episode_len: 17, loss:2.8245, entropy:2.3254
+time cost: 21.95185859999947s
+batch_size: 512, batch i:351, episode_len: 9, loss:2.7915, entropy:2.2767
+time cost: 11.29020490000039s
+batch_size: 512, batch i:352, episode_len: 13, loss:2.8126, entropy:2.3310
+time cost: 16.503054200000406s
+batch_size: 512, batch i:353, episode_len: 10, loss:2.8160, entropy:2.3023
+time cost: 14.061090199998944s
+batch_size: 512, batch i:354, episode_len: 13, loss:2.7238, entropy:2.2910
+time cost: 20.898500200000854s
+batch_size: 512, batch i:355, episode_len: 11, loss:2.7585, entropy:2.2929
+time cost: 17.251237200000105s
+batch_size: 512, batch i:356, episode_len: 23, loss:2.7310, entropy:2.3057
+time cost: 30.924998000000414s
+batch_size: 512, batch i:357, episode_len: 14, loss:2.7361, entropy:2.3304
+time cost: 21.695037199999206s
+batch_size: 512, batch i:358, episode_len: 9, loss:2.8787, entropy:2.3047
+time cost: 12.551809100001265s
+batch_size: 512, batch i:359, episode_len: 14, loss:2.6709, entropy:2.2286
+time cost: 20.725778600000922s
+batch_size: 512, batch i:360, episode_len: 19, loss:2.8596, entropy:2.2680
+time cost: 26.711224599999696s
+batch_size: 512, batch i:361, episode_len: 21, loss:2.7795, entropy:2.3148
+time cost: 30.441436500001146s
+batch_size: 512, batch i:362, episode_len: 19, loss:2.8703, entropy:2.3210
+time cost: 21.1904727000001s
+batch_size: 512, batch i:363, episode_len: 30, loss:2.8762, entropy:2.3166
+time cost: 34.712120199999845s
+batch_size: 512, batch i:364, episode_len: 11, loss:2.8345, entropy:2.2749
+time cost: 16.23595810000006s
+batch_size: 512, batch i:365, episode_len: 19, loss:2.8558, entropy:2.2954
+time cost: 27.012550999999803s
+batch_size: 512, batch i:366, episode_len: 25, loss:2.7894, entropy:2.2419
+time cost: 30.50683360000039s
+batch_size: 512, batch i:367, episode_len: 24, loss:2.8305, entropy:2.2810
+time cost: 31.378447900000538s
+batch_size: 512, batch i:368, episode_len: 11, loss:2.8357, entropy:2.3428
+time cost: 16.24903059999997s
+batch_size: 512, batch i:369, episode_len: 13, loss:2.8705, entropy:2.2825
+time cost: 19.738241499999276s
+batch_size: 512, batch i:370, episode_len: 17, loss:2.8795, entropy:2.3351
+time cost: 25.976753499999177s
+batch_size: 512, batch i:371, episode_len: 23, loss:2.8510, entropy:2.2631
+time cost: 30.928115299999263s
+batch_size: 512, batch i:372, episode_len: 17, loss:2.8454, entropy:2.2402
+time cost: 25.01922689999992s
+batch_size: 512, batch i:373, episode_len: 17, loss:2.8361, entropy:2.2696
+time cost: 25.463477200000852s
+batch_size: 512, batch i:374, episode_len: 25, loss:2.7520, entropy:2.2310
+time cost: 40.407161999999516s
+batch_size: 512, batch i:375, episode_len: 11, loss:2.8048, entropy:2.2457
+time cost: 16.11665399999947s
+batch_size: 512, batch i:376, episode_len: 15, loss:2.8513, entropy:2.2577
+time cost: 20.675315800001044s
+batch_size: 512, batch i:377, episode_len: 26, loss:2.8331, entropy:2.2141
+time cost: 39.55522539999947s
+batch_size: 512, batch i:378, episode_len: 15, loss:2.7406, entropy:2.2018
+time cost: 23.41344360000039s
+batch_size: 512, batch i:379, episode_len: 12, loss:2.8192, entropy:2.1775
+time cost: 19.24576060000072s
+batch_size: 512, batch i:380, episode_len: 9, loss:2.7575, entropy:2.2150
+time cost: 14.544590100000278s
+batch_size: 512, batch i:381, episode_len: 10, loss:2.6927, entropy:2.2077
+time cost: 16.343804100000852s
+batch_size: 512, batch i:382, episode_len: 13, loss:2.8930, entropy:2.2764
+time cost: 20.659520400000474s
+batch_size: 512, batch i:383, episode_len: 27, loss:2.8947, entropy:2.2846
+time cost: 36.79573150000033s
+batch_size: 512, batch i:384, episode_len: 12, loss:2.8712, entropy:2.3202
+time cost: 18.10405830000127s
+batch_size: 512, batch i:385, episode_len: 20, loss:2.8394, entropy:2.1776
+time cost: 25.509310900000855s
+
+Process finished with exit code -1
+
+
+C:\Users\yzq\anaconda3\python.exe D:/File/Projects/GitHub/Gobang/gobang/backend/main.py
+True
+batch i:1, episode_len:15
+time cost: 20.2578378s
+batch i:2, episode_len:10
+time cost: 13.217259100000003s
+batch i:3, episode_len:16
+time cost: 21.109104300000006s
+batch i:4, episode_len:10
+time cost: 13.246435700000006s
+batch i:5, episode_len:9
+time cost: 11.314870800000008s
+batch_size: 512, batch i:6, episode_len: 17, loss:2.7969, entropy:2.1355
+time cost: 20.677269699999997s
+batch_size: 512, batch i:7, episode_len: 53, loss:3.3822, entropy:2.2873
+time cost: 68.95923720000002s
+batch_size: 512, batch i:8, episode_len: 14, loss:3.0185, entropy:2.2868
+time cost: 22.171963299999987s
+batch_size: 512, batch i:9, episode_len: 18, loss:2.9594, entropy:2.4101
+time cost: 27.856278099999997s
+batch_size: 512, batch i:10, episode_len: 11, loss:2.9064, entropy:2.5632
+time cost: 17.032127499999973s
+batch_size: 512, batch i:11, episode_len: 25, loss:2.7876, entropy:2.6339
+time cost: 35.23930519999999s
+batch_size: 512, batch i:12, episode_len: 25, loss:2.7305, entropy:2.5807
+time cost: 31.235908300000006s
+batch_size: 512, batch i:13, episode_len: 10, loss:2.7415, entropy:2.5003
+time cost: 13.415154299999983s
+batch_size: 512, batch i:14, episode_len: 11, loss:2.6425, entropy:2.3485
+time cost: 16.962671100000023s
+batch_size: 512, batch i:15, episode_len: 16, loss:2.7151, entropy:2.3085
+time cost: 21.838961100000006s
+batch_size: 512, batch i:16, episode_len: 12, loss:2.7681, entropy:2.2849
+time cost: 19.938712199999998s
+batch_size: 512, batch i:17, episode_len: 12, loss:2.5885, entropy:2.2034
+time cost: 18.919424100000015s
+batch_size: 512, batch i:18, episode_len: 11, loss:2.6137, entropy:2.2011
+time cost: 15.014873500000022s
+batch_size: 512, batch i:19, episode_len: 13, loss:2.7212, entropy:2.2617
+time cost: 20.726719800000012s
+batch_size: 512, batch i:20, episode_len: 9, loss:2.6902, entropy:2.2603
+time cost: 15.278522899999984s
+batch_size: 512, batch i:21, episode_len: 15, loss:2.6872, entropy:2.2238
+time cost: 24.246737999999993s
+batch_size: 512, batch i:22, episode_len: 9, loss:2.7141, entropy:2.2099
+time cost: 13.472617599999978s
+batch_size: 512, batch i:23, episode_len: 22, loss:2.8375, entropy:2.2525
+time cost: 33.63477830000005s
+batch_size: 512, batch i:24, episode_len: 16, loss:2.8608, entropy:2.2700
+time cost: 25.118128800000022s
+batch_size: 512, batch i:25, episode_len: 14, loss:2.8274, entropy:2.2614
+time cost: 21.908245899999997s
+batch_size: 512, batch i:26, episode_len: 21, loss:2.8883, entropy:2.2472
+time cost: 32.53911670000002s
+batch_size: 512, batch i:27, episode_len: 10, loss:2.8699, entropy:2.2366
+time cost: 15.293106700000067s
+batch_size: 512, batch i:28, episode_len: 13, loss:2.8457, entropy:2.2160
+time cost: 20.693650899999966s
+batch_size: 512, batch i:29, episode_len: 12, loss:2.8174, entropy:2.2182
+time cost: 17.686166500000013s
+batch_size: 512, batch i:30, episode_len: 18, loss:2.7898, entropy:2.2251
+time cost: 24.033188300000006s
+batch_size: 512, batch i:31, episode_len: 14, loss:2.7366, entropy:2.2152
+time cost: 19.315547899999956s
+batch_size: 512, batch i:32, episode_len: 13, loss:2.8214, entropy:2.2028
+time cost: 18.56229719999999s
+batch_size: 512, batch i:33, episode_len: 10, loss:2.7891, entropy:2.1782
+time cost: 14.317483700000025s
+batch_size: 512, batch i:34, episode_len: 27, loss:2.8044, entropy:2.1739
+time cost: 33.43758730000002s
+batch_size: 512, batch i:35, episode_len: 15, loss:2.7648, entropy:2.1777
+time cost: 20.15101370000002s
+batch_size: 512, batch i:36, episode_len: 14, loss:2.8904, entropy:2.2038
+time cost: 18.906140100000016s
+batch_size: 512, batch i:37, episode_len: 21, loss:2.6903, entropy:2.1073
+time cost: 28.621586500000035s
+batch_size: 512, batch i:38, episode_len: 26, loss:2.7219, entropy:2.1616
+time cost: 29.762943300000074s
+batch_size: 512, batch i:39, episode_len: 27, loss:2.7569, entropy:2.1372
+time cost: 34.58978239999999s
+batch_size: 512, batch i:40, episode_len: 17, loss:2.9595, entropy:2.1222
+time cost: 24.947549200000026s
+batch_size: 512, batch i:41, episode_len: 9, loss:3.0263, entropy:2.1576
+time cost: 12.416829099999973s
+batch_size: 512, batch i:42, episode_len: 22, loss:2.8656, entropy:2.1009
+time cost: 27.302284299999997s
+batch_size: 512, batch i:43, episode_len: 12, loss:2.9024, entropy:2.1209
+time cost: 20.582590399999958s
+batch_size: 512, batch i:44, episode_len: 10, loss:2.8692, entropy:2.0928
+time cost: 16.541262199999892s
+batch_size: 512, batch i:45, episode_len: 13, loss:2.9494, entropy:2.1457
+time cost: 17.54925359999993s
+batch_size: 512, batch i:46, episode_len: 12, loss:2.8621, entropy:2.1300
+time cost: 16.794891899999925s
+batch_size: 512, batch i:47, episode_len: 14, loss:2.9736, entropy:2.1395
+time cost: 21.121993100000054s
+batch_size: 512, batch i:48, episode_len: 16, loss:2.8111, entropy:2.0923
+time cost: 23.091557200000125s
+batch_size: 512, batch i:49, episode_len: 17, loss:2.9417, entropy:2.1088
+time cost: 29.188703199999964s
+batch_size: 512, batch i:50, episode_len: 12, loss:2.8060, entropy:2.0929
+time cost: 18.316228300000148s
+batch_size: 512, batch i:51, episode_len: 12, loss:2.8803, entropy:2.1265
+time cost: 18.14952509999989s
+batch_size: 512, batch i:52, episode_len: 12, loss:3.0267, entropy:2.1191
+time cost: 17.83957330000021s
+batch_size: 512, batch i:53, episode_len: 15, loss:3.0018, entropy:2.0646
+time cost: 20.078947199999902s
+batch_size: 512, batch i:54, episode_len: 10, loss:2.7813, entropy:2.1109
+time cost: 15.30009999999993s
+batch_size: 512, batch i:55, episode_len: 15, loss:2.8739, entropy:2.1196
+time cost: 25.18191079999997s
+batch_size: 512, batch i:56, episode_len: 9, loss:2.8531, entropy:2.1961
+time cost: 13.969209300000102s
+batch_size: 512, batch i:57, episode_len: 19, loss:2.8363, entropy:2.1637
+time cost: 25.877218300000095s
+batch_size: 512, batch i:58, episode_len: 17, loss:2.8805, entropy:2.1790
+time cost: 25.05916090000005s
+batch_size: 512, batch i:59, episode_len: 36, loss:2.8325, entropy:2.1340
+time cost: 49.160209099999975s
+batch_size: 512, batch i:60, episode_len: 12, loss:2.8445, entropy:2.0961
+time cost: 17.10345129999996s
+batch_size: 512, batch i:61, episode_len: 15, loss:2.8603, entropy:2.0830
+time cost: 23.399583500000062s
+batch_size: 512, batch i:62, episode_len: 20, loss:2.9427, entropy:2.0631
+time cost: 28.279372599999988s
+batch_size: 512, batch i:63, episode_len: 18, loss:2.9151, entropy:2.0777
+time cost: 27.509136500000068s
+batch_size: 512, batch i:64, episode_len: 24, loss:2.7885, entropy:2.1361
+time cost: 33.07736469999986s
+batch_size: 512, batch i:65, episode_len: 17, loss:2.9572, entropy:2.1277
+time cost: 25.0560124000001s
+batch_size: 512, batch i:66, episode_len: 10, loss:2.9113, entropy:2.1622
+time cost: 16.10258329999988s
+batch_size: 512, batch i:67, episode_len: 16, loss:2.8534, entropy:2.1718
+time cost: 23.69365330000005s
+batch_size: 512, batch i:68, episode_len: 16, loss:2.8980, entropy:2.1463
+time cost: 25.126811100000168s
+batch_size: 512, batch i:69, episode_len: 16, loss:2.8237, entropy:2.1000
+time cost: 24.304129800000055s
+batch_size: 512, batch i:70, episode_len: 9, loss:2.8601, entropy:2.0338
+time cost: 14.962115799999992s
+batch_size: 512, batch i:71, episode_len: 14, loss:2.8785, entropy:2.0176
+time cost: 20.69456880000007s
+batch_size: 512, batch i:72, episode_len: 14, loss:2.9977, entropy:2.0780
+time cost: 23.133922999999868s
+batch_size: 512, batch i:73, episode_len: 19, loss:2.9226, entropy:2.1044
+time cost: 28.449563800000078s
+batch_size: 512, batch i:74, episode_len: 12, loss:2.8395, entropy:2.1180
+time cost: 19.98992659999999s
+batch_size: 512, batch i:75, episode_len: 12, loss:2.8159, entropy:2.1700
+time cost: 18.519845199999963s
+batch_size: 512, batch i:76, episode_len: 22, loss:2.9237, entropy:2.2127
+time cost: 34.73787730000004s
+batch_size: 512, batch i:77, episode_len: 22, loss:2.8609, entropy:2.2011
+time cost: 32.87018929999999s
+batch_size: 512, batch i:78, episode_len: 11, loss:2.8111, entropy:2.1156
+time cost: 18.23381909999989s
+batch_size: 512, batch i:79, episode_len: 13, loss:2.7816, entropy:2.0691
+time cost: 21.236084599999913s
+batch_size: 512, batch i:80, episode_len: 16, loss:2.8431, entropy:2.0166
+time cost: 25.74576479999996s
+batch_size: 512, batch i:81, episode_len: 12, loss:2.8697, entropy:2.0455
+time cost: 19.66585289999989s
+batch_size: 512, batch i:82, episode_len: 17, loss:2.9829, entropy:2.0810
+time cost: 29.246229800000037s
+batch_size: 512, batch i:83, episode_len: 14, loss:2.7754, entropy:2.1166
+time cost: 24.346559999999954s
+batch_size: 512, batch i:84, episode_len: 26, loss:2.8227, entropy:2.1370
+time cost: 35.352491999999984s
+batch_size: 512, batch i:85, episode_len: 14, loss:2.7918, entropy:2.1340
+time cost: 20.623441100000036s
+batch_size: 512, batch i:86, episode_len: 10, loss:2.8055, entropy:2.1687
+time cost: 16.605351200000086s
+batch_size: 512, batch i:87, episode_len: 21, loss:2.9061, entropy:2.0926
+time cost: 32.990516499999785s
+batch_size: 512, batch i:88, episode_len: 9, loss:2.7489, entropy:2.0128
+time cost: 15.59962829999995s
+batch_size: 512, batch i:89, episode_len: 11, loss:2.8911, entropy:2.0859
+time cost: 18.893945999999914s
+batch_size: 512, batch i:90, episode_len: 13, loss:2.8952, entropy:2.1233
+time cost: 21.593395399999736s
+batch_size: 512, batch i:91, episode_len: 15, loss:2.7531, entropy:2.0812
+time cost: 25.081045899999936s
+batch_size: 512, batch i:92, episode_len: 9, loss:2.8674, entropy:2.1555
+time cost: 15.10531549999996s
+batch_size: 512, batch i:93, episode_len: 13, loss:2.8663, entropy:2.1157
+time cost: 20.8256394s
+batch_size: 512, batch i:94, episode_len: 10, loss:2.8506, entropy:2.1010
+time cost: 17.741371399999935s
+batch_size: 512, batch i:95, episode_len: 25, loss:2.8676, entropy:2.0773
+time cost: 40.05133809999961s
+batch_size: 512, batch i:96, episode_len: 12, loss:2.8617, entropy:1.9822
+time cost: 20.744059500000276s
+batch_size: 512, batch i:97, episode_len: 12, loss:2.7577, entropy:2.0081
+time cost: 20.52434089999997s
+batch_size: 512, batch i:98, episode_len: 14, loss:2.8876, entropy:2.0243
+time cost: 23.01498670000001s
+batch_size: 512, batch i:99, episode_len: 13, loss:2.8489, entropy:2.0384
+time cost: 20.72846299999992s
+batch_size: 512, batch i:100, episode_len: 15, loss:2.8290, entropy:2.0807
+time cost: 23.445522999999866s
+batch_size: 512, batch i:101, episode_len: 16, loss:2.7875, entropy:2.0711
+time cost: 26.12885570000026s
+batch_size: 512, batch i:102, episode_len: 16, loss:2.8511, entropy:2.1339
+time cost: 25.812998499999594s
+batch_size: 512, batch i:103, episode_len: 11, loss:2.8233, entropy:2.0807
+time cost: 17.86922370000002s
+batch_size: 512, batch i:104, episode_len: 17, loss:2.8485, entropy:1.9591
+time cost: 24.945208999999977s
+batch_size: 512, batch i:105, episode_len: 13, loss:2.8592, entropy:1.9565
+time cost: 20.564220700000078s
+batch_size: 512, batch i:106, episode_len: 12, loss:2.8585, entropy:2.0072
+time cost: 20.704925600000024s
+batch_size: 512, batch i:107, episode_len: 13, loss:2.8011, entropy:1.9650
+time cost: 22.671387000000323s
+batch_size: 512, batch i:108, episode_len: 18, loss:2.8044, entropy:1.9818
+time cost: 26.087610199999745s
+batch_size: 512, batch i:109, episode_len: 16, loss:2.7585, entropy:1.9830
+time cost: 20.25236589999986s
+batch_size: 512, batch i:110, episode_len: 14, loss:2.8664, entropy:1.9589
+time cost: 19.601023199999872s
+batch_size: 512, batch i:111, episode_len: 13, loss:2.8250, entropy:1.9741
+time cost: 19.883918200000153s
+batch_size: 512, batch i:112, episode_len: 33, loss:2.8230, entropy:2.0032
+time cost: 43.42354519999981s
+batch_size: 512, batch i:113, episode_len: 18, loss:2.6760, entropy:1.9344
+time cost: 25.306051399999888s
+batch_size: 512, batch i:114, episode_len: 12, loss:2.8302, entropy:2.0174
+time cost: 17.290752200000043s
+batch_size: 512, batch i:115, episode_len: 14, loss:2.8568, entropy:2.0320
+time cost: 17.91688780000004s
+batch_size: 512, batch i:116, episode_len: 14, loss:2.7193, entropy:2.0439
+time cost: 20.51312480000024s
+batch_size: 512, batch i:117, episode_len: 23, loss:2.8077, entropy:2.0741
+time cost: 30.244893799999772s
+batch_size: 512, batch i:118, episode_len: 12, loss:2.8099, entropy:2.0051
+time cost: 16.299080700000104s
+batch_size: 512, batch i:119, episode_len: 26, loss:2.8162, entropy:1.9989
+time cost: 36.36209489999965s
+batch_size: 512, batch i:120, episode_len: 14, loss:2.7651, entropy:1.9733
+time cost: 18.181033699999716s
+batch_size: 512, batch i:121, episode_len: 13, loss:2.7865, entropy:1.9684
+time cost: 16.98781280000003s
+batch_size: 512, batch i:122, episode_len: 13, loss:2.7409, entropy:1.9392
+time cost: 18.683069400000022s
+batch_size: 512, batch i:123, episode_len: 11, loss:2.7928, entropy:2.0342
+time cost: 16.804599399999915s
+batch_size: 512, batch i:124, episode_len: 11, loss:2.7648, entropy:1.9923
+time cost: 16.379924299999857s
+batch_size: 512, batch i:125, episode_len: 10, loss:2.7822, entropy:1.9953
+time cost: 15.573721599999772s
+batch_size: 512, batch i:126, episode_len: 10, loss:2.7613, entropy:2.0061
+time cost: 14.767341999999644s
+batch_size: 512, batch i:127, episode_len: 9, loss:2.7331, entropy:1.9953
+time cost: 13.66194379999979s
+batch_size: 512, batch i:128, episode_len: 10, loss:2.8090, entropy:2.0087
+time cost: 14.794968200000312s
+batch_size: 512, batch i:129, episode_len: 16, loss:2.7361, entropy:1.9584
+time cost: 21.384151900000234s
+batch_size: 512, batch i:130, episode_len: 14, loss:2.7168, entropy:1.9789
+time cost: 20.20455240000001s
+batch_size: 512, batch i:131, episode_len: 22, loss:2.7725, entropy:1.9745
+time cost: 29.915922500000306s
+batch_size: 512, batch i:132, episode_len: 16, loss:2.7092, entropy:1.9424
+time cost: 20.107733800000005s
+batch_size: 512, batch i:133, episode_len: 11, loss:2.7665, entropy:2.0521
+time cost: 14.09587879999981s
+batch_size: 512, batch i:134, episode_len: 23, loss:2.7271, entropy:2.0678
+time cost: 29.594380399999864s
+batch_size: 512, batch i:135, episode_len: 21, loss:2.7096, entropy:1.9529
+time cost: 29.946036699999695s
+batch_size: 512, batch i:136, episode_len: 16, loss:2.6559, entropy:1.9568
+time cost: 22.13327449999997s
+batch_size: 512, batch i:137, episode_len: 16, loss:2.8070, entropy:1.9701
+time cost: 20.35949750000009s
+batch_size: 512, batch i:138, episode_len: 16, loss:2.6521, entropy:1.9198
+time cost: 23.54252540000016s
+batch_size: 512, batch i:139, episode_len: 10, loss:2.6458, entropy:2.0079
+time cost: 14.698036900000261s
+batch_size: 512, batch i:140, episode_len: 19, loss:2.6863, entropy:1.9380
+time cost: 25.85072480000008s
+batch_size: 512, batch i:141, episode_len: 9, loss:2.6005, entropy:1.9836
+time cost: 12.925166900000022s
+batch_size: 512, batch i:142, episode_len: 14, loss:2.7949, entropy:2.0217
+time cost: 21.96572879999985s
+batch_size: 512, batch i:143, episode_len: 16, loss:2.8147, entropy:2.0078
+time cost: 24.539322800000264s
+batch_size: 512, batch i:144, episode_len: 11, loss:2.6773, entropy:1.9844
+time cost: 17.207176100000197s
+batch_size: 512, batch i:145, episode_len: 10, loss:2.7517, entropy:1.9675
+time cost: 14.63750379999965s
+batch_size: 512, batch i:146, episode_len: 14, loss:2.7013, entropy:2.0067
+time cost: 21.384581300000264s
+batch_size: 512, batch i:147, episode_len: 20, loss:2.7997, entropy:2.0405
+time cost: 24.218751099999736s
+batch_size: 512, batch i:148, episode_len: 16, loss:2.6691, entropy:2.0062
+time cost: 22.699653300000136s
+batch_size: 512, batch i:149, episode_len: 10, loss:2.7355, entropy:2.0127
+time cost: 15.066127999999935s
+batch_size: 512, batch i:150, episode_len: 9, loss:2.7951, entropy:2.0173
+time cost: 13.284621499999957s
+batch_size: 512, batch i:151, episode_len: 11, loss:2.7273, entropy:1.9489
+time cost: 16.06188320000001s
+batch_size: 512, batch i:152, episode_len: 13, loss:2.7871, entropy:1.9848
+time cost: 19.84935220000034s
+batch_size: 512, batch i:153, episode_len: 21, loss:2.6068, entropy:1.9044
+time cost: 31.151555200000075s
+batch_size: 512, batch i:154, episode_len: 15, loss:2.6657, entropy:1.9365
+time cost: 22.00919900000008s
+batch_size: 512, batch i:155, episode_len: 12, loss:2.7157, entropy:1.9504
+time cost: 17.95899099999997s
+batch_size: 512, batch i:156, episode_len: 25, loss:2.8379, entropy:1.9817
+time cost: 34.40895759999967s
+batch_size: 512, batch i:157, episode_len: 11, loss:2.7777, entropy:1.9563
+time cost: 18.09549909999987s
+batch_size: 512, batch i:158, episode_len: 14, loss:2.7034, entropy:1.9328
+time cost: 20.759729399999742s
+batch_size: 512, batch i:159, episode_len: 25, loss:2.6939, entropy:1.9654
+time cost: 35.08084409999992s
+batch_size: 512, batch i:160, episode_len: 18, loss:2.7213, entropy:1.9932
+time cost: 24.336472199999662s
+batch_size: 512, batch i:161, episode_len: 9, loss:2.6542, entropy:1.9714
+time cost: 12.760533099999975s
+batch_size: 512, batch i:162, episode_len: 9, loss:2.6631, entropy:1.9754
+time cost: 13.162244799999826s
+batch_size: 512, batch i:163, episode_len: 16, loss:2.6853, entropy:1.9783
+time cost: 23.972049199999674s
+batch_size: 512, batch i:164, episode_len: 14, loss:2.6812, entropy:1.9578
+time cost: 18.920806200000243s
+batch_size: 512, batch i:165, episode_len: 14, loss:2.6998, entropy:1.9557
+time cost: 20.955852499999764s
+batch_size: 512, batch i:166, episode_len: 18, loss:2.6685, entropy:1.9402
+time cost: 27.042665899999974s
+batch_size: 512, batch i:167, episode_len: 13, loss:2.5613, entropy:1.8869
+time cost: 19.603894200000013s
+batch_size: 512, batch i:168, episode_len: 13, loss:2.8130, entropy:1.9771
+time cost: 18.255677900000137s
+batch_size: 512, batch i:169, episode_len: 9, loss:2.6344, entropy:1.9591
+time cost: 14.016106800000216s
+batch_size: 512, batch i:170, episode_len: 12, loss:2.7267, entropy:1.9806
+time cost: 18.18615230000023s
+batch_size: 512, batch i:171, episode_len: 16, loss:2.6872, entropy:1.9579
+time cost: 23.80239410000013s
+batch_size: 512, batch i:172, episode_len: 25, loss:2.6501, entropy:1.9352
+time cost: 32.49938790000033s
+batch_size: 512, batch i:173, episode_len: 17, loss:2.5980, entropy:1.9095
+time cost: 24.78752570000006s
+batch_size: 512, batch i:174, episode_len: 15, loss:2.7008, entropy:1.9705
+time cost: 19.685265799999797s
+batch_size: 512, batch i:175, episode_len: 14, loss:2.7450, entropy:1.9394
+time cost: 20.996830399999908s
+batch_size: 512, batch i:176, episode_len: 12, loss:2.7001, entropy:1.9567
+time cost: 16.791095499999756s
+batch_size: 512, batch i:177, episode_len: 12, loss:2.7536, entropy:1.9675
+time cost: 17.44510960000025s
+batch_size: 512, batch i:178, episode_len: 9, loss:2.6970, entropy:1.9459
+time cost: 14.01644879999958s
+batch_size: 512, batch i:179, episode_len: 14, loss:2.7681, entropy:1.9649
+time cost: 20.85763229999975s
+batch_size: 512, batch i:180, episode_len: 13, loss:2.6591, entropy:1.9829
+time cost: 17.83273390000022s
+batch_size: 512, batch i:181, episode_len: 14, loss:2.6129, entropy:1.9514
+time cost: 17.964508900000055s
+batch_size: 512, batch i:182, episode_len: 26, loss:2.5437, entropy:1.8984
+time cost: 35.78272130000005s
+batch_size: 512, batch i:183, episode_len: 12, loss:2.7934, entropy:1.9067
+time cost: 18.1769448s
+batch_size: 512, batch i:184, episode_len: 11, loss:2.7091, entropy:1.9368
+time cost: 16.233045299999958s
+batch_size: 512, batch i:185, episode_len: 14, loss:2.6991, entropy:1.9001
+time cost: 20.33966479999981s
+batch_size: 512, batch i:186, episode_len: 15, loss:2.6220, entropy:1.9392
+time cost: 20.28301200000078s
+batch_size: 512, batch i:187, episode_len: 15, loss:2.6754, entropy:1.9657
+time cost: 18.212869399999363s
+batch_size: 512, batch i:188, episode_len: 22, loss:2.6244, entropy:1.9629
+time cost: 29.84462269999949s
+batch_size: 512, batch i:189, episode_len: 13, loss:2.6626, entropy:1.9669
+time cost: 19.672018999999636s
+batch_size: 512, batch i:190, episode_len: 14, loss:2.5935, entropy:1.8755
+time cost: 20.958376300000054s
+batch_size: 512, batch i:191, episode_len: 13, loss:2.7766, entropy:1.9209
+time cost: 18.167602099999385s
+batch_size: 512, batch i:192, episode_len: 11, loss:2.5852, entropy:1.8607
+time cost: 16.05907170000046s
+batch_size: 512, batch i:193, episode_len: 19, loss:2.7041, entropy:1.9483
+time cost: 26.83544129999973s
+batch_size: 512, batch i:194, episode_len: 18, loss:2.6152, entropy:1.8651
+time cost: 26.402974900000117s
+batch_size: 512, batch i:195, episode_len: 15, loss:2.6393, entropy:1.9279
+time cost: 21.758587100000113s
+batch_size: 512, batch i:196, episode_len: 9, loss:2.6292, entropy:1.9337
+time cost: 13.823678900000232s
+batch_size: 512, batch i:197, episode_len: 16, loss:2.6856, entropy:1.9230
+time cost: 24.010131199999705s
+batch_size: 512, batch i:198, episode_len: 27, loss:2.6633, entropy:1.9594
+time cost: 37.97037419999924s
+batch_size: 512, batch i:199, episode_len: 11, loss:2.6764, entropy:1.9862
+time cost: 15.676451899999847s
+batch_size: 512, batch i:200, episode_len: 11, loss:2.7135, entropy:1.9849
+time cost: 17.07563670000036s
+batch_size: 512, batch i:201, episode_len: 12, loss:2.6611, entropy:1.8956
+time cost: 17.537978700000167s
+batch_size: 512, batch i:202, episode_len: 17, loss:2.6051, entropy:1.9688
+time cost: 23.58005839999987s
+batch_size: 512, batch i:203, episode_len: 14, loss:2.6846, entropy:1.9764
+time cost: 20.886307300000226s
+batch_size: 512, batch i:204, episode_len: 20, loss:2.5931, entropy:1.8722
+time cost: 27.85528439999962s
+batch_size: 512, batch i:205, episode_len: 17, loss:2.6735, entropy:1.8589
+time cost: 21.22606999999971s
+batch_size: 512, batch i:206, episode_len: 13, loss:2.5595, entropy:1.8335
+time cost: 18.795513400000345s
+batch_size: 512, batch i:207, episode_len: 17, loss:2.7341, entropy:1.9244
+time cost: 25.575350600000093s
+batch_size: 512, batch i:208, episode_len: 23, loss:2.5639, entropy:1.9162
+time cost: 33.968800399999964s
+batch_size: 512, batch i:209, episode_len: 17, loss:2.7105, entropy:1.9806
+time cost: 24.65545039999961s
+batch_size: 512, batch i:210, episode_len: 11, loss:2.6279, entropy:1.9345
+time cost: 15.574228100000255s
+batch_size: 512, batch i:211, episode_len: 14, loss:2.6284, entropy:1.9750
+time cost: 21.809313499999917s
+batch_size: 512, batch i:212, episode_len: 14, loss:2.6058, entropy:1.9469
+time cost: 21.232534900000246s
+batch_size: 512, batch i:213, episode_len: 9, loss:2.6135, entropy:1.9776
+time cost: 13.562661899999512s
+batch_size: 512, batch i:214, episode_len: 31, loss:2.5460, entropy:1.9241
+time cost: 41.73133710000002s
+batch_size: 512, batch i:215, episode_len: 11, loss:2.4668, entropy:1.8665
+time cost: 16.11676599999919s
+batch_size: 512, batch i:216, episode_len: 27, loss:2.5980, entropy:1.8848
+time cost: 36.96485109999958s
+batch_size: 512, batch i:217, episode_len: 14, loss:2.6068, entropy:1.8475
+time cost: 18.780920100000003s
+batch_size: 512, batch i:218, episode_len: 9, loss:2.6361, entropy:1.8709
+time cost: 13.588086900000235s
+batch_size: 512, batch i:219, episode_len: 9, loss:2.7038, entropy:1.9059
+time cost: 13.35559319999993s
+batch_size: 512, batch i:220, episode_len: 16, loss:2.6539, entropy:2.0126
+time cost: 24.83831320000081s
+batch_size: 512, batch i:221, episode_len: 14, loss:2.5439, entropy:1.9308
+time cost: 20.791722999999365s
+batch_size: 512, batch i:222, episode_len: 26, loss:2.5550, entropy:1.8982
+time cost: 36.371492399999624s
+batch_size: 512, batch i:223, episode_len: 11, loss:2.6358, entropy:1.9194
+time cost: 17.454649400000562s
+batch_size: 512, batch i:224, episode_len: 10, loss:2.6069, entropy:1.9654
+time cost: 15.59841779999988s
+batch_size: 512, batch i:225, episode_len: 27, loss:2.6007, entropy:1.9418
+time cost: 35.92777529999967s
+batch_size: 512, batch i:226, episode_len: 23, loss:2.5712, entropy:1.9178
+time cost: 32.841474500000004s
+batch_size: 512, batch i:227, episode_len: 13, loss:2.5774, entropy:1.8794
+time cost: 19.374400099999548s
+batch_size: 512, batch i:228, episode_len: 14, loss:2.5352, entropy:1.8614
+time cost: 19.744517799999812s
+batch_size: 512, batch i:229, episode_len: 11, loss:2.4939, entropy:1.9091
+time cost: 16.31818530000055s
+batch_size: 512, batch i:230, episode_len: 15, loss:2.5339, entropy:1.9197
+time cost: 22.265083299999787s
+batch_size: 512, batch i:231, episode_len: 9, loss:2.6027, entropy:2.0322
+time cost: 13.836076700000376s
+batch_size: 512, batch i:232, episode_len: 9, loss:2.5389, entropy:1.9638
+time cost: 13.583832300000722s
+batch_size: 512, batch i:233, episode_len: 9, loss:2.5547, entropy:1.9232
+time cost: 13.459579500000473s
+batch_size: 512, batch i:234, episode_len: 24, loss:2.5521, entropy:1.8820
+time cost: 35.52657619999991s
+batch_size: 512, batch i:235, episode_len: 23, loss:2.6209, entropy:1.9543
+time cost: 31.312963299999865s
+batch_size: 512, batch i:236, episode_len: 27, loss:2.4861, entropy:1.8690
+time cost: 37.119787099999485s
+batch_size: 512, batch i:237, episode_len: 11, loss:2.5257, entropy:1.9017
+time cost: 16.465149899999233s
+batch_size: 512, batch i:238, episode_len: 11, loss:2.5061, entropy:1.8585
+time cost: 16.246987700000318s
+batch_size: 512, batch i:239, episode_len: 14, loss:2.4305, entropy:1.8577
+time cost: 21.671357300000636s
+batch_size: 512, batch i:240, episode_len: 11, loss:2.5121, entropy:1.8796
+time cost: 15.933700300000055s
+batch_size: 512, batch i:241, episode_len: 11, loss:2.5607, entropy:1.9035
+time cost: 14.211346300000514s
+batch_size: 512, batch i:242, episode_len: 9, loss:2.5203, entropy:1.8912
+time cost: 12.957233400000405s
+batch_size: 512, batch i:243, episode_len: 21, loss:2.4934, entropy:1.9199
+time cost: 29.55257139999958s
+batch_size: 512, batch i:244, episode_len: 10, loss:2.4763, entropy:1.9181
+time cost: 15.027131100000588s
+batch_size: 512, batch i:245, episode_len: 9, loss:2.4843, entropy:1.8803
+time cost: 12.704010399999788s
+batch_size: 512, batch i:246, episode_len: 14, loss:2.5078, entropy:1.9092
+time cost: 18.883559000000787s
+batch_size: 512, batch i:247, episode_len: 9, loss:2.4945, entropy:1.9357
+time cost: 12.964275299999827s
+batch_size: 512, batch i:248, episode_len: 20, loss:2.5855, entropy:1.9412
+time cost: 30.000343300000168s
+batch_size: 512, batch i:249, episode_len: 22, loss:2.4522, entropy:1.8327
+time cost: 31.224304600000323s
+batch_size: 512, batch i:250, episode_len: 13, loss:2.4845, entropy:1.9430
+time cost: 18.748369800000546s
+batch_size: 512, batch i:251, episode_len: 18, loss:2.5262, entropy:1.8917
+time cost: 22.40674730000046s
+batch_size: 512, batch i:252, episode_len: 9, loss:2.5018, entropy:1.9528
+time cost: 12.394586999999774s
+batch_size: 512, batch i:253, episode_len: 16, loss:2.4435, entropy:1.8731
+time cost: 24.15340970000034s
+batch_size: 512, batch i:254, episode_len: 9, loss:2.5250, entropy:1.9460
+time cost: 13.15583659999993s
+batch_size: 512, batch i:255, episode_len: 15, loss:2.4409, entropy:1.9155
+time cost: 21.800568399999975s
+batch_size: 512, batch i:256, episode_len: 31, loss:2.4182, entropy:1.8659
+time cost: 41.80596449999939s
+batch_size: 512, batch i:257, episode_len: 14, loss:2.5511, entropy:1.9528
+time cost: 21.923511599999983s
+batch_size: 512, batch i:258, episode_len: 11, loss:2.4268, entropy:1.9652
+time cost: 14.3614177999998s
+batch_size: 512, batch i:259, episode_len: 9, loss:2.4601, entropy:1.9818
+time cost: 13.21476580000035s
+batch_size: 512, batch i:260, episode_len: 17, loss:2.4878, entropy:1.9489
+time cost: 22.29499880000003s
+batch_size: 512, batch i:261, episode_len: 19, loss:2.4233, entropy:1.8997
+time cost: 27.522826700000223s
+batch_size: 512, batch i:262, episode_len: 15, loss:2.4868, entropy:1.9082
+time cost: 22.628619799999797s
+batch_size: 512, batch i:263, episode_len: 11, loss:2.4283, entropy:1.8682
+time cost: 16.579248400000324s
+batch_size: 512, batch i:264, episode_len: 17, loss:2.4324, entropy:1.9463
+time cost: 22.844774199999847s
+batch_size: 512, batch i:265, episode_len: 15, loss:2.4227, entropy:1.9251
+time cost: 22.23521030000029s
+batch_size: 512, batch i:266, episode_len: 14, loss:2.4079, entropy:1.8636
+time cost: 18.757880500000283s
+batch_size: 512, batch i:267, episode_len: 21, loss:2.3429, entropy:1.8797
+time cost: 27.40098300000045s
+batch_size: 512, batch i:268, episode_len: 11, loss:2.3991, entropy:1.9018
+time cost: 17.161934599999768s
+batch_size: 512, batch i:269, episode_len: 16, loss:2.3980, entropy:1.9587
+time cost: 22.89799959999982s
+batch_size: 512, batch i:270, episode_len: 12, loss:2.4773, entropy:1.9478
+time cost: 14.680856700000732s
+batch_size: 512, batch i:271, episode_len: 12, loss:2.4864, entropy:2.0191
+time cost: 17.340867200000503s
+batch_size: 512, batch i:272, episode_len: 9, loss:2.4120, entropy:1.9686
+time cost: 12.92176279999967s
+batch_size: 512, batch i:273, episode_len: 15, loss:2.4655, entropy:1.8980
+time cost: 20.47396910000043s
+batch_size: 512, batch i:274, episode_len: 9, loss:2.4817, entropy:1.8411
+time cost: 12.475236199999927s
+batch_size: 512, batch i:275, episode_len: 19, loss:2.4959, entropy:1.8825
+time cost: 25.542554599999676s
+batch_size: 512, batch i:276, episode_len: 30, loss:2.4881, entropy:1.8605
+time cost: 41.225230199999714s
+batch_size: 512, batch i:277, episode_len: 11, loss:2.4506, entropy:1.8411
+time cost: 15.34397970000009s
+batch_size: 512, batch i:278, episode_len: 22, loss:2.3744, entropy:1.8673
+time cost: 28.861175699999876s
+batch_size: 512, batch i:279, episode_len: 11, loss:2.4689, entropy:1.9654
+time cost: 17.343309099999715s
+batch_size: 512, batch i:280, episode_len: 16, loss:2.4521, entropy:1.9013
+time cost: 23.764280499999586s
+batch_size: 512, batch i:281, episode_len: 9, loss:2.4201, entropy:1.8919
+time cost: 12.817533000000367s
+batch_size: 512, batch i:282, episode_len: 18, loss:2.4607, entropy:1.8543
+time cost: 26.521028399999523s
+batch_size: 512, batch i:283, episode_len: 12, loss:2.4768, entropy:1.9458
+time cost: 18.271474099999978s
+batch_size: 512, batch i:284, episode_len: 9, loss:2.4599, entropy:1.9065
+time cost: 12.682771599999796s
+batch_size: 512, batch i:285, episode_len: 15, loss:2.3956, entropy:1.9070
+time cost: 22.37106429999949s
+batch_size: 512, batch i:286, episode_len: 13, loss:2.4095, entropy:1.8618
+time cost: 17.781523699999525s
+batch_size: 512, batch i:287, episode_len: 17, loss:2.4634, entropy:1.8126
+time cost: 26.006815000000643s
+batch_size: 512, batch i:288, episode_len: 13, loss:2.4086, entropy:1.7899
+time cost: 17.914361400000416s
+batch_size: 512, batch i:289, episode_len: 11, loss:2.3783, entropy:1.8733
+time cost: 16.037328000000343s
+batch_size: 512, batch i:290, episode_len: 20, loss:2.4224, entropy:1.9181
+time cost: 29.51853530000062s
+batch_size: 512, batch i:291, episode_len: 13, loss:2.4058, entropy:1.8937
+time cost: 19.08378249999987s
+batch_size: 512, batch i:292, episode_len: 10, loss:2.3463, entropy:1.8754
+time cost: 14.643339999999625s
+batch_size: 512, batch i:293, episode_len: 25, loss:2.4881, entropy:1.8848
+time cost: 33.80430950000027s
+batch_size: 512, batch i:294, episode_len: 20, loss:2.3557, entropy:1.8031
+time cost: 27.430186999999933s
+batch_size: 512, batch i:295, episode_len: 16, loss:2.4107, entropy:1.9099
+time cost: 23.17274019999968s
+batch_size: 512, batch i:296, episode_len: 14, loss:2.5351, entropy:1.8519
+time cost: 20.65850909999972s
+batch_size: 512, batch i:297, episode_len: 17, loss:2.4059, entropy:1.8860
+time cost: 21.397026900000128s
+batch_size: 512, batch i:298, episode_len: 15, loss:2.5059, entropy:1.8523
+time cost: 21.289013200000227s
+batch_size: 512, batch i:299, episode_len: 22, loss:2.4726, entropy:1.8726
+time cost: 31.472027499999967s
+batch_size: 512, batch i:300, episode_len: 19, loss:2.5356, entropy:1.8121
+time cost: 24.591792799999894s
+batch_size: 512, batch i:301, episode_len: 11, loss:2.4952, entropy:1.8518
+time cost: 17.57700979999936s
+batch_size: 512, batch i:302, episode_len: 11, loss:2.4253, entropy:1.8131
+time cost: 17.01622700000007s
+batch_size: 512, batch i:303, episode_len: 18, loss:2.4596, entropy:1.8347
+time cost: 26.614160000000084s
+batch_size: 512, batch i:304, episode_len: 9, loss:2.4982, entropy:1.8785
+time cost: 13.182833699999719s
+batch_size: 512, batch i:305, episode_len: 13, loss:2.3607, entropy:1.8562
+time cost: 19.825474600000234s
+batch_size: 512, batch i:306, episode_len: 14, loss:2.3274, entropy:1.9124
+time cost: 20.896484599999894s
+batch_size: 512, batch i:307, episode_len: 15, loss:2.3295, entropy:1.8992
+time cost: 22.536001499999657s
+batch_size: 512, batch i:308, episode_len: 31, loss:2.3626, entropy:1.7849
+time cost: 45.89784580000014s
+batch_size: 512, batch i:309, episode_len: 23, loss:2.4742, entropy:1.8623
+time cost: 32.55600340000001s
+batch_size: 512, batch i:310, episode_len: 9, loss:2.4697, entropy:1.8687
+time cost: 13.303000699999757s
+batch_size: 512, batch i:311, episode_len: 24, loss:2.4581, entropy:1.8279
+time cost: 34.67437109999992s
+batch_size: 512, batch i:312, episode_len: 21, loss:2.4940, entropy:1.7917
+time cost: 31.80439010000009s
+batch_size: 512, batch i:313, episode_len: 16, loss:2.6480, entropy:1.8669
+time cost: 21.93408249999993s
+batch_size: 512, batch i:314, episode_len: 23, loss:2.5154, entropy:1.9127
+time cost: 33.34577540000009s
+batch_size: 512, batch i:315, episode_len: 15, loss:2.5568, entropy:1.9009
+time cost: 22.408478000000287s
+batch_size: 512, batch i:316, episode_len: 11, loss:2.6074, entropy:1.9158
+time cost: 15.213689700000032s
+batch_size: 512, batch i:317, episode_len: 20, loss:2.5846, entropy:1.9239
+time cost: 30.09531109999989s
+batch_size: 512, batch i:318, episode_len: 27, loss:2.5492, entropy:1.9227
+time cost: 34.478891400000066s
+batch_size: 512, batch i:319, episode_len: 13, loss:2.5004, entropy:1.8858
+time cost: 16.900120799999968s
+batch_size: 512, batch i:320, episode_len: 14, loss:2.5313, entropy:1.9244
+time cost: 20.585798799999793s
+batch_size: 512, batch i:321, episode_len: 11, loss:2.4527, entropy:1.8299
+time cost: 16.90418729999965s
+batch_size: 512, batch i:322, episode_len: 17, loss:2.5237, entropy:1.7877
+time cost: 22.7787172999997s
+batch_size: 512, batch i:323, episode_len: 23, loss:2.5673, entropy:1.8581
+time cost: 33.74579840000024s
+batch_size: 512, batch i:324, episode_len: 11, loss:2.5412, entropy:1.8994
+time cost: 14.886425800000325s
+batch_size: 512, batch i:325, episode_len: 12, loss:2.4215, entropy:1.8347
+time cost: 17.634465899999668s
+batch_size: 512, batch i:326, episode_len: 11, loss:2.4866, entropy:1.8846
+time cost: 16.313790600000175s
+batch_size: 512, batch i:327, episode_len: 16, loss:2.6017, entropy:1.8740
+time cost: 24.415458299999955s
+batch_size: 512, batch i:328, episode_len: 15, loss:2.5126, entropy:1.7952
+time cost: 22.43799769999987s
+batch_size: 512, batch i:329, episode_len: 25, loss:2.5250, entropy:1.8727
+time cost: 34.54722270000002s
+batch_size: 512, batch i:330, episode_len: 9, loss:2.5148, entropy:1.8494
+time cost: 13.630508900000677s
+batch_size: 512, batch i:331, episode_len: 9, loss:2.4374, entropy:1.8274
+time cost: 13.35741599999983s
+batch_size: 512, batch i:332, episode_len: 9, loss:2.5009, entropy:1.8675
+time cost: 12.506298700000116s
+batch_size: 512, batch i:333, episode_len: 20, loss:2.4451, entropy:1.8193
+time cost: 27.841979099999662s
+batch_size: 512, batch i:334, episode_len: 11, loss:2.4200, entropy:1.7949
+time cost: 16.247251199999482s
+batch_size: 512, batch i:335, episode_len: 17, loss:2.4859, entropy:1.7936
+time cost: 22.501193500000227s
+batch_size: 512, batch i:336, episode_len: 15, loss:2.5535, entropy:1.8406
+time cost: 19.184270700000525s
+batch_size: 512, batch i:337, episode_len: 19, loss:2.3498, entropy:1.7610
+time cost: 26.6328168s
+batch_size: 512, batch i:338, episode_len: 19, loss:2.3762, entropy:1.7954
+time cost: 27.537984100000358s
+batch_size: 512, batch i:339, episode_len: 29, loss:2.5100, entropy:1.8632
+time cost: 38.965810700000475s
+batch_size: 512, batch i:340, episode_len: 9, loss:2.2797, entropy:1.7765
+time cost: 12.60309850000067s
+batch_size: 512, batch i:341, episode_len: 32, loss:2.4808, entropy:1.7991
+time cost: 42.81635009999991s
+batch_size: 512, batch i:342, episode_len: 16, loss:2.5911, entropy:1.8292
+time cost: 23.63404510000055s
+batch_size: 512, batch i:343, episode_len: 18, loss:2.4491, entropy:1.7850
+time cost: 26.66927190000024s
+batch_size: 512, batch i:344, episode_len: 16, loss:2.4990, entropy:1.8481
+time cost: 22.842318800000612s
+batch_size: 512, batch i:345, episode_len: 17, loss:2.5500, entropy:1.8665
+time cost: 24.13821299999927s
+batch_size: 512, batch i:346, episode_len: 16, loss:2.6099, entropy:1.9513
+time cost: 24.12915129999965s
+batch_size: 512, batch i:347, episode_len: 17, loss:2.4792, entropy:1.8970
+time cost: 26.45721080000021s
+batch_size: 512, batch i:348, episode_len: 13, loss:2.4579, entropy:1.8325
+time cost: 18.796407799999542s
+batch_size: 512, batch i:349, episode_len: 19, loss:2.4791, entropy:1.8826
+time cost: 27.29739840000002s
+batch_size: 512, batch i:350, episode_len: 18, loss:2.4013, entropy:1.8306
+time cost: 27.774526400000468s
+batch_size: 512, batch i:351, episode_len: 9, loss:2.4523, entropy:1.8700
+time cost: 13.487060000000383s
+batch_size: 512, batch i:352, episode_len: 9, loss:2.4194, entropy:1.7940
+time cost: 13.67521190000025s
+batch_size: 512, batch i:353, episode_len: 11, loss:2.4800, entropy:1.8126
+time cost: 16.672230300000592s
+batch_size: 512, batch i:354, episode_len: 16, loss:2.3338, entropy:1.7287
+time cost: 26.11646540000038s
+batch_size: 512, batch i:355, episode_len: 13, loss:2.4276, entropy:1.8059
+time cost: 17.918061000000307s
+batch_size: 512, batch i:356, episode_len: 13, loss:2.3216, entropy:1.8510
+time cost: 20.595977300000413s
+batch_size: 512, batch i:357, episode_len: 17, loss:2.3542, entropy:1.8877
+time cost: 24.580834700000196s
+batch_size: 512, batch i:358, episode_len: 22, loss:2.3348, entropy:1.8406
+time cost: 30.107347300000583s
+batch_size: 512, batch i:359, episode_len: 11, loss:2.5438, entropy:1.9139
+time cost: 15.540089699999953s
+batch_size: 512, batch i:360, episode_len: 9, loss:2.4340, entropy:1.8209
+time cost: 13.851820800000496s
+batch_size: 512, batch i:361, episode_len: 11, loss:2.4353, entropy:1.8273
+time cost: 15.010004800000388s
+batch_size: 512, batch i:362, episode_len: 24, loss:2.3199, entropy:1.8203
+time cost: 29.121301299999686s
+batch_size: 512, batch i:363, episode_len: 9, loss:2.4346, entropy:1.8087
+time cost: 14.092945999999756s
+batch_size: 512, batch i:364, episode_len: 30, loss:2.4151, entropy:1.7968
+time cost: 37.27144270000008s
+batch_size: 512, batch i:365, episode_len: 20, loss:2.4265, entropy:1.7979
+time cost: 31.733435900000586s
+batch_size: 512, batch i:366, episode_len: 20, loss:2.3621, entropy:1.7915
+time cost: 27.99598590000005s
+batch_size: 512, batch i:367, episode_len: 16, loss:2.4192, entropy:1.8053
+time cost: 22.694282600000406s
+batch_size: 512, batch i:368, episode_len: 18, loss:2.3622, entropy:1.9012
+time cost: 27.461137999999664s
+batch_size: 512, batch i:369, episode_len: 15, loss:2.4439, entropy:1.8853
+time cost: 22.093542099999468s
+batch_size: 512, batch i:370, episode_len: 9, loss:2.4557, entropy:1.8277
+time cost: 15.648249300000316s
+batch_size: 512, batch i:371, episode_len: 13, loss:2.4075, entropy:1.8218
+time cost: 18.42473980000068s
+batch_size: 512, batch i:372, episode_len: 23, loss:2.3052, entropy:1.7357
+time cost: 31.331723900000725s
+batch_size: 512, batch i:373, episode_len: 20, loss:2.4241, entropy:1.8233
+time cost: 28.271317000000636s
+batch_size: 512, batch i:374, episode_len: 16, loss:2.3939, entropy:1.8461
+time cost: 21.763962699998956s
+batch_size: 512, batch i:375, episode_len: 19, loss:2.3769, entropy:1.8939
+time cost: 26.147791500001404s
+batch_size: 512, batch i:376, episode_len: 27, loss:2.4233, entropy:1.8816
+time cost: 37.210344900000564s
+
+Process finished with exit code -1
+
+C:\Users\yzq\anaconda3\python.exe D:/File/Projects/GitHub/Gobang/gobang/backend/main.py
+True
+batch i:1, episode_len:14
+time cost: 22.255559700000003s
+batch i:2, episode_len:17
+time cost: 28.868025000000003s
+batch i:3, episode_len:9
+time cost: 13.51037860000001s
+batch_size: 512, batch i:4, episode_len: 28, loss:2.7347, entropy:1.8899
+time cost: 41.6137282s
+batch_size: 512, batch i:5, episode_len: 23, loss:2.7719, entropy:1.7120
+time cost: 43.146656899999996s
+batch_size: 512, batch i:6, episode_len: 19, loss:2.4682, entropy:1.8613
+time cost: 27.114417000000003s
+batch_size: 512, batch i:7, episode_len: 25, loss:2.6595, entropy:1.9826
+time cost: 37.663195299999984s
+batch_size: 512, batch i:8, episode_len: 15, loss:2.6040, entropy:2.0079
+time cost: 20.653440399999994s
+batch_size: 512, batch i:9, episode_len: 11, loss:2.5350, entropy:1.9484
+time cost: 15.858817200000004s
+batch_size: 512, batch i:10, episode_len: 16, loss:2.5211, entropy:1.8385
+time cost: 25.558639100000022s
+batch_size: 512, batch i:11, episode_len: 15, loss:2.4934, entropy:1.8230
+time cost: 23.850302499999998s
+batch_size: 512, batch i:12, episode_len: 16, loss:2.6419, entropy:1.8719
+time cost: 26.625921000000005s
+batch_size: 512, batch i:13, episode_len: 9, loss:2.6172, entropy:1.9433
+time cost: 13.482037200000036s
+batch_size: 512, batch i:14, episode_len: 11, loss:2.6287, entropy:1.9839
+time cost: 14.78688569999997s
+batch_size: 512, batch i:15, episode_len: 18, loss:2.5359, entropy:1.8993
+time cost: 26.909169899999995s
+batch_size: 512, batch i:16, episode_len: 11, loss:2.4423, entropy:1.8145
+time cost: 15.330820200000005s
+batch_size: 512, batch i:17, episode_len: 15, loss:2.4791, entropy:1.8485
+time cost: 20.108138499999995s
+batch_size: 512, batch i:18, episode_len: 16, loss:2.4533, entropy:1.7913
+time cost: 25.080966899999964s
+batch_size: 512, batch i:19, episode_len: 17, loss:2.4570, entropy:1.8538
+time cost: 25.4322985s
+batch_size: 512, batch i:20, episode_len: 12, loss:2.4213, entropy:1.8790
+time cost: 17.268895299999997s
+batch_size: 512, batch i:21, episode_len: 11, loss:2.4404, entropy:1.8112
+time cost: 15.801775899999996s
+batch_size: 512, batch i:22, episode_len: 16, loss:2.4328, entropy:1.8502
+time cost: 23.391242600000055s
+batch_size: 512, batch i:23, episode_len: 16, loss:2.4580, entropy:1.7604
+time cost: 24.01047630000005s
+batch_size: 512, batch i:24, episode_len: 9, loss:2.3914, entropy:1.7836
+time cost: 12.402783799999952s
+batch_size: 512, batch i:25, episode_len: 25, loss:2.3414, entropy:1.7860
+time cost: 27.107295500000077s
+batch_size: 512, batch i:26, episode_len: 11, loss:2.4107, entropy:1.8228
+time cost: 14.300709499999925s
+batch_size: 512, batch i:27, episode_len: 23, loss:2.3786, entropy:1.7863
+time cost: 34.49382920000005s
+batch_size: 512, batch i:28, episode_len: 17, loss:2.4493, entropy:1.7822
+time cost: 26.4709163s
+batch_size: 512, batch i:29, episode_len: 12, loss:2.4870, entropy:1.7118
+time cost: 18.609643000000005s
+batch_size: 512, batch i:30, episode_len: 15, loss:2.3982, entropy:1.7376
+time cost: 21.463736799999992s
+batch_size: 512, batch i:31, episode_len: 17, loss:2.4073, entropy:1.6952
+time cost: 27.355166699999927s
+batch_size: 512, batch i:32, episode_len: 9, loss:2.4472, entropy:1.7267
+time cost: 14.22304470000006s
+batch_size: 512, batch i:33, episode_len: 36, loss:2.4902, entropy:1.8336
+time cost: 48.55803119999996s
+batch_size: 512, batch i:34, episode_len: 26, loss:2.5006, entropy:1.8339
+time cost: 36.34770779999997s
+batch_size: 512, batch i:35, episode_len: 15, loss:2.4450, entropy:1.8117
+time cost: 19.255626399999983s
+batch_size: 512, batch i:36, episode_len: 36, loss:2.5885, entropy:1.9018
+time cost: 46.553814399999965s
+batch_size: 512, batch i:37, episode_len: 35, loss:2.5760, entropy:1.8357
+time cost: 46.07524710000007s
+batch_size: 512, batch i:38, episode_len: 10, loss:2.5702, entropy:1.9038
+time cost: 14.766925499999957s
+batch_size: 512, batch i:39, episode_len: 15, loss:2.5344, entropy:1.8968
+time cost: 19.929734300000064s
+batch_size: 512, batch i:40, episode_len: 13, loss:2.4905, entropy:1.8145
+time cost: 16.998804800000016s
+batch_size: 512, batch i:41, episode_len: 37, loss:2.4250, entropy:1.8028
+time cost: 44.73425629999997s
+batch_size: 512, batch i:42, episode_len: 18, loss:2.4445, entropy:1.8272
+time cost: 26.198093999999855s
+batch_size: 512, batch i:43, episode_len: 14, loss:2.6098, entropy:1.8741
+time cost: 20.096396899999945s
+batch_size: 512, batch i:44, episode_len: 18, loss:2.5580, entropy:1.8647
+time cost: 25.89049299999988s
+batch_size: 512, batch i:45, episode_len: 14, loss:2.4770, entropy:1.8135
+time cost: 20.256384600000047s
+batch_size: 512, batch i:46, episode_len: 19, loss:2.3647, entropy:1.8022
+time cost: 26.682114100000035s
+batch_size: 512, batch i:47, episode_len: 16, loss:2.4394, entropy:1.8100
+time cost: 25.734891300000072s
+batch_size: 512, batch i:48, episode_len: 22, loss:2.4315, entropy:1.8419
+time cost: 28.66999880000003s
+batch_size: 512, batch i:49, episode_len: 35, loss:2.5269, entropy:1.8321
+time cost: 47.77867760000004s
+batch_size: 512, batch i:50, episode_len: 13, loss:2.5506, entropy:1.8312
+time cost: 20.649735799999917s
+batch_size: 512, batch i:51, episode_len: 9, loss:2.4194, entropy:1.8179
+time cost: 15.295897400000058s
+batch_size: 512, batch i:52, episode_len: 17, loss:2.4061, entropy:1.7909
+time cost: 26.67319610000004s
+batch_size: 512, batch i:53, episode_len: 15, loss:2.4717, entropy:1.7759
+time cost: 22.95136279999997s
+batch_size: 512, batch i:54, episode_len: 23, loss:2.3340, entropy:1.7514
+time cost: 29.562179300000025s
+batch_size: 512, batch i:55, episode_len: 18, loss:2.4158, entropy:1.7254
+time cost: 24.85563130000014s
+batch_size: 512, batch i:56, episode_len: 15, loss:2.4318, entropy:1.8207
+time cost: 23.845687400000088s
+batch_size: 512, batch i:57, episode_len: 17, loss:2.5606, entropy:1.8058
+time cost: 21.957570600000054s
+batch_size: 512, batch i:58, episode_len: 12, loss:2.4526, entropy:1.8021
+time cost: 18.16366720000019s
+batch_size: 512, batch i:59, episode_len: 31, loss:2.4884, entropy:1.7985
+time cost: 42.11399830000005s
+batch_size: 512, batch i:60, episode_len: 11, loss:2.4340, entropy:1.7836
+time cost: 16.207634599999892s
+batch_size: 512, batch i:61, episode_len: 25, loss:2.4405, entropy:1.8458
+time cost: 34.16182350000008s
+batch_size: 512, batch i:62, episode_len: 13, loss:2.5777, entropy:1.8309
+time cost: 20.132217500000024s
+batch_size: 512, batch i:63, episode_len: 25, loss:2.5092, entropy:1.8624
+time cost: 34.34117880000008s
+batch_size: 512, batch i:64, episode_len: 25, loss:2.5163, entropy:1.8931
+time cost: 35.34129260000009s
+batch_size: 512, batch i:65, episode_len: 11, loss:2.4674, entropy:1.8477
+time cost: 15.389540699999998s
+batch_size: 512, batch i:66, episode_len: 14, loss:2.4592, entropy:1.8128
+time cost: 20.723037199999908s
+batch_size: 512, batch i:67, episode_len: 23, loss:2.4692, entropy:1.7836
+time cost: 33.1294269s
+batch_size: 512, batch i:68, episode_len: 17, loss:2.5525, entropy:1.8617
+time cost: 26.335139000000026s
+batch_size: 512, batch i:69, episode_len: 11, loss:2.3565, entropy:1.8390
+time cost: 16.28029349999997s
+batch_size: 512, batch i:70, episode_len: 22, loss:2.4398, entropy:1.8332
+time cost: 31.01066590000005s
+batch_size: 512, batch i:71, episode_len: 13, loss:2.5181, entropy:1.8353
+time cost: 19.306848100000025s
+batch_size: 512, batch i:72, episode_len: 18, loss:2.4711, entropy:1.8002
+time cost: 28.443018100000018s
+batch_size: 512, batch i:73, episode_len: 18, loss:2.5003, entropy:1.8156
+time cost: 26.02388289999999s
+batch_size: 512, batch i:74, episode_len: 12, loss:2.4260, entropy:1.8701
+time cost: 19.19391050000013s
+batch_size: 512, batch i:75, episode_len: 11, loss:2.4427, entropy:1.8545
+time cost: 16.368395100000043s
+batch_size: 512, batch i:76, episode_len: 28, loss:2.5256, entropy:1.9019
+time cost: 36.867201199999954s
+batch_size: 512, batch i:77, episode_len: 11, loss:2.4971, entropy:1.8524
+time cost: 15.571850199999972s
+batch_size: 512, batch i:78, episode_len: 17, loss:2.4870, entropy:1.8023
+time cost: 25.098580399999946s
+batch_size: 512, batch i:79, episode_len: 18, loss:2.5360, entropy:1.7855
+time cost: 25.519967899999983s
+batch_size: 512, batch i:80, episode_len: 9, loss:2.5586, entropy:1.8124
+time cost: 12.508107799999834s
+batch_size: 512, batch i:81, episode_len: 17, loss:2.4275, entropy:1.8799
+time cost: 25.064391099999966s
+batch_size: 512, batch i:82, episode_len: 12, loss:2.3812, entropy:1.8029
+time cost: 18.61187239999981s
+batch_size: 512, batch i:83, episode_len: 10, loss:2.4645, entropy:1.8161
+time cost: 15.021326300000055s
+batch_size: 512, batch i:84, episode_len: 15, loss:2.4771, entropy:1.8091
+time cost: 23.19851000000017s
+batch_size: 512, batch i:85, episode_len: 24, loss:2.5725, entropy:1.8176
+time cost: 38.45662489999995s
+batch_size: 512, batch i:86, episode_len: 23, loss:2.4910, entropy:1.8057
+time cost: 33.33603919999996s
+batch_size: 512, batch i:87, episode_len: 19, loss:2.4804, entropy:1.8256
+time cost: 25.045224099999814s
+batch_size: 512, batch i:88, episode_len: 10, loss:2.4140, entropy:1.8416
+time cost: 15.628405599999951s
+batch_size: 512, batch i:89, episode_len: 15, loss:2.4317, entropy:1.7202
+time cost: 22.620842999999695s
+batch_size: 512, batch i:90, episode_len: 12, loss:2.4820, entropy:1.7371
+time cost: 18.239993099999992s
+batch_size: 512, batch i:91, episode_len: 20, loss:2.5438, entropy:1.8297
+time cost: 25.923370800000157s
+batch_size: 512, batch i:92, episode_len: 10, loss:2.4989, entropy:1.8247
+time cost: 14.15644650000013s
+batch_size: 512, batch i:93, episode_len: 14, loss:2.4920, entropy:1.8080
+time cost: 20.91925489999994s
+batch_size: 512, batch i:94, episode_len: 17, loss:2.4526, entropy:1.8353
+time cost: 25.553647199999887s
+batch_size: 512, batch i:95, episode_len: 15, loss:2.5622, entropy:1.8431
+time cost: 22.382675299999846s
+batch_size: 512, batch i:96, episode_len: 17, loss:2.4918, entropy:1.8196
+time cost: 26.690660399999615s
+batch_size: 512, batch i:97, episode_len: 12, loss:2.4717, entropy:1.8383
+time cost: 20.359969300000103s
+batch_size: 512, batch i:98, episode_len: 9, loss:2.5274, entropy:1.9061
+time cost: 11.927569700000276s
+batch_size: 512, batch i:99, episode_len: 11, loss:2.4312, entropy:1.8337
+time cost: 13.619000400000004s
+batch_size: 512, batch i:100, episode_len: 9, loss:2.5460, entropy:1.8597
+time cost: 12.983806799999911s
+batch_size: 512, batch i:101, episode_len: 16, loss:2.4320, entropy:1.8255
+time cost: 26.757657199999812s
+batch_size: 512, batch i:102, episode_len: 14, loss:2.4729, entropy:1.7599
+time cost: 25.01608370000031s
+batch_size: 512, batch i:103, episode_len: 18, loss:2.4870, entropy:1.8071
+time cost: 30.775922399999672s
+batch_size: 512, batch i:104, episode_len: 16, loss:2.5270, entropy:1.8992
+time cost: 25.26663409999992s
+batch_size: 512, batch i:105, episode_len: 11, loss:2.4731, entropy:1.8623
+time cost: 18.281476999999995s
+batch_size: 512, batch i:106, episode_len: 12, loss:2.4692, entropy:1.8350
+time cost: 21.659072899999956s
+batch_size: 512, batch i:107, episode_len: 16, loss:2.5444, entropy:1.8349
+time cost: 28.353600099999767s
+batch_size: 512, batch i:108, episode_len: 23, loss:2.3683, entropy:1.8456
+time cost: 34.13844900000004s
+batch_size: 512, batch i:109, episode_len: 13, loss:2.4509, entropy:1.8385
+time cost: 22.062526100000014s
+batch_size: 512, batch i:110, episode_len: 11, loss:2.3717, entropy:1.7288
+time cost: 18.683798999999908s
+batch_size: 512, batch i:111, episode_len: 14, loss:2.5186, entropy:1.7642
+time cost: 23.245592000000215s
+batch_size: 512, batch i:112, episode_len: 15, loss:2.4409, entropy:1.7352
+time cost: 24.79547679999996s
+batch_size: 512, batch i:113, episode_len: 9, loss:2.4024, entropy:1.8216
+time cost: 12.492430099999638s
+batch_size: 512, batch i:114, episode_len: 12, loss:2.4345, entropy:1.8662
+time cost: 18.036763600000086s
+batch_size: 512, batch i:115, episode_len: 32, loss:2.4902, entropy:1.8857
+time cost: 39.92495250000002s
+batch_size: 512, batch i:116, episode_len: 20, loss:2.4107, entropy:1.7756
+time cost: 31.960135400000127s
+batch_size: 512, batch i:117, episode_len: 11, loss:2.5102, entropy:1.8221
+time cost: 16.681876199999806s
+batch_size: 512, batch i:118, episode_len: 16, loss:2.4117, entropy:1.7087
+time cost: 25.66434419999996s
+batch_size: 512, batch i:119, episode_len: 21, loss:2.4179, entropy:1.7122
+time cost: 30.75784580000027s
+batch_size: 512, batch i:120, episode_len: 14, loss:2.4664, entropy:1.8447
+time cost: 19.961724400000094s
+batch_size: 512, batch i:121, episode_len: 13, loss:2.4381, entropy:1.8333
+time cost: 18.646785500000078s
+batch_size: 512, batch i:122, episode_len: 15, loss:2.4468, entropy:1.8133
+time cost: 20.678071199999977s
+batch_size: 512, batch i:123, episode_len: 20, loss:2.4007, entropy:1.7639
+time cost: 31.696746900000107s
+batch_size: 512, batch i:124, episode_len: 15, loss:2.4216, entropy:1.7096
+time cost: 25.586401000000023s
+batch_size: 512, batch i:125, episode_len: 22, loss:2.4067, entropy:1.7508
+time cost: 35.83847500000002s
+batch_size: 512, batch i:126, episode_len: 16, loss:2.3624, entropy:1.8008
+time cost: 24.946101700000327s
+batch_size: 512, batch i:127, episode_len: 14, loss:2.3455, entropy:1.7556
+time cost: 20.51278979999961s
+batch_size: 512, batch i:128, episode_len: 21, loss:2.4407, entropy:1.7792
+time cost: 31.867710200000147s
+batch_size: 512, batch i:129, episode_len: 15, loss:2.4710, entropy:1.7700
+time cost: 24.2591510000002s
+batch_size: 512, batch i:130, episode_len: 12, loss:2.4055, entropy:1.8056
+time cost: 20.257274199999756s
+batch_size: 512, batch i:131, episode_len: 21, loss:2.4732, entropy:1.7939
+time cost: 34.45976419999988s
+batch_size: 512, batch i:132, episode_len: 11, loss:2.3355, entropy:1.7360
+time cost: 17.987240400000246s
+batch_size: 512, batch i:133, episode_len: 13, loss:2.3673, entropy:1.7709
+time cost: 18.33515720000014s
+batch_size: 512, batch i:134, episode_len: 10, loss:2.2943, entropy:1.6953
+time cost: 15.213516000000254s
+batch_size: 512, batch i:135, episode_len: 10, loss:2.2789, entropy:1.7037
+time cost: 16.773763600000166s
+batch_size: 512, batch i:136, episode_len: 13, loss:2.3884, entropy:1.7608
+time cost: 21.85082680000005s
+batch_size: 512, batch i:137, episode_len: 22, loss:2.3820, entropy:1.7855
+time cost: 30.135064200000215s
+batch_size: 512, batch i:138, episode_len: 16, loss:2.4376, entropy:1.7429
+time cost: 22.112394799999947s
+batch_size: 512, batch i:139, episode_len: 21, loss:2.4602, entropy:1.7416
+time cost: 32.12354259999984s
+batch_size: 512, batch i:140, episode_len: 20, loss:2.4856, entropy:1.7391
+time cost: 31.177997000000232s
+batch_size: 512, batch i:141, episode_len: 15, loss:2.3417, entropy:1.7619
+time cost: 24.468908999999712s
+batch_size: 512, batch i:142, episode_len: 12, loss:2.4083, entropy:1.8174
+time cost: 18.970850400000018s
+batch_size: 512, batch i:143, episode_len: 13, loss:2.4118, entropy:1.7886
+time cost: 17.890754000000015s
+batch_size: 512, batch i:144, episode_len: 17, loss:2.2874, entropy:1.6277
+time cost: 28.169045000000096s
+batch_size: 512, batch i:145, episode_len: 20, loss:2.4251, entropy:1.7160
+time cost: 28.792131199999858s
+batch_size: 512, batch i:146, episode_len: 23, loss:2.4608, entropy:1.8048
+time cost: 30.163640199999918s
+batch_size: 512, batch i:147, episode_len: 11, loss:2.3796, entropy:1.7652
+time cost: 17.752873199999613s
+batch_size: 512, batch i:148, episode_len: 16, loss:2.3724, entropy:1.7497
+time cost: 24.47779229999969s
+batch_size: 512, batch i:149, episode_len: 14, loss:2.3215, entropy:1.7045
+time cost: 22.507052899999962s
+batch_size: 512, batch i:150, episode_len: 9, loss:2.2844, entropy:1.6774
+time cost: 13.50829640000029s
+batch_size: 512, batch i:151, episode_len: 16, loss:2.2902, entropy:1.6979
+time cost: 25.26644579999993s
+batch_size: 512, batch i:152, episode_len: 9, loss:2.3419, entropy:1.7307
+time cost: 13.667250299999978s
+batch_size: 512, batch i:153, episode_len: 13, loss:2.3131, entropy:1.7217
+time cost: 20.43820149999965s
+batch_size: 512, batch i:154, episode_len: 9, loss:2.3718, entropy:1.6643
+time cost: 13.998697600000014s
+batch_size: 512, batch i:155, episode_len: 11, loss:2.3069, entropy:1.6806
+time cost: 18.828956500000004s
+batch_size: 512, batch i:156, episode_len: 12, loss:2.3926, entropy:1.7246
+time cost: 17.64418169999999s
+batch_size: 512, batch i:157, episode_len: 22, loss:2.3007, entropy:1.6994
+time cost: 37.445359299999836s
+batch_size: 512, batch i:158, episode_len: 16, loss:2.2730, entropy:1.7200
+time cost: 27.273174200000085s
+batch_size: 512, batch i:159, episode_len: 29, loss:2.3721, entropy:1.7300
+time cost: 36.03504479999992s
+batch_size: 512, batch i:160, episode_len: 9, loss:2.2688, entropy:1.7151
+time cost: 14.010409399999844s
+batch_size: 512, batch i:161, episode_len: 24, loss:2.3233, entropy:1.7085
+time cost: 35.15603229999988s
+batch_size: 512, batch i:162, episode_len: 13, loss:2.3254, entropy:1.6968
+time cost: 21.058127400000103s
+batch_size: 512, batch i:163, episode_len: 10, loss:2.3680, entropy:1.6865
+time cost: 19.205020299999887s
+batch_size: 512, batch i:164, episode_len: 19, loss:2.3435, entropy:1.7172
+time cost: 28.30803569999989s
+batch_size: 512, batch i:165, episode_len: 19, loss:2.2542, entropy:1.7107
+time cost: 27.277847400000155s
+batch_size: 512, batch i:166, episode_len: 31, loss:2.3267, entropy:1.7034
+time cost: 40.14163099999996s
+batch_size: 512, batch i:167, episode_len: 16, loss:2.2067, entropy:1.6763
+time cost: 26.212337899999966s
+batch_size: 512, batch i:168, episode_len: 15, loss:2.2974, entropy:1.7398
+time cost: 22.802633700000115s
+batch_size: 512, batch i:169, episode_len: 10, loss:2.3420, entropy:1.7119
+time cost: 13.943212400000448s
+batch_size: 512, batch i:170, episode_len: 19, loss:2.2543, entropy:1.5740
+time cost: 28.144516999999723s
+batch_size: 512, batch i:171, episode_len: 20, loss:2.4548, entropy:1.6761
+time cost: 30.711657800000467s
+batch_size: 512, batch i:172, episode_len: 12, loss:2.3246, entropy:1.6646
+time cost: 20.039306399999987s
+batch_size: 512, batch i:173, episode_len: 20, loss:2.3746, entropy:1.6941
+time cost: 32.748462600000494s
+batch_size: 512, batch i:174, episode_len: 17, loss:2.3428, entropy:1.6989
+time cost: 24.5103466999999s
+batch_size: 512, batch i:175, episode_len: 24, loss:2.2916, entropy:1.6917
+time cost: 31.907672899999852s
+batch_size: 512, batch i:176, episode_len: 18, loss:2.3521, entropy:1.7033
+time cost: 26.340289799999482s
+batch_size: 512, batch i:177, episode_len: 26, loss:2.3813, entropy:1.7462
+time cost: 33.39231910000035s
+batch_size: 512, batch i:178, episode_len: 12, loss:2.3464, entropy:1.7293
+time cost: 19.966155699999945s
+batch_size: 512, batch i:179, episode_len: 22, loss:2.3643, entropy:1.7613
+time cost: 29.899407800000517s
+batch_size: 512, batch i:180, episode_len: 14, loss:2.3406, entropy:1.7089
+time cost: 24.729007199999614s
+batch_size: 512, batch i:181, episode_len: 14, loss:2.3898, entropy:1.6747
+time cost: 19.673600299999634s
+batch_size: 512, batch i:182, episode_len: 11, loss:2.3721, entropy:1.7055
+time cost: 16.380781200000456s
+batch_size: 512, batch i:183, episode_len: 13, loss:2.2426, entropy:1.7300
+time cost: 18.429711400000087s
+batch_size: 512, batch i:184, episode_len: 12, loss:2.4173, entropy:1.7263
+time cost: 18.915183800000705s
+batch_size: 512, batch i:185, episode_len: 13, loss:2.3717, entropy:1.6510
+time cost: 19.844231999999465s
+batch_size: 512, batch i:186, episode_len: 21, loss:2.3465, entropy:1.6280
+time cost: 31.19204069999978s
+batch_size: 512, batch i:187, episode_len: 19, loss:2.3525, entropy:1.6821
+time cost: 26.4721712999999s
+batch_size: 512, batch i:188, episode_len: 15, loss:2.4004, entropy:1.7213
+time cost: 22.39045299999998s
+batch_size: 512, batch i:189, episode_len: 31, loss:2.4035, entropy:1.7214
+time cost: 44.41704729999947s
+batch_size: 512, batch i:190, episode_len: 13, loss:2.3534, entropy:1.6556
+time cost: 21.319240299999365s
+batch_size: 512, batch i:191, episode_len: 13, loss:2.4213, entropy:1.6957
+time cost: 20.383487800000694s
+batch_size: 512, batch i:192, episode_len: 12, loss:2.3005, entropy:1.6435
+time cost: 17.66820319999988s
+batch_size: 512, batch i:193, episode_len: 11, loss:2.3344, entropy:1.6559
+time cost: 15.580364800000098s
+
+Process finished with exit code -1
+
+
+
+

@@ -99,7 +99,12 @@
               <widget class="QComboBox" name="cb_pve_size">
                <item>
                 <property name="text">
-                 <string>13x13</string>
+                 <string>15x15</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>8x8</string>
                 </property>
                </item>
               </widget>

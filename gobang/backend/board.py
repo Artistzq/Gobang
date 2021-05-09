@@ -80,7 +80,7 @@ class Board:
         """
         return self.current_player
 
-    def current_state(self, feat_nums=4):
+    def current_state(self, feat_nums=4) -> np.ndarray:
         """
         返回局面，矩阵表示，用于神经网络输入
         :param feat_nums: 二值特征平面个数
@@ -98,15 +98,50 @@ class Board:
             square_state[1][move_oppo // self.width, move_oppo % self.width] = 1.0
             # 第三个平面，只置了一个1
             square_state[2][self.last_move // self.width, self.last_move % self.width] = 1.0
-            if len(self.states) % 2 == 0:
-                # state长为偶数，即当前双方都已走完子，当前的player应该为先手玩家，置1
-                square_state[3][:, :] = 1.0
-            # 疑问1 为什么要倒序
-            # 答：把每个棋局上下翻转了一下，不知道为什么，翻转之后左下角就是0，0了
-            return square_state[:, ::-1, :]
+        if len(self.states) % 2 == 0:
+            # state长为偶数，即当前双方都已走完子，当前的player应该为先手玩家，置1
+            square_state[3][:, :] = 1.0
+        # 疑问1 为什么要倒序
+        # 答：把每个棋局上下翻转了一下，不知道为什么，翻转之后左下角就是0，0了
+        return square_state[:, ::-1, :]
 
     def judge_with_last_move(self):
-        pass
+        """
+        根据最后落子快速判断输赢
+        :return:
+        """
+        width = self.width
+        height = self.height
+        states = self.states
+        n = self.n_in_row
+
+        moved = list(set(range(width * height)) - set(self.available))
+        # 双方博弈，最少也有 n 个棋子 + 另外两个，一方才够5子
+        # 疑问2
+        if len(moved) < self.n_in_row + 2:
+            return False, -1
+
+        move = moved[-1]
+        h, w = move // width, move % width
+        player = states[move]
+        # 水平方向n子连成一线，则落子位置到落子位置水平+n, 这n个位置里，对应的玩家应该只有一个值，即len==1，不是0即为1，
+        # 若有没下过，则get返回-1，否则get返回0或-1。不可能全为-1，因为当前位置move记录了某个玩家
+        if w in range(width - n + 1) and len(set(states.get(i, -1) for i in range(move, move + n))) == 1:
+            return True, player
+        # 左上到左下，range 步长=width+1
+        if h in range(height - n + 1) and len(
+                set(states.get(i, -1) for i in range(move, move + n * width, width))) == 1:
+            return True, player
+
+        if w in range(width - n + 1) and h in range(height - n + 1) and len(
+                set(states.get(i, -1) for i in range(move, move + n * (width + 1), width + 1))) == 1:
+            return True, player
+
+        if w in range(n - 1, width) and h in range(height - n + 1) and len(
+                set(states.get(i, -1) for i in range(move, move + n * (width - 1), width - 1))) == 1:
+            return True, player
+
+        return False, -1
 
     def has_a_winner(self):
         """
@@ -149,12 +184,15 @@ class Board:
 
         return False, -1
 
-    def game_end(self):
+    def game_end(self, fast_judge=False):
         """
         判断该棋盘上局面是否结束，若结束且非平局，返回胜者
         :return: 是否结束，胜利者；
         """
-        win, winner = self.has_a_winner()
+        if fast_judge:
+            win, winner = self.judge_with_last_move()
+        else:
+            win, winner = self.has_a_winner()
         if win:
             # 有胜者
             return True, winner

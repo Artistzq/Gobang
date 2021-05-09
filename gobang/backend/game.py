@@ -5,6 +5,10 @@ import threading
 
 import numpy as np
 
+import sys
+import os
+sys.path.insert(0, "D:\File\Projects\GitHub\Gobang\gobang")
+
 from gobang.backend.board import Board
 from gobang.backend.mcts_alphaZero import MCTSPlayer
 from gobang.backend.player import PlayerBase
