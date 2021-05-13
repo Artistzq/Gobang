@@ -272,7 +272,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # func
         self.game.set_board(Board(size, size))
         game_policy = PolicyValueNet(size, size, model_file="../resources/current_policy{}x{}.model".format(size, size))
-        entity1 = MCTSPlayer(game_policy.policy_value_fn, c_puct=5, n_playout=300)
+        entity1 = MCTSPlayer(game_policy.policy_value_fn, c_puct=5, n_playout=500)
 
         # entity1 = RandomTestPlayer(0.001)
         entity2 = QtPlayer(self.game)
@@ -293,12 +293,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # do something to backend
         self.game.set_board(Board(size, size))
         print(size)
+        # size = 15
         entity1 = RandomTestPlayer(0.001)
         entity2 = RandomTestPlayer(0.001)
         game_policy1 = PolicyValueNet(size, size, model_file="../resources/current_policy{}x{}.model".format(size, size))
-        entity1 = MCTSPlayer(game_policy1.policy_value_fn, c_puct=5, n_playout=100)
-        # game_policy2 = PolicyValueNet(size, size, model_file="../resources/current_policy.model")
-        entity2 = MCTSPlayer(game_policy1.policy_value_fn, c_puct=5, n_playout=100)
+        entity1 = MCTSPlayer(game_policy1.policy_value_fn, c_puct=5, n_playout=300)
+        game_policy2 = PolicyValueNet(size, size, model_file="../resources/current_policy{}x{}.model".format(size, size))
+        entity2 = MCTSPlayer(game_policy2.policy_value_fn, c_puct=5, n_playout=300)
         self.game.new_thread_player(entity1, entity2, 1)
 
     def start_new_pvp(self):

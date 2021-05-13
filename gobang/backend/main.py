@@ -1,12 +1,13 @@
 from __future__ import print_function
 
+import os
 import random
+import sys
 import time
 from collections import deque
 from typing import List, Tuple
+import json
 
-import sys
-import os
 sys.path.append(os.path.split(os.path.split(sys.path[0])[0])[0])
 
 import numpy as np
@@ -18,8 +19,8 @@ from gobang.backend.policy_value_net_pytorch import PolicyValueNet
 
 class TrainPipeline:
 
-    def __init__(self, width=8, height=8, n=300, init_model=None):
-        self.save_model_path = init_model
+    def __init__(self, width=8, height=8, n=300, init_model=None, save_model=None):
+        self.save_model_path = save_model
         self.board_width = 8
         self.board_width = width
         self.board_height = 8
@@ -35,7 +36,7 @@ class TrainPipeline:
         # 训练更新 相关参数
         self.learn_rate = 2e-3
         self.buffer_size = 10000
-        self.batch_size = 512
+        self.batch_size = 1280
         self.data_buffer = deque(maxlen=self.buffer_size)
         self.check_freq = 1  # 保存模型的频率
         self.game_batch_num = 1000  # 训练更新的次数, epoch，自我博弈次数
@@ -47,6 +48,7 @@ class TrainPipeline:
             self.policy_value_net = PolicyValueNet(self.board_width, self.board_height)
         self.mcts_player = MCTSPlayer(self.policy_value_net.policy_value_fn, self.c_puct, self.n_playout,
                                       is_self_play=1)
+        self.train_process = []
 
     def get_equi_data(self, playdata: List[Tuple[np.ndarray, np.ndarray, int]]):
         """
@@ -79,7 +81,7 @@ class TrainPipeline:
         # 旋转局面，获得更多的训练数据
         play_data = self.get_equi_data(play_data)
         self.data_buffer.extend(play_data)
-        return episode_len
+        return episode_len, winner
 
     def policy_update(self):
         """
@@ -101,16 +103,14 @@ class TrainPipeline:
         完整的训练流程
         :return:
         """
+        self.train_process.append({"size": (self.board_width, self.board_height)})
         try:
             for i in range(self.game_batch_num):
                 # whats this
                 # get action一次0.5s
                 start = time.perf_counter()
-                episode_len = self.collect_selfplay_data()  # 疑问：这是什么用的
-                selfplay_end = time.perf_counter()
-                # print("self_play_time_cost: {}".format(selfplay_end - start))
-                # print(len(self.data_buffer))
-                # print(self.batch_size)
+                episode_len, winner = self.collect_selfplay_data()  # 疑问：这是什么用的
+                loss, entropy = 0, 0
                 if len(self.data_buffer) > self.batch_size:
                     loss, entropy = self.policy_update()
                     print("batch_size: {}, batch i:{}, episode_len: {}, loss:{:.4f}, entropy:{:.4f}".format(
@@ -119,15 +119,32 @@ class TrainPipeline:
                     print("batch i:{}, episode_len:{}".format(i + 1, episode_len))
                 end = time.perf_counter()
                 print("time cost: {}s".format(end - start))
+                dic = {"size":self.board_width, "batch_size": self.batch_size, "i": i, "episode_len": episode_len, "loss": loss, "entropy":
+                    entropy, "time_cost": (end - start), "winner": winner}
+                self.train_process.append(dic)
                 # save model
                 if (i + 1) % self.check_freq == 0:
-                    # self.policy_value_net.save_model("../resources/current_policy{}x{}.model".format(self.board_width, self.board_width))
                     self.policy_value_net.save_model(self.save_model_path)
+
+            data = json.dumps(self.train_process, indent=4)
+            name = time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime())
+            with open('data_{}.json'.format(name), 'w+') as f:
+                f.write(data)
         except KeyboardInterrupt:
+            data = json.dumps(self.train_process, indent=4)
+            name = time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime())
+            with open('data_{}.json'.format(name), 'w+') as f:
+                f.write(data)
             print("\n quit")
 
 
 if __name__ == '__main__':
-
-    training_pipeline = TrainPipeline(init_model="../resources/current_policy{}x{}.model".format(8, 8))
+    size = 11
+    training_pipeline = TrainPipeline(
+        width=size,
+        height=size,
+        n=300,
+        init_model="../resources/current_policy{}x{}.model".format(size, size),
+        save_model="../resources/current_policy{}x{}.model".format(size, size)
+    )
     training_pipeline.run()
